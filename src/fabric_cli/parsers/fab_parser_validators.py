@@ -33,7 +33,7 @@ def validate_import_args(args):
             error_message = ErrorMessages.Common.import_required_param_missing(param_display_name, flow_name, flow_syntax)
             raise FabricCLIError(error_message, fab_constant.ERROR_IMPORT_VALIDATION)
 
-    is_direct_api_flow = args.path ior args.input or args.format
+    is_direct_api_flow = args.path or args.input or args.format
     is_cicd_flow = args.config_file or args.env or args.params
 
     if is_direct_api_flow and is_cicd_flow:

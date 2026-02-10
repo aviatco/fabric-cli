@@ -206,14 +206,7 @@ def test_import_mixed_flows_fails():
 
 def test_import_error_messages_include_syntax_examples():
     """Test that error messages include correct syntax examples."""
-    args = Namespace(
-        path=["ws1.Workspace/nb1.Notebook"],
-        input=None,
-        format=None,
-        config_file=None,
-        env=None,
-        params=None
-    )
+    args = create_args(path=["ws1.Workspace/nb1.Notebook"])
 
     with pytest.raises(FabricCLIError) as exc_info:
         fab_parser_validators.validate_import_args(args)
@@ -225,14 +218,7 @@ def test_import_error_messages_include_syntax_examples():
 
 def test_import_cicd_error_messages_include_syntax_examples():
     """Test that CICD flow error messages include correct syntax examples."""
-    args = Namespace(
-        path=None,
-        input=None,
-        format=None,
-        config_file="/path/to/config.yml",
-        env=None,
-        params=None
-    )
+    args = create_args(config_file="/path/to/config.yml")
 
     with pytest.raises(FabricCLIError) as exc_info:
         fab_parser_validators.validate_import_args(args)
@@ -244,14 +230,7 @@ def test_import_cicd_error_messages_include_syntax_examples():
 
 def test_import_path_only_triggers_direct_api_validation():
     """Test that providing only path triggers Direct API flow validation."""
-    args = Namespace(
-        path=["ws1.Workspace/nb1.Notebook"],
-        input=None,
-        format=None,
-        config_file=None,
-        env=None,
-        params=None
-    )
+    args = create_args(path=["ws1.Workspace/nb1.Notebook"])
 
     with pytest.raises(FabricCLIError) as exc_info:
         fab_parser_validators.validate_import_args(args)
@@ -262,14 +241,7 @@ def test_import_path_only_triggers_direct_api_validation():
 
 def test_import_input_only_triggers_direct_api_validation():
     """Test that providing only input triggers Direct API flow validation."""
-    args = Namespace(
-        path=None,
-        input=["/path/to/input"],
-        format=None,
-        config_file=None,
-        env=None,
-        params=None
-    )
+    args = create_args(input=["/path/to/input"])
 
     with pytest.raises(FabricCLIError) as exc_info:
         fab_parser_validators.validate_import_args(args)
@@ -280,14 +252,7 @@ def test_import_input_only_triggers_direct_api_validation():
 
 def test_import_format_only_triggers_direct_api_validation():
     """Test that providing only format triggers Direct API flow validation."""
-    args = Namespace(
-        path=None,
-        input=None,
-        format=".ipynb",
-        config_file=None,
-        env=None,
-        params=None
-    )
+    args = create_args(format=".ipynb")
 
     with pytest.raises(FabricCLIError) as exc_info:
         fab_parser_validators.validate_import_args(args)
@@ -298,14 +263,7 @@ def test_import_format_only_triggers_direct_api_validation():
 
 def test_import_env_only_triggers_cicd_validation():
     """Test that providing only env triggers CICD flow validation."""
-    args = Namespace(
-        path=None,
-        input=None,
-        format=None,
-        config_file=None,
-        env="production",
-        params=None
-    )
+    args = create_args(env="production")
 
     with pytest.raises(FabricCLIError) as exc_info:
         fab_parser_validators.validate_import_args(args)
@@ -316,14 +274,7 @@ def test_import_env_only_triggers_cicd_validation():
 
 def test_import_params_only_triggers_cicd_validation():
     """Test that providing only params triggers CICD flow validation."""
-    args = Namespace(
-        path=None,
-        input=None,
-        format=None,
-        config_file=None,
-        env=None,
-        params='[{"key": "value"}]'
-    )
+    args = create_args(params='[{"key": "value"}]')
 
     with pytest.raises(FabricCLIError) as exc_info:
         fab_parser_validators.validate_import_args(args)
