@@ -140,7 +140,9 @@ def get_command(args: Namespace) -> None:
 @set_command_context()
 def import_command(args: Namespace) -> None:
     context = handle_context.get_command_context(args.path, raise_error=False)
-    context.check_command_support(Command.FS_IMPORT)
+    if hasattr(args, 'path') and args.path:
+        # In CICD flow - no path elements involved, skip command support check
+        context.check_command_support(Command.FS_IMPORT)
     fs_import.exec_command(args, context)
 
 

@@ -82,7 +82,8 @@ class FabricElement(ABC):
         is_supported = self.type in cmd.get_supported_elements(commmand)
         if not is_supported:
             raise FabricCLIError(
-                ErrorMessages.Hierarchy.command_not_supported(commmand.value),
+                ErrorMessages.Hierarchy.command_not_supported(
+                    commmand.value, self.type.value),
                 fab_constant.ERROR_UNSUPPORTED_COMMAND,
             )
         return True
