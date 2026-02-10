@@ -256,3 +256,7 @@ class CommonErrors:
     @staticmethod
     def import_no_flow_specified_error() -> str:
         return "either -i/--input (with path) or --config-file (with --env) must be specified"
+
+    @staticmethod
+    def query_not_supported_for_set(query: str) -> str:
+        return f"Query '{query}' is not supported for set command"
