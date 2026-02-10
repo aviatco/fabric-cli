@@ -244,3 +244,15 @@ class CommonErrors:
         property_name: str, gateway_type: str
     ) -> str:
         return f"Setting '{property_name}' is not supported for Gateway type '{gateway_type}'"
+    
+    @staticmethod
+    def import_required_param_missing(param_display_name: str, flow_name: str, flow_syntax: str) -> str:
+        return f"{param_display_name} is required for {flow_name} flow.\nCorrect syntax: {flow_syntax}"
+    
+    @staticmethod
+    def import_mixed_flows_error() -> str:
+        return "cannot mix Direct API flow parameters (path, -i, --format) with CICD flow parameters (--config-file, --env, -P)"
+    
+    @staticmethod
+    def import_no_flow_specified_error() -> str:
+        return "either -i/--input (with path) or --config-file (with --env) must be specified"

@@ -390,10 +390,14 @@ def register_get_parser(subparsers: _SubParsersAction) -> None:
 # Command for 'import'
 def register_import_parser(subparsers: _SubParsersAction) -> None:
     import_examples = [
-        "# import a notebook from a local directory",
+        "# import a notebook from a local directory (Direct API call flow)",
         "$ import imp.Notebook -i /tmp/nb1.Notebook\n",
-        "# import a pipeline from a local directory",
-        "$ import pip.Notebook -i /tmp/pip1.DataPipeline -f",
+        "# import a pipeline from a local directory (Direct API call flow)",
+        "$ import pip.Notebook -i /tmp/pip1.DataPipeline -f\n",
+        "# import using config file and environment (CI/CD flow - no path needed)",
+        "$ import --config-file config.yml --env dev\n",
+        "# import with config file, environment, and CICD parameters (CI/CD flow)",
+        "$ import --config-file config.yml --env prod -P '[{\"param1\":\"value1\"}]' -f",
     ]
 
     import_parser = subparsers.add_parser(
@@ -402,27 +406,62 @@ def register_import_parser(subparsers: _SubParsersAction) -> None:
         fab_examples=import_examples,
         fab_learnmore=["_"],
     )
-    import_parser.add_argument(
-        "path", nargs="+", type=str, help="Directory path (item name to import)"
+
+    # Create mutually exclusive groups for the two import flows
+    flow_group = import_parser.add_mutually_exclusive_group(required=True)
+
+    #CI/CD flow parameters
+    flow_group.add_argument(
+        "--config-file",
+        metavar="PATH",
+        type=str,
+        help="Path to local config file. When used, --env is required. Only used in CI/CD flow.",
     )
+
+    import_parser.add_argument(
+        "--env",
+        metavar="ENV_NAME",
+        type=str,
+        help="Environment name as defined in config file. Required when using --config-file. Only used in CI/CD flow.",
+    )
+
+    import_parser.add_argument(
+        "-P",
+        "--params",
+        metavar="JSON",
+        type=str,
+        help="Optional parameters for CICD in JSON format (e.g., '[{\"p1\":\"v1\",\"p2\":\"v2\"}]'). Only used in CI/CD flow.",
+    )
+
+    # Direct API flow parameters
+    flow_group.add_argument(
+        "path",
+        nargs="*",  # Changed from "+" to "*" to make it optional
+        type=str,
+        help="Directory path (item name to import). When used, -i/--input is required. Only used in Direct API call flow."
+    )
+
     import_parser.add_argument(
         "-i",
         "--input",
         nargs="+",
-        required=True,
-        help="Input path for import",
+        help="Input path for import. When used, path argument is required. Only used in Direct API call flow.",
     )
+
     import_parser.add_argument(
         "--format",
         metavar="",
-        help="Input format. Optional, supported for notebooks (.ipynb, .py)",
+        help="Input format for current flow only. Optional, supported for notebooks (.ipynb, .py). Only used in Direct API call flow.",
     )
+
     import_parser.add_argument(
         "-f", "--force", required=False, action="store_true", help="Force. Optional"
     )
 
+    from fabric_cli.parsers.fab_parser_validators import validate_import_args
+    
+    import_parser.set_defaults(func=fs.import_command, validate_args=lambda args: validate_import_args(args))
     import_parser.usage = f"{utils_error_parser.get_usage_prog(import_parser)}"
-    import_parser.set_defaults(func=fs.import_command)
 
 
 # Command for 'set'

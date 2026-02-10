@@ -100,7 +100,8 @@ class _BaseItem(FabricElement):
         is_supported = self.item_type in cmd.get_supported_items(commmand)
         if is_unsupported:
             raise FabricCLIError(
-                ErrorMessages.Hierarchy.command_not_supported(commmand.value),
+                ErrorMessages.Hierarchy.command_not_supported(
+                    commmand.value, str(self.item_type)),
                 fab_constant.ERROR_UNSUPPORTED_COMMAND,
             )
         if is_supported:
@@ -109,7 +110,8 @@ class _BaseItem(FabricElement):
             super().check_command_support(commmand)
         except FabricCLIError:
             raise FabricCLIError(
-                ErrorMessages.Hierarchy.command_not_supported(commmand.value),
+                ErrorMessages.Hierarchy.command_not_supported(
+                    commmand.value, str(self.item_type)),
                 fab_constant.ERROR_UNSUPPORTED_COMMAND,
             )
         return True

@@ -12,8 +12,8 @@ class HierarchyErrors:
         return f"Invalid type '{name}'"
 
     @staticmethod
-    def command_not_supported(command: str) -> str:
-        return f"not supported for command '{command}'"
+    def command_not_supported(command: str, item_type: str) -> str:
+        return f"Command '{command}' is not supported for item type '{item_type}'"
 
     @staticmethod
     def item_type_not_valid(item_type: str) -> str:
