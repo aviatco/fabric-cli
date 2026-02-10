@@ -1,0 +1,6 @@
+kind: added
+body: Update import command interface to support ci/cd flow
+time: 2026-02-10T12:34:51.783593963Z
+custom:
+    Author: aviatco
+    AuthorLink: https://github.com/aviatco
