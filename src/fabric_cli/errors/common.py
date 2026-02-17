@@ -247,15 +247,15 @@ class CommonErrors:
     
     @staticmethod
     def import_required_param_missing(param_display_name: str, flow_name: str, flow_syntax: str) -> str:
-        return f"{param_display_name} is required for {flow_name} flow.\nCorrect syntax: {flow_syntax}"
+        return f"{param_display_name} is required for {flow_name} flow.\nPlease use: {flow_syntax}"
     
     @staticmethod
     def import_mixed_flows_error() -> str:
-        return "cannot mix Direct API flow parameters (path, -i, --format) with CICD flow parameters (--config-file, --env, -P)"
+        return "Argument mismatch: you cannot mix path/input-based arguments with config-file, env, or parameters options."
     
     @staticmethod
     def import_no_flow_specified_error() -> str:
-        return "either -i/--input (with path) or --config-file (with --env) must be specified"
+        return "You must choose one import method: (1) a path to destination with -i/--input, or (2) --config-file with --env. These options cannot be used together"
 
     @staticmethod
     def query_not_supported_for_set(query: str) -> str:

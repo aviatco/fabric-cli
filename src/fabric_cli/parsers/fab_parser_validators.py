@@ -31,14 +31,16 @@ def validate_import_args(args):
         param_value = getattr(args, attr_name, None)
         if not param_value:
             error_message = ErrorMessages.Common.import_required_param_missing(param_display_name, flow_name, flow_syntax)
-            raise FabricCLIError(error_message, fab_constant.ERROR_IMPORT_VALIDATION)
+            raise FabricCLIError(
+                error_message, fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS)
 
     is_direct_api_flow = args.path or args.input or args.format
     is_cicd_flow = args.config_file or args.env or args.params
 
     if is_direct_api_flow and is_cicd_flow:
         error_message = ErrorMessages.Common.import_mixed_flows_error()
-        raise FabricCLIError(error_message, fab_constant.ERROR_IMPORT_VALIDATION)
+        raise FabricCLIError(
+            error_message, fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS)
 
     if is_direct_api_flow:
         flow_syntax = "fab import <path> -i <input_path> [--format <format>]"
@@ -54,6 +56,7 @@ def validate_import_args(args):
 
     else:
         error_message = ErrorMessages.Common.import_no_flow_specified_error()
-        raise FabricCLIError(error_message, fab_constant.ERROR_IMPORT_VALIDATION)
+        raise FabricCLIError(
+            error_message, fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS)
 
     return args

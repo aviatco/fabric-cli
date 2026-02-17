@@ -408,10 +408,10 @@ def register_import_parser(subparsers: _SubParsersAction) -> None:
     )
 
     # Create mutually exclusive groups for the two import flows
-    flow_group = import_parser.add_mutually_exclusive_group(required=True)
+    # flow_group = import_parser.add_mutually_exclusive_group(required=True)
 
     #CI/CD flow parameters
-    flow_group.add_argument(
+    import_parser.add_argument(
         "--config-file",
         metavar="PATH",
         type=str,
@@ -434,7 +434,7 @@ def register_import_parser(subparsers: _SubParsersAction) -> None:
     )
 
     # Direct API flow parameters
-    flow_group.add_argument(
+    import_parser.add_argument(
         "path",
         nargs="*",  # Changed from "+" to "*" to make it optional
         type=str,
@@ -451,7 +451,7 @@ def register_import_parser(subparsers: _SubParsersAction) -> None:
     import_parser.add_argument(
         "--format",
         metavar="",
-        help="Input format for current flow only. Optional, supported for notebooks (.ipynb, .py). Only used in Direct API call flow.",
+        help="Input format. Optional, supported for notebooks (.ipynb, .py). Only used in Direct API call flow.",
     )
 
     import_parser.add_argument(

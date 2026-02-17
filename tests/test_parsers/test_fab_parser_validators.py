@@ -120,7 +120,7 @@ def test_import_direct_api_flow_missing_required_params_fails(args, param_displa
     expected_message = ErrorMessages.Common.import_required_param_missing(
         param_display_name, flow_name, flow_syntax)
     assert exc_info.value.message == expected_message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_cicd_flow_valid_args_success():
@@ -172,7 +172,7 @@ def test_import_cicd_flow_missing_required_params_fails(args, param_display_name
     expected_message = ErrorMessages.Common.import_required_param_missing(
         param_display_name, flow_name, flow_syntax)
     assert exc_info.value.message == expected_message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_no_flow_specified_fails():
@@ -184,7 +184,7 @@ def test_import_no_flow_specified_fails():
 
     expected_message = ErrorMessages.Common.import_no_flow_specified_error()
     assert exc_info.value.message == expected_message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_mixed_flows_fails():
@@ -201,7 +201,7 @@ def test_import_mixed_flows_fails():
 
     expected_message = ErrorMessages.Common.import_mixed_flows_error()
     assert exc_info.value.message == expected_message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_error_messages_include_syntax_examples():
@@ -212,8 +212,8 @@ def test_import_error_messages_include_syntax_examples():
         fab_parser_validators.validate_import_args(args)
 
     assert "-i/--input is required for Direct API flow" in exc_info.value.message
-    assert "Correct syntax: fab import <path> -i <input_path> [--format <format>]" in exc_info.value.message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert "Please use: fab import <path> -i <input_path> [--format <format>]" in exc_info.value.message
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_cicd_error_messages_include_syntax_examples():
@@ -224,8 +224,8 @@ def test_import_cicd_error_messages_include_syntax_examples():
         fab_parser_validators.validate_import_args(args)
 
     assert "--env is required for CICD flow" in exc_info.value.message
-    assert "Correct syntax: fab import --config-file <config_path> --env <env_name> [-P <params>]" in exc_info.value.message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert "Please use: fab import --config-file <config_path> --env <env_name> [-P <params>]" in exc_info.value.message
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_path_only_triggers_direct_api_validation():
@@ -236,7 +236,7 @@ def test_import_path_only_triggers_direct_api_validation():
         fab_parser_validators.validate_import_args(args)
 
     assert "-i/--input is required for Direct API flow" in exc_info.value.message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_input_only_triggers_direct_api_validation():
@@ -247,7 +247,7 @@ def test_import_input_only_triggers_direct_api_validation():
         fab_parser_validators.validate_import_args(args)
 
     assert "path is required for Direct API flow" in exc_info.value.message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_format_only_triggers_direct_api_validation():
@@ -258,7 +258,7 @@ def test_import_format_only_triggers_direct_api_validation():
         fab_parser_validators.validate_import_args(args)
 
     assert "path is required for Direct API flow" in exc_info.value.message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_env_only_triggers_cicd_validation():
@@ -269,7 +269,7 @@ def test_import_env_only_triggers_cicd_validation():
         fab_parser_validators.validate_import_args(args)
 
     assert "--config-file is required for CICD flow" in exc_info.value.message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
 
 
 def test_import_params_only_triggers_cicd_validation():
@@ -280,4 +280,4 @@ def test_import_params_only_triggers_cicd_validation():
         fab_parser_validators.validate_import_args(args)
 
     assert "--config-file is required for CICD flow" in exc_info.value.message
-    assert exc_info.value.status_code == fab_constant.ERROR_IMPORT_VALIDATION
+    assert exc_info.value.status_code == fab_constant.ERROR_INVALID_IMPORT_ARGUMENTS
