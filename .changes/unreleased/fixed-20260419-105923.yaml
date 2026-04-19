@@ -1,5 +1,5 @@
 kind: fixed
-body: Remove created By Fab hardcoded description when create/import items
+body: Remove hardcoded description when create/import items
 time: 2026-04-19T10:59:23.659719244Z
 custom:
     Author: aviatco
