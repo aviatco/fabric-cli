@@ -19,7 +19,6 @@ def test_fabric_data_pipelines_workspace_identity_no_params_success():
     """Test FabricDataPipelines with WorkspaceIdentity credential type when no parameters are required."""
     # Arrange
     payload = {
-        "description": "Created by fab",
         "displayName": "test-connection",
         "connectivityType": "ShareableCloud"
     }
@@ -63,7 +62,6 @@ def test_connection_with_required_params_missing_failure():
     """Test that connection creation fails when required parameters are missing."""
     # Arrange
     payload = {
-        "description": "Created by fab",
         "displayName": "test-connection",
         "connectivityType": "ShareableCloud"
     }
@@ -107,7 +105,6 @@ def test_workspace_identity_with_unsupported_params_ignored_success():
     """Test that WorkspaceIdentity ignores unsupported credential parameters with warning."""
     # Arrange
     payload = {
-        "description": "Created by fab",
         "displayName": "test-connection",
         "connectivityType": "ShareableCloud"
     }
@@ -145,6 +142,83 @@ def test_workspace_identity_with_unsupported_params_ignored_success():
         assert "password" in str(mock_warning.call_args)
     
     assert result["credentialDetails"]["credentials"]["credentialType"] == "WorkspaceIdentity"
+
+
+def test_connection_payload_does_not_contain_description_by_default_success():
+    """Verify that get_connection_config_from_params never stamps a description
+    in the returned payload when the caller does not supply one."""
+    payload = {
+        "displayName": "test-connection",
+        "connectivityType": "ShareableCloud",
+    }
+
+    con_type = "FabricDataPipelines"
+    con_type_def = {
+        "type": "FabricDataPipelines",
+        "creationMethods": [
+            {
+                "name": "FabricDataPipelines.Actions",
+                "parameters": [],
+            }
+        ],
+        "supportedCredentialTypes": ["WorkspaceIdentity"],
+    }
+
+    params = {
+        "connectiondetails": {
+            "type": "FabricDataPipelines",
+            "creationmethod": "FabricDataPipelines.Actions",
+        },
+        "credentialdetails": {
+            "type": "WorkspaceIdentity",
+        },
+    }
+
+    result = get_connection_config_from_params(
+        payload, con_type, con_type_def, params)
+
+    assert "description" not in result, (
+        f"Connection payload must not contain 'description' by default, got: {result}"
+    )
+
+
+def test_connection_payload_contains_description_when_user_provides_it_success():
+    """Verify that when a user explicitly passes description via params it is
+    forwarded into the payload returned by get_connection_config_from_params."""
+    payload = {
+        "displayName": "test-connection",
+        "connectivityType": "ShareableCloud",
+        "description": "My custom description",   # user supplied before calling helper
+    }
+
+    con_type = "FabricDataPipelines"
+    con_type_def = {
+        "type": "FabricDataPipelines",
+        "creationMethods": [
+            {
+                "name": "FabricDataPipelines.Actions",
+                "parameters": [],
+            }
+        ],
+        "supportedCredentialTypes": ["WorkspaceIdentity"],
+    }
+
+    params = {
+        "connectiondetails": {
+            "type": "FabricDataPipelines",
+            "creationmethod": "FabricDataPipelines.Actions",
+        },
+        "credentialdetails": {
+            "type": "WorkspaceIdentity",
+        },
+    }
+
+    result = get_connection_config_from_params(
+        payload, con_type, con_type_def, params)
+
+    assert result.get("description") == "My custom description", (
+        f"Connection payload must preserve a user-supplied description, got: {result}"
+    )
 
 
 class TestFindMpeConnection:
