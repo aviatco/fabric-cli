@@ -461,9 +461,6 @@ def _validate_and_get_on_premises_gateway_credential_values(cred_values):
 def get_connection_config_from_params(payload, con_type, con_type_def, params):
     connection_request = payload
 
-    if params.get("description"):
-        connection_request["description"] = params["description"]
-
     # Get and set Privacy Level
     supported_privacy_levels = ["None", "Organizational", "Private", "Public"]
     privacy_level = params.get("privacylevel", "None")
