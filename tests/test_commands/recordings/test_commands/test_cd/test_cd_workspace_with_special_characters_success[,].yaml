@@ -152,8 +152,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001,", "capacityId":
-      "00000000-0000-0000-0000-000000000004"}'
+    body: '{"displayName": "fabcli000001,", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Accept:
       - '*/*'
@@ -162,7 +161,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '123'
+      - '90'
+
       Content-Type:
       - application/json
       User-Agent:

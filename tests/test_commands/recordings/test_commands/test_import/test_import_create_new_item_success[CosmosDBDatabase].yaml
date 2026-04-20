@@ -219,8 +219,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "CosmosDBDatabase", "folderId": null}'
+    body: '{"displayName": "fabcli000001", "type": "CosmosDBDatabase", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -229,7 +228,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '114'
+      - '81'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -947,11 +947,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"type": "CosmosDBDatabase", "description": "Imported from fab", "folderId":
-      null, "displayName": "fabcli000001_new_14", "definition": {"parts": [{"path":
-      ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiQ29zbW9zREJEYXRhYmFzZSIsCiAgICAgICAgImRpc3BsYXlOYW1lIjogImZhYmNsaTAwMDAwMSIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIkNyZWF0ZWQgYnkgZmFiIgogICAgfSwKICAgICJjb25maWciOiB7CiAgICAgICAgInZlcnNpb24iOiAiMi4wIiwKICAgICAgICAibG9naWNhbElkIjogIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIKICAgIH0KfQ==",
-      "payloadType": "InlineBase64"}, {"path": "definition.json", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2l0ZW0vQ29zbW9zREIvZGVmaW5pdGlvbi9Db3Ntb3NEQi8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAiY29udGFpbmVycyI6IFtdCn0=",
-      "payloadType": "InlineBase64"}]}}'
+    body: '{"type": "CosmosDBDatabase", "folderId": null, "displayName": "fabcli000001_new_14", "definition": {"parts": [{"path": ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiQ29zbW9zREJEYXRhYmFzZSIsCiAgICAgICAgImRpc3BsYXlOYW1lIjogImZhYmNsaTAwMDAwMSIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIkNyZWF0ZWQgYnkgZmFiIgogICAgfSwKICAgICJjb25maWciOiB7CiAgICAgICAgInZlcnNpb24iOiAiMi4wIiwKICAgICAgICAibG9naWNhbElkIjogIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIKICAgIH0KfQ==", "payloadType": "InlineBase64"}, {"path": "definition.json", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2l0ZW0vQ29zbW9zREIvZGVmaW5pdGlvbi9Db3Ntb3NEQi8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAiY29udGFpbmVycyI6IFtdCn0=", "payloadType": "InlineBase64"}]}}'
     headers:
       Accept:
       - '*/*'
@@ -960,7 +956,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '995'
+      - '959'
+
       Content-Type:
       - application/json
       User-Agent:

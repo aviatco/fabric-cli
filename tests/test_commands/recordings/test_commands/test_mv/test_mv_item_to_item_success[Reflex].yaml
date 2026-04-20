@@ -152,8 +152,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "capacityId":
-      "00000000-0000-0000-0000-000000000004"}'
+    body: '{"displayName": "fabcli000001", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Accept:
       - '*/*'
@@ -162,7 +161,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '122'
+      - '89'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -362,8 +362,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "capacityId":
-      "00000000-0000-0000-0000-000000000004"}'
+    body: '{"displayName": "fabcli000002", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Accept:
       - '*/*'
@@ -372,7 +371,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '122'
+      - '89'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -567,8 +567,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000003", "type":
-      "Reflex", "folderId": null}'
+    body: '{"displayName": "fabcli000003", "type": "Reflex", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -577,7 +576,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '104'
+      - '71'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -1028,10 +1028,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"type": "Reflex", "description": "Created by fab", "displayName": "fabcli000003",
-      "definition": {"parts": [{"path": "ReflexEntities.json", "payload": "W10=",
-      "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICIkc2NoZW1hIjogImh0dHBzOi8vZGV2ZWxvcGVyLm1pY3Jvc29mdC5jb20vanNvbi1zY2hlbWFzL2ZhYnJpYy9naXRJbnRlZ3JhdGlvbi9wbGF0Zm9ybVByb3BlcnRpZXMvMi4wLjAvc2NoZW1hLmpzb24iLAogICJtZXRhZGF0YSI6IHsKICAgICJ0eXBlIjogIlJlZmxleCIsCiAgICAiZGlzcGxheU5hbWUiOiAiZmFiY2xpMDAwMDAzIiwKICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICB9LAogICJjb25maWciOiB7CiAgICAidmVyc2lvbiI6ICIyLjAiLAogICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgfQp9",
-      "payloadType": "InlineBase64"}]}, "folderId": null}'
+    body: '{"type": "Reflex", "displayName": "fabcli000003", "definition": {"parts": [{"path": "ReflexEntities.json", "payload": "W10=", "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICIkc2NoZW1hIjogImh0dHBzOi8vZGV2ZWxvcGVyLm1pY3Jvc29mdC5jb20vanNvbi1zY2hlbWFzL2ZhYnJpYy9naXRJbnRlZ3JhdGlvbi9wbGF0Zm9ybVByb3BlcnRpZXMvMi4wLjAvc2NoZW1hLmpzb24iLAogICJtZXRhZGF0YSI6IHsKICAgICJ0eXBlIjogIlJlZmxleCIsCiAgICAiZGlzcGxheU5hbWUiOiAiZmFiY2xpMDAwMDAzIiwKICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICB9LAogICJjb25maWciOiB7CiAgICAidmVyc2lvbiI6ICIyLjAiLAogICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgfQp9", "payloadType": "InlineBase64"}]}, "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -1040,7 +1037,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '735'
+      - '702'
+
       Content-Type:
       - application/json
       User-Agent:

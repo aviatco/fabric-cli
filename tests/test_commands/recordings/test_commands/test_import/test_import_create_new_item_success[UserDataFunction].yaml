@@ -229,8 +229,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "UserDataFunction", "folderId": null}'
+    body: '{"displayName": "fabcli000001", "type": "UserDataFunction", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -239,7 +238,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '114'
+      - '81'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -863,11 +863,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"type": "UserDataFunction", "description": "Imported from fab", "folderId":
-      null, "displayName": "fabcli000001_new_15", "definition": {"parts": [{"path":
-      ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiVXNlckRhdGFGdW5jdGlvbiIsCiAgICAgICAgImRpc3BsYXlOYW1lIjogImZhYmNsaTAwMDAwMSIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIkNyZWF0ZWQgYnkgZmFiIgogICAgfSwKICAgICJjb25maWciOiB7CiAgICAgICAgInZlcnNpb24iOiAiMi4wIiwKICAgICAgICAibG9naWNhbElkIjogIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIKICAgIH0KfQ==",
-      "payloadType": "InlineBase64"}, {"path": "definition.json", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2l0ZW0vdXNlckRhdGFGdW5jdGlvbi9kZWZpbml0aW9uLzEuMS4wL3NjaGVtYS5qc29uIiwKICAgICJydW50aW1lIjogIlBZVEhPTiIsCiAgICAiY29ubmVjdGVkRGF0YVNvdXJjZXMiOiBbXSwKICAgICJmdW5jdGlvbnMiOiBbXSwKICAgICJsaWJyYXJpZXMiOiB7CiAgICAgICAgInB1YmxpYyI6IFtdLAogICAgICAgICJwcml2YXRlIjogW10KICAgIH0KfQ==",
-      "payloadType": "InlineBase64"}]}}'
+    body: '{"type": "UserDataFunction", "folderId": null, "displayName": "fabcli000001_new_15", "definition": {"parts": [{"path": ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiVXNlckRhdGFGdW5jdGlvbiIsCiAgICAgICAgImRpc3BsYXlOYW1lIjogImZhYmNsaTAwMDAwMSIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIkNyZWF0ZWQgYnkgZmFiIgogICAgfSwKICAgICJjb25maWciOiB7CiAgICAgICAgInZlcnNpb24iOiAiMi4wIiwKICAgICAgICAibG9naWNhbElkIjogIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIKICAgIH0KfQ==", "payloadType": "InlineBase64"}, {"path": "definition.json", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2l0ZW0vdXNlckRhdGFGdW5jdGlvbi9kZWZpbml0aW9uLzEuMS4wL3NjaGVtYS5qc29uIiwKICAgICJydW50aW1lIjogIlBZVEhPTiIsCiAgICAiY29ubmVjdGVkRGF0YVNvdXJjZXMiOiBbXSwKICAgICJmdW5jdGlvbnMiOiBbXSwKICAgICJsaWJyYXJpZXMiOiB7CiAgICAgICAgInB1YmxpYyI6IFtdLAogICAgICAgICJwcml2YXRlIjogW10KICAgIH0KfQ==", "payloadType": "InlineBase64"}]}}'
     headers:
       Accept:
       - '*/*'
@@ -876,7 +872,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1163'
+      - '1127'
+
       Content-Type:
       - application/json
       User-Agent:

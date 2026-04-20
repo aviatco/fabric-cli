@@ -169,10 +169,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "MirroredDatabase", "folderId": null, "definition": {"parts": [{"path": "mirroring.json",
-      "payload": "ewogICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZSI6IHsKICAgICAgICAgICAgInR5cGUiOiAiR2VuZXJpY01pcnJvciIsCiAgICAgICAgICAgICJ0eXBlUHJvcGVydGllcyI6IHt9CiAgICAgICAgfSwKICAgICAgICAidGFyZ2V0IjogewogICAgICAgICAgICAidHlwZSI6ICJNb3VudGVkUmVsYXRpb25hbERhdGFiYXNlIiwKICAgICAgICAgICAgInR5cGVQcm9wZXJ0aWVzIjogewogICAgICAgICAgICAgICAgImZvcm1hdCI6ICJEZWx0YSIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ==",
-      "payloadType": "InlineBase64"}]}}'
+    body: '{"displayName": "fabcli000001", "type": "MirroredDatabase", "folderId": null, "definition": {"parts": [{"path": "mirroring.json", "payload": "ewogICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZSI6IHsKICAgICAgICAgICAgInR5cGUiOiAiR2VuZXJpY01pcnJvciIsCiAgICAgICAgICAgICJ0eXBlUHJvcGVydGllcyI6IHt9CiAgICAgICAgfSwKICAgICAgICAidGFyZ2V0IjogewogICAgICAgICAgICAidHlwZSI6ICJNb3VudGVkUmVsYXRpb25hbERhdGFiYXNlIiwKICAgICAgICAgICAgInR5cGVQcm9wZXJ0aWVzIjogewogICAgICAgICAgICAgICAgImZvcm1hdCI6ICJEZWx0YSIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ==", "payloadType": "InlineBase64"}]}}'
     headers:
       Accept:
       - '*/*'
@@ -181,7 +178,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '603'
+      - '570'
+
       Content-Type:
       - application/json
       User-Agent:

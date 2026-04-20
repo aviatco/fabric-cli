@@ -147,7 +147,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "folder"}'
+    body: '{"displayName": "folder"}'
     headers:
       Accept:
       - '*/*'

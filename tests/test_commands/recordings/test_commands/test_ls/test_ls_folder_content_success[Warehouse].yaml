@@ -147,7 +147,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001"}'
+    body: '{"displayName": "fabcli000001"}'
     headers:
       Accept:
       - '*/*'
@@ -440,9 +440,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "type":
-      "Warehouse", "folderId": "a5c2608f-f961-451f-ad0f-0daf41817cfa", "creationPayload":
-      {"defaultCollation": "Latin1_General_100_BIN2_UTF8"}}'
+    body: '{"displayName": "fabcli000002", "type": "Warehouse", "folderId": "a5c2608f-f961-451f-ad0f-0daf41817cfa", "creationPayload": {"defaultCollation": "Latin1_General_100_BIN2_UTF8"}}'
     headers:
       Accept:
       - '*/*'
@@ -451,7 +449,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '214'
+      - '181'
+
       Content-Type:
       - application/json
       User-Agent:

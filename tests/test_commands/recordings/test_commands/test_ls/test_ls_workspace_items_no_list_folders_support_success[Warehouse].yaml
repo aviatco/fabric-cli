@@ -187,7 +187,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001"}'
+    body: '{"displayName": "fabcli000001"}'
     headers:
       Accept:
       - '*/*'
@@ -387,8 +387,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "type":
-      "Warehouse", "folderId": null, "creationPayload": {"defaultCollation": "Latin1_General_100_BIN2_UTF8"}}'
+    body: '{"displayName": "fabcli000002", "type": "Warehouse", "folderId": null, "creationPayload": {"defaultCollation": "Latin1_General_100_BIN2_UTF8"}}'
     headers:
       Accept:
       - '*/*'
@@ -397,7 +396,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '180'
+      - '147'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -742,9 +742,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000003", "type":
-      "Warehouse", "folderId": "a7253195-b091-4b93-a976-32932514c37d", "creationPayload":
-      {"defaultCollation": "Latin1_General_100_BIN2_UTF8"}}'
+    body: '{"displayName": "fabcli000003", "type": "Warehouse", "folderId": "a7253195-b091-4b93-a976-32932514c37d", "creationPayload": {"defaultCollation": "Latin1_General_100_BIN2_UTF8"}}'
     headers:
       Accept:
       - '*/*'
@@ -753,7 +751,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '214'
+      - '181'
+
       Content-Type:
       - application/json
       User-Agent:

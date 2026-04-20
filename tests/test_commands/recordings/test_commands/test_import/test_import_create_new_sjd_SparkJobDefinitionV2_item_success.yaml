@@ -191,8 +191,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "SparkJobDefinition", "folderId": null}'
+    body: '{"displayName": "fabcli000001", "type": "SparkJobDefinition", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -201,7 +200,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '116'
+      - '83'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -672,11 +672,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"type": "SparkJobDefinition", "description": "Imported from fab", "folderId":
-      null, "displayName": "fabcli000001_new_9", "definition": {"format": "SparkJobDefinitionV2",
-      "parts": [{"path": "SparkJobDefinitionV1.json", "payload": "ewogICAgImV4ZWN1dGFibGVGaWxlIjogbnVsbCwKICAgICJkZWZhdWx0TGFrZWhvdXNlQXJ0aWZhY3RJZCI6IG51bGwsCiAgICAibWFpbkNsYXNzIjogbnVsbCwKICAgICJhZGRpdGlvbmFsTGFrZWhvdXNlSWRzIjogW10sCiAgICAicmV0cnlQb2xpY3kiOiBudWxsLAogICAgImNvbW1hbmRMaW5lQXJndW1lbnRzIjogbnVsbCwKICAgICJhZGRpdGlvbmFsTGlicmFyeVVyaXMiOiBudWxsLAogICAgImxhbmd1YWdlIjogbnVsbCwKICAgICJlbnZpcm9ubWVudEFydGlmYWN0SWQiOiBudWxsCn0=",
-      "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiU3BhcmtKb2JEZWZpbml0aW9uIiwKICAgICAgICAiZGlzcGxheU5hbWUiOiAiZmFiY2xpMDAwMDAxIiwKICAgICAgICAiZGVzY3JpcHRpb24iOiAiQ3JlYXRlZCBieSBmYWIiCiAgICB9LAogICAgImNvbmZpZyI6IHsKICAgICAgICAidmVyc2lvbiI6ICIyLjAiLAogICAgICAgICJsb2dpY2FsSWQiOiAiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIgogICAgfQp9",
-      "payloadType": "InlineBase64"}]}}'
+    body: '{"type": "SparkJobDefinition", "folderId": null, "displayName": "fabcli000001_new_9", "definition": {"format": "SparkJobDefinitionV2", "parts": [{"path": "SparkJobDefinitionV1.json", "payload": "ewogICAgImV4ZWN1dGFibGVGaWxlIjogbnVsbCwKICAgICJkZWZhdWx0TGFrZWhvdXNlQXJ0aWZhY3RJZCI6IG51bGwsCiAgICAibWFpbkNsYXNzIjogbnVsbCwKICAgICJhZGRpdGlvbmFsTGFrZWhvdXNlSWRzIjogW10sCiAgICAicmV0cnlQb2xpY3kiOiBudWxsLAogICAgImNvbW1hbmRMaW5lQXJndW1lbnRzIjogbnVsbCwKICAgICJhZGRpdGlvbmFsTGlicmFyeVVyaXMiOiBudWxsLAogICAgImxhbmd1YWdlIjogbnVsbCwKICAgICJlbnZpcm9ubWVudEFydGlmYWN0SWQiOiBudWxsCn0=", "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiU3BhcmtKb2JEZWZpbml0aW9uIiwKICAgICAgICAiZGlzcGxheU5hbWUiOiAiZmFiY2xpMDAwMDAxIiwKICAgICAgICAiZGVzY3JpcHRpb24iOiAiQ3JlYXRlZCBieSBmYWIiCiAgICB9LAogICAgImNvbmZpZyI6IHsKICAgICAgICAidmVyc2lvbiI6ICIyLjAiLAogICAgICAgICJsb2dpY2FsSWQiOiAiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIgogICAgfQp9", "payloadType": "InlineBase64"}]}}'
     headers:
       Accept:
       - '*/*'
@@ -685,7 +681,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1220'
+      - '1184'
+
       Content-Type:
       - application/json
       User-Agent:

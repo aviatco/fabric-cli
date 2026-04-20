@@ -531,9 +531,9 @@ def test_get_item_payloads():
         assert get_payload_for_item_type("dummy", report) == _expected_payload
 
 
-def test_import_payload_does_not_contain_description_by_default():
+def test_import_payload_does_not_contain_description_by_default_success():
     """Verify that get_payload_for_item_type never stamps a description in the payload
-    unless the caller explicitly includes one — i.e. the fix for hardcoded 'Imported from fab'."""
+    unless the caller explicitly includes one — i.e."""
     tenant = Tenant(name="tenant_name", id="0000")
     workspace = Workspace(
         name="workspace_name", id="workspace_id", parent=tenant, type="Workspace"

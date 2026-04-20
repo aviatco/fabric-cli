@@ -191,10 +191,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "MirroredDatabase", "folderId": null, "definition": {"parts": [{"path": "mirroring.json",
-      "payload": "ewogICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZSI6IHsKICAgICAgICAgICAgInR5cGUiOiAiR2VuZXJpY01pcnJvciIsCiAgICAgICAgICAgICJ0eXBlUHJvcGVydGllcyI6IHt9CiAgICAgICAgfSwKICAgICAgICAidGFyZ2V0IjogewogICAgICAgICAgICAidHlwZSI6ICJNb3VudGVkUmVsYXRpb25hbERhdGFiYXNlIiwKICAgICAgICAgICAgInR5cGVQcm9wZXJ0aWVzIjogewogICAgICAgICAgICAgICAgImZvcm1hdCI6ICJEZWx0YSIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ==",
-      "payloadType": "InlineBase64"}]}}'
+    body: '{"displayName": "fabcli000001", "type": "MirroredDatabase", "folderId": null, "definition": {"parts": [{"path": "mirroring.json", "payload": "ewogICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZSI6IHsKICAgICAgICAgICAgInR5cGUiOiAiR2VuZXJpY01pcnJvciIsCiAgICAgICAgICAgICJ0eXBlUHJvcGVydGllcyI6IHt9CiAgICAgICAgfSwKICAgICAgICAidGFyZ2V0IjogewogICAgICAgICAgICAidHlwZSI6ICJNb3VudGVkUmVsYXRpb25hbERhdGFiYXNlIiwKICAgICAgICAgICAgInR5cGVQcm9wZXJ0aWVzIjogewogICAgICAgICAgICAgICAgImZvcm1hdCI6ICJEZWx0YSIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ==", "payloadType": "InlineBase64"}]}}'
     headers:
       Accept:
       - '*/*'
@@ -203,7 +200,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '603'
+      - '570'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -679,11 +677,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"type": "MirroredDatabase", "description": "Imported from fab", "folderId":
-      null, "displayName": "fabcli000001_new_10", "definition": {"parts": [{"path":
-      ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiTWlycm9yZWREYXRhYmFzZSIsCiAgICAgICAgImRpc3BsYXlOYW1lIjogImZhYmNsaTAwMDAwMSIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIkNyZWF0ZWQgYnkgZmFiIgogICAgfSwKICAgICJjb25maWciOiB7CiAgICAgICAgInZlcnNpb24iOiAiMi4wIiwKICAgICAgICAibG9naWNhbElkIjogIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIKICAgIH0KfQ==",
-      "payloadType": "InlineBase64"}, {"path": "mirroring.json", "payload": "ewogICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZSI6IHsKICAgICAgICAgICAgInR5cGUiOiAiR2VuZXJpY01pcnJvciIsCiAgICAgICAgICAgICJ0eXBlUHJvcGVydGllcyI6IHt9CiAgICAgICAgfSwKICAgICAgICAidGFyZ2V0IjogewogICAgICAgICAgICAidHlwZSI6ICJNb3VudGVkUmVsYXRpb25hbERhdGFiYXNlIiwKICAgICAgICAgICAgInR5cGVQcm9wZXJ0aWVzIjogewogICAgICAgICAgICAgICAgImZvcm1hdCI6ICJEZWx0YSIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ==",
-      "payloadType": "InlineBase64"}]}}'
+    body: '{"type": "MirroredDatabase", "folderId": null, "displayName": "fabcli000001_new_10", "definition": {"parts": [{"path": ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiTWlycm9yZWREYXRhYmFzZSIsCiAgICAgICAgImRpc3BsYXlOYW1lIjogImZhYmNsaTAwMDAwMSIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIkNyZWF0ZWQgYnkgZmFiIgogICAgfSwKICAgICJjb25maWciOiB7CiAgICAgICAgInZlcnNpb24iOiAiMi4wIiwKICAgICAgICAibG9naWNhbElkIjogIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIKICAgIH0KfQ==", "payloadType": "InlineBase64"}, {"path": "mirroring.json", "payload": "ewogICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZSI6IHsKICAgICAgICAgICAgInR5cGUiOiAiR2VuZXJpY01pcnJvciIsCiAgICAgICAgICAgICJ0eXBlUHJvcGVydGllcyI6IHt9CiAgICAgICAgfSwKICAgICAgICAidGFyZ2V0IjogewogICAgICAgICAgICAidHlwZSI6ICJNb3VudGVkUmVsYXRpb25hbERhdGFiYXNlIiwKICAgICAgICAgICAgInR5cGVQcm9wZXJ0aWVzIjogewogICAgICAgICAgICAgICAgImZvcm1hdCI6ICJEZWx0YSIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ==", "payloadType": "InlineBase64"}]}}'
     headers:
       Accept:
       - '*/*'
@@ -692,7 +686,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1186'
+      - '1150'
+
       Content-Type:
       - application/json
       User-Agent:

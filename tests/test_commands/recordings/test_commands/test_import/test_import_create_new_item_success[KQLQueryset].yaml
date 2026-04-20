@@ -183,8 +183,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "KQLQueryset", "folderId": null}'
+    body: '{"displayName": "fabcli000001", "type": "KQLQueryset", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -193,7 +192,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '109'
+      - '76'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -648,11 +648,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"type": "KQLQueryset", "description": "Imported from fab", "folderId":
-      null, "displayName": "fabcli000001_new_8", "definition": {"parts": [{"path":
-      ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiS1FMUXVlcnlzZXQiLAogICAgICAgICJkaXNwbGF5TmFtZSI6ICJmYWJjbGkwMDAwMDEiLAogICAgICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICAgIH0sCiAgICAiY29uZmlnIjogewogICAgICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAgICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgICB9Cn0=",
-      "payloadType": "InlineBase64"}, {"path": "RealTimeQueryset.json", "payload":
-      "e30=", "payloadType": "InlineBase64"}]}}'
+    body: '{"type": "KQLQueryset", "folderId": null, "displayName": "fabcli000001_new_8", "definition": {"parts": [{"path": ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiS1FMUXVlcnlzZXQiLAogICAgICAgICJkaXNwbGF5TmFtZSI6ICJmYWJjbGkwMDAwMDEiLAogICAgICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICAgIH0sCiAgICAiY29uZmlnIjogewogICAgICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAgICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgICB9Cn0=", "payloadType": "InlineBase64"}, {"path": "RealTimeQueryset.json", "payload": "e30=", "payloadType": "InlineBase64"}]}}'
     headers:
       Accept:
       - '*/*'
@@ -661,7 +657,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '795'
+      - '759'
+
       Content-Type:
       - application/json
       User-Agent:

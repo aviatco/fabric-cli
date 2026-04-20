@@ -147,7 +147,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001"}'
+    body: '{"displayName": "fabcli000001"}'
     headers:
       Accept:
       - '*/*'
@@ -480,8 +480,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "type":
-      "SparkJobDefinition", "folderId": "a7c3d867-245c-4aea-8e4f-1dca60324722"}'
+    body: '{"displayName": "fabcli000002", "type": "SparkJobDefinition", "folderId": "a7c3d867-245c-4aea-8e4f-1dca60324722"}'
     headers:
       Accept:
       - '*/*'
@@ -490,7 +489,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '150'
+      - '117'
+
       Content-Type:
       - application/json
       User-Agent:

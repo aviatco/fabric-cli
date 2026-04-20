@@ -391,8 +391,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "DigitalTwinBuilder", "folderId": null}'
+    body: '{"displayName": "fabcli000001", "type": "DigitalTwinBuilder", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -401,7 +400,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '116'
+      - '83'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -915,8 +915,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "type":
-      "DigitalTwinBuilder", "folderId": null}'
+    body: '{"displayName": "fabcli000002", "type": "DigitalTwinBuilder", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -925,7 +924,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '116'
+      - '83'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -1455,8 +1455,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000003", "type":
-      "DigitalTwinBuilder", "folderId": null}'
+    body: '{"displayName": "fabcli000003", "type": "DigitalTwinBuilder", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -1465,7 +1464,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '116'
+      - '83'
+
       Content-Type:
       - application/json
       User-Agent:

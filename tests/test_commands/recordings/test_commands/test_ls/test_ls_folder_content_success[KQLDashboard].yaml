@@ -147,7 +147,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001"}'
+    body: '{"displayName": "fabcli000001"}'
     headers:
       Accept:
       - '*/*'
@@ -440,8 +440,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "type":
-      "KQLDashboard", "folderId": "6bb52c46-6b16-4703-bd54-7c81a6a65fcb"}'
+    body: '{"displayName": "fabcli000002", "type": "KQLDashboard", "folderId": "6bb52c46-6b16-4703-bd54-7c81a6a65fcb"}'
     headers:
       Accept:
       - '*/*'
@@ -450,7 +449,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '144'
+      - '111'
+
       Content-Type:
       - application/json
       User-Agent:

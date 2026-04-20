@@ -171,8 +171,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001_auto", "type":
-      "Eventhouse", "folderId": null}'
+    body: '{"displayName": "fabcli000001_auto", "type": "Eventhouse", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -181,7 +180,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '113'
+      - '80'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -226,9 +226,7 @@ interactions:
       code: 201
       message: Created
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "KQLDatabase", "folderId": null, "creationPayload": {"databaseType": "ReadWrite",
-      "parentEventhouseItemId": "1f40bc8b-b6fc-43df-9744-e13a49c5bcc7"}}'
+    body: '{"displayName": "fabcli000001", "type": "KQLDatabase", "folderId": null, "creationPayload": {"databaseType": "ReadWrite", "parentEventhouseItemId": "1f40bc8b-b6fc-43df-9744-e13a49c5bcc7"}}'
     headers:
       Accept:
       - '*/*'
@@ -237,7 +235,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '225'
+      - '192'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -889,13 +888,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"type": "KQLDatabase", "description": "Imported from fab", "folderId":
-      null, "displayName": "fabcli000001_new_7", "definition": {"parts": [{"path":
-      ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiS1FMRGF0YWJhc2UiLAogICAgICAgICJkaXNwbGF5TmFtZSI6ICJmYWJjbGkwMDAwMDEiLAogICAgICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICAgIH0sCiAgICAiY29uZmlnIjogewogICAgICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAgICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgICB9Cn0=",
-      "payloadType": "InlineBase64"}, {"path": "DatabaseSchema.kql", "payload": "Ly8gS1FMIHNjcmlwdA0KLy8gVXNlIG1hbmFnZW1lbnQgY29tbWFuZHMgaW4gdGhpcyBzY3JpcHQgdG8gY29uZmlndXJlIHlvdXIgZGF0YWJhc2UgaXRlbXMsIHN1Y2ggYXMgdGFibGVzLCBmdW5jdGlvbnMsIG1hdGVyaWFsaXplZCB2aWV3cywgYW5kIG1vcmUuDQoNCg0K",
-      "payloadType": "InlineBase64"}, {"path": "DatabaseProperties.json", "payload":
-      "ewogICAgImRhdGFiYXNlVHlwZSI6ICJSZWFkV3JpdGUiLAogICAgInBhcmVudEV2ZW50aG91c2VJdGVtSWQiOiAiMWY0MGJjOGItYjZmYy00M2RmLTk3NDQtZTEzYTQ5YzViY2M3IiwKICAgICJvbmVMYWtlQ2FjaGluZ1BlcmlvZCI6ICJQMzY1MDAwRCIsCiAgICAib25lTGFrZVN0YW5kYXJkU3RvcmFnZVBlcmlvZCI6ICJQMzY1MDAwRCIKfQ==",
-      "payloadType": "InlineBase64"}]}}'
+    body: '{"type": "KQLDatabase", "folderId": null, "displayName": "fabcli000001_new_7", "definition": {"parts": [{"path": ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiS1FMRGF0YWJhc2UiLAogICAgICAgICJkaXNwbGF5TmFtZSI6ICJmYWJjbGkwMDAwMDEiLAogICAgICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICAgIH0sCiAgICAiY29uZmlnIjogewogICAgICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAgICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgICB9Cn0=", "payloadType": "InlineBase64"}, {"path": "DatabaseSchema.kql", "payload": "Ly8gS1FMIHNjcmlwdA0KLy8gVXNlIG1hbmFnZW1lbnQgY29tbWFuZHMgaW4gdGhpcyBzY3JpcHQgdG8gY29uZmlndXJlIHlvdXIgZGF0YWJhc2UgaXRlbXMsIHN1Y2ggYXMgdGFibGVzLCBmdW5jdGlvbnMsIG1hdGVyaWFsaXplZCB2aWV3cywgYW5kIG1vcmUuDQoNCg0K", "payloadType": "InlineBase64"}, {"path": "DatabaseProperties.json", "payload": "ewogICAgImRhdGFiYXNlVHlwZSI6ICJSZWFkV3JpdGUiLAogICAgInBhcmVudEV2ZW50aG91c2VJdGVtSWQiOiAiMWY0MGJjOGItYjZmYy00M2RmLTk3NDQtZTEzYTQ5YzViY2M3IiwKICAgICJvbmVMYWtlQ2FjaGluZ1BlcmlvZCI6ICJQMzY1MDAwRCIsCiAgICAib25lTGFrZVN0YW5kYXJkU3RvcmFnZVBlcmlvZCI6ICJQMzY1MDAwRCIKfQ==", "payloadType": "InlineBase64"}]}}'
     headers:
       Accept:
       - '*/*'
@@ -904,7 +897,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1335'
+      - '1299'
+
       Content-Type:
       - application/json
       User-Agent:

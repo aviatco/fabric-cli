@@ -183,8 +183,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001_auto", "type":
-      "Eventhouse", "folderId": null}'
+    body: '{"displayName": "fabcli000001_auto", "type": "Eventhouse", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -193,7 +192,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '113'
+      - '80'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -238,9 +238,7 @@ interactions:
       code: 201
       message: Created
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "KQLDatabase", "folderId": null, "creationPayload": {"databaseType": "ReadWrite",
-      "parentEventhouseItemId": "46ec8cf3-b649-4c0e-a5bf-8082f2c8a062"}}'
+    body: '{"displayName": "fabcli000001", "type": "KQLDatabase", "folderId": null, "creationPayload": {"databaseType": "ReadWrite", "parentEventhouseItemId": "46ec8cf3-b649-4c0e-a5bf-8082f2c8a062"}}'
     headers:
       Accept:
       - '*/*'
@@ -249,7 +247,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '225'
+      - '192'
+
       Content-Type:
       - application/json
       User-Agent:

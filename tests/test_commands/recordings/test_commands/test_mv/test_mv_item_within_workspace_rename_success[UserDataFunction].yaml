@@ -152,8 +152,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "capacityId":
-      "00000000-0000-0000-0000-000000000004"}'
+    body: '{"displayName": "fabcli000001", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Accept:
       - '*/*'
@@ -162,7 +161,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '122'
+      - '89'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -355,8 +355,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "type":
-      "UserDataFunction", "folderId": null}'
+    body: '{"displayName": "fabcli000002", "type": "UserDataFunction", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -365,7 +364,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '114'
+      - '81'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -920,11 +920,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"type": "UserDataFunction", "description": "Created by fab", "displayName":
-      "fabcli000002 Renamed", "definition": {"parts": [{"path": "definition.json",
-      "payload": "ew0KICAiJHNjaGVtYSI6ICJodHRwczovL2RldmVsb3Blci5taWNyb3NvZnQuY29tL2pzb24tc2NoZW1hcy9mYWJyaWMvaXRlbS91c2VyRGF0YUZ1bmN0aW9uL2RlZmluaXRpb24vMS4xLjAvc2NoZW1hLmpzb24iLA0KICAicnVudGltZSI6ICJQWVRIT04iLA0KICAiY29ubmVjdGVkRGF0YVNvdXJjZXMiOiBbXSwNCiAgImZ1bmN0aW9ucyI6IFtdLA0KICAibGlicmFyaWVzIjogew0KICAgICJwdWJsaWMiOiBbXSwNCiAgICAicHJpdmF0ZSI6IFtdDQogIH0NCn0=",
-      "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICIkc2NoZW1hIjogImh0dHBzOi8vZGV2ZWxvcGVyLm1pY3Jvc29mdC5jb20vanNvbi1zY2hlbWFzL2ZhYnJpYy9naXRJbnRlZ3JhdGlvbi9wbGF0Zm9ybVByb3BlcnRpZXMvMi4wLjAvc2NoZW1hLmpzb24iLAogICJtZXRhZGF0YSI6IHsKICAgICJ0eXBlIjogIlVzZXJEYXRhRnVuY3Rpb24iLAogICAgImRpc3BsYXlOYW1lIjogImZhYmNsaTAwMDAwMiIsCiAgICAiZGVzY3JpcHRpb24iOiAiQ3JlYXRlZCBieSBmYWIiCiAgfSwKICAiY29uZmlnIjogewogICAgInZlcnNpb24iOiAiMi4wIiwKICAgICJsb2dpY2FsSWQiOiAiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIgogIH0KfQ==",
-      "payloadType": "InlineBase64"}]}, "folderId": null}'
+    body: '{"type": "UserDataFunction", "displayName": "fabcli000002 Renamed", "definition": {"parts": [{"path": "definition.json", "payload": "ew0KICAiJHNjaGVtYSI6ICJodHRwczovL2RldmVsb3Blci5taWNyb3NvZnQuY29tL2pzb24tc2NoZW1hcy9mYWJyaWMvaXRlbS91c2VyRGF0YUZ1bmN0aW9uL2RlZmluaXRpb24vMS4xLjAvc2NoZW1hLmpzb24iLA0KICAicnVudGltZSI6ICJQWVRIT04iLA0KICAiY29ubmVjdGVkRGF0YVNvdXJjZXMiOiBbXSwNCiAgImZ1bmN0aW9ucyI6IFtdLA0KICAibGlicmFyaWVzIjogew0KICAgICJwdWJsaWMiOiBbXSwNCiAgICAicHJpdmF0ZSI6IFtdDQogIH0NCn0=", "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICIkc2NoZW1hIjogImh0dHBzOi8vZGV2ZWxvcGVyLm1pY3Jvc29mdC5jb20vanNvbi1zY2hlbWFzL2ZhYnJpYy9naXRJbnRlZ3JhdGlvbi9wbGF0Zm9ybVByb3BlcnRpZXMvMi4wLjAvc2NoZW1hLmpzb24iLAogICJtZXRhZGF0YSI6IHsKICAgICJ0eXBlIjogIlVzZXJEYXRhRnVuY3Rpb24iLAogICAgImRpc3BsYXlOYW1lIjogImZhYmNsaTAwMDAwMiIsCiAgICAiZGVzY3JpcHRpb24iOiAiQ3JlYXRlZCBieSBmYWIiCiAgfSwKICAiY29uZmlnIjogewogICAgInZlcnNpb24iOiAiMi4wIiwKICAgICJsb2dpY2FsSWQiOiAiMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIgogIH0KfQ==", "payloadType": "InlineBase64"}]}, "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -933,7 +929,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1105'
+      - '1072'
+
       Content-Type:
       - application/json
       User-Agent:

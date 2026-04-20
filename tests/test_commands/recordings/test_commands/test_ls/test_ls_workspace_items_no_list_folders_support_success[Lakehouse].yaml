@@ -147,7 +147,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001"}'
+    body: '{"displayName": "fabcli000001"}'
     headers:
       Accept:
       - '*/*'
@@ -391,8 +391,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "type":
-      "Lakehouse", "folderId": null}'
+    body: '{"displayName": "fabcli000002", "type": "Lakehouse", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -401,7 +400,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '107'
+      - '74'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -690,8 +690,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000003", "type":
-      "Lakehouse", "folderId": "2fc4caef-bfae-487e-bffa-7a4c76214f25"}'
+    body: '{"displayName": "fabcli000003", "type": "Lakehouse", "folderId": "2fc4caef-bfae-487e-bffa-7a4c76214f25"}'
     headers:
       Accept:
       - '*/*'
@@ -700,7 +699,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '141'
+      - '108'
+
       Content-Type:
       - application/json
       User-Agent:

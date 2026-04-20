@@ -152,8 +152,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "capacityId":
-      "00000000-0000-0000-0000-000000000004"}'
+    body: '{"displayName": "fabcli000001", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Accept:
       - '*/*'
@@ -162,7 +161,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '122'
+      - '89'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -362,8 +362,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "capacityId":
-      "00000000-0000-0000-0000-000000000004"}'
+    body: '{"displayName": "fabcli000002", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Accept:
       - '*/*'
@@ -372,7 +371,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '122'
+      - '89'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -567,8 +567,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000003", "type":
-      "Map", "folderId": null}'
+    body: '{"displayName": "fabcli000003", "type": "Map", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -577,7 +576,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '101'
+      - '68'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -1128,10 +1128,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"type": "Map", "description": "Created by fab", "displayName": "fabcli000003",
-      "definition": {"parts": [{"path": "map.json", "payload": "77u/ew0KICAiJHNjaGVtYSI6ICJodHRwczovL2RldmVsb3Blci5taWNyb3NvZnQuY29tL2pzb24tc2NoZW1hcy9mYWJyaWMvaXRlbS9tYXAvZGVmaW5pdGlvbi8yLjAuMC9zY2hlbWEuanNvbiIsDQogICJiYXNlbWFwIjoge30sDQogICJkYXRhU291cmNlcyI6IFtdLA0KICAiaWNvblNvdXJjZXMiOiBbXSwNCiAgImxheWVyU291cmNlcyI6IFtdLA0KICAibGF5ZXJTZXR0aW5ncyI6IFtdDQp9",
-      "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICIkc2NoZW1hIjogImh0dHBzOi8vZGV2ZWxvcGVyLm1pY3Jvc29mdC5jb20vanNvbi1zY2hlbWFzL2ZhYnJpYy9naXRJbnRlZ3JhdGlvbi9wbGF0Zm9ybVByb3BlcnRpZXMvMi4wLjAvc2NoZW1hLmpzb24iLAogICJtZXRhZGF0YSI6IHsKICAgICJ0eXBlIjogIk1hcCIsCiAgICAiZGlzcGxheU5hbWUiOiAiZmFiY2xpMDAwMDAzIiwKICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICB9LAogICJjb25maWciOiB7CiAgICAidmVyc2lvbiI6ICIyLjAiLAogICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgfQp9",
-      "payloadType": "InlineBase64"}]}, "folderId": null}'
+    body: '{"type": "Map", "displayName": "fabcli000003", "definition": {"parts": [{"path": "map.json", "payload": "77u/ew0KICAiJHNjaGVtYSI6ICJodHRwczovL2RldmVsb3Blci5taWNyb3NvZnQuY29tL2pzb24tc2NoZW1hcy9mYWJyaWMvaXRlbS9tYXAvZGVmaW5pdGlvbi8yLjAuMC9zY2hlbWEuanNvbiIsDQogICJiYXNlbWFwIjoge30sDQogICJkYXRhU291cmNlcyI6IFtdLA0KICAiaWNvblNvdXJjZXMiOiBbXSwNCiAgImxheWVyU291cmNlcyI6IFtdLA0KICAibGF5ZXJTZXR0aW5ncyI6IFtdDQp9", "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICIkc2NoZW1hIjogImh0dHBzOi8vZGV2ZWxvcGVyLm1pY3Jvc29mdC5jb20vanNvbi1zY2hlbWFzL2ZhYnJpYy9naXRJbnRlZ3JhdGlvbi9wbGF0Zm9ybVByb3BlcnRpZXMvMi4wLjAvc2NoZW1hLmpzb24iLAogICJtZXRhZGF0YSI6IHsKICAgICJ0eXBlIjogIk1hcCIsCiAgICAiZGlzcGxheU5hbWUiOiAiZmFiY2xpMDAwMDAzIiwKICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICB9LAogICJjb25maWciOiB7CiAgICAidmVyc2lvbiI6ICIyLjAiLAogICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgfQp9", "payloadType": "InlineBase64"}]}, "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -1140,7 +1137,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '1009'
+      - '976'
+
       Content-Type:
       - application/json
       User-Agent:

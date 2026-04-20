@@ -179,8 +179,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "Lakehouse", "folderId": null, "creationPayload": {"enableSchemas": true}}'
+    body: '{"displayName": "fabcli000001", "type": "Lakehouse", "folderId": null, "creationPayload": {"enableSchemas": true}}'
     headers:
       Accept:
       - '*/*'
@@ -189,7 +188,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '151'
+      - '118'
+
       Content-Type:
       - application/json
       User-Agent:

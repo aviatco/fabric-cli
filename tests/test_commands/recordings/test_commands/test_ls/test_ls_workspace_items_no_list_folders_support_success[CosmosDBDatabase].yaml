@@ -187,7 +187,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001"}'
+    body: '{"displayName": "fabcli000001"}'
     headers:
       Accept:
       - '*/*'
@@ -387,8 +387,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "type":
-      "CosmosDBDatabase", "folderId": null}'
+    body: '{"displayName": "fabcli000002", "type": "CosmosDBDatabase", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -397,7 +396,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '114'
+      - '81'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -742,8 +742,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000003", "type":
-      "CosmosDBDatabase", "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}'
+    body: '{"displayName": "fabcli000003", "type": "CosmosDBDatabase", "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}'
     headers:
       Accept:
       - '*/*'
@@ -752,7 +751,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '148'
+      - '115'
+
       Content-Type:
       - application/json
       User-Agent:

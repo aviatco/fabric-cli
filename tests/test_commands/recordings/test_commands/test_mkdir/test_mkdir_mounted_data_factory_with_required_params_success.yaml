@@ -187,10 +187,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "MountedDataFactory", "folderId": null, "definition": {"parts": [{"path": "mountedDataFactory-content.json",
-      "payload": "eyJkYXRhRmFjdG9yeVJlc291cmNlSWQiOiAiL3N1YnNjcmlwdGlvbnMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwL3Jlc291cmNlR3JvdXBzL21vY2tlZF9mYWJyaWNjbGlfcmVzb3VyY2VfZ3JvdXAvcHJvdmlkZXJzL01pY3Jvc29mdC5EYXRhRmFjdG9yeS9mYWN0b3JpZXMvdGVzdC1mYWN0b3J5LW5hbWUifQ==",
-      "payloadType": "InlineBase64"}]}}'
+    body: '{"displayName": "fabcli000001", "type": "MountedDataFactory", "folderId": null, "definition": {"parts": [{"path": "mountedDataFactory-content.json", "payload": "eyJkYXRhRmFjdG9yeVJlc291cmNlSWQiOiAiL3N1YnNjcmlwdGlvbnMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwL3Jlc291cmNlR3JvdXBzL21vY2tlZF9mYWJyaWNjbGlfcmVzb3VyY2VfZ3JvdXAvcHJvdmlkZXJzL01pY3Jvc29mdC5EYXRhRmFjdG9yeS9mYWN0b3JpZXMvdGVzdC1mYWN0b3J5LW5hbWUifQ==", "payloadType": "InlineBase64"}]}}'
     headers:
       Accept:
       - '*/*'
@@ -199,7 +196,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '466'
+      - '433'
+
       Content-Type:
       - application/json
       User-Agent:

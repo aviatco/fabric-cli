@@ -147,7 +147,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001"}'
+    body: '{"displayName": "fabcli000001"}'
     headers:
       Accept:
       - '*/*'
@@ -347,8 +347,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "type":
-      "GraphQuerySet", "folderId": null}'
+    body: '{"displayName": "fabcli000002", "type": "GraphQuerySet", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -357,7 +356,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '111'
+      - '78'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -602,8 +602,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000003", "type":
-      "GraphQuerySet", "folderId": "db743921-121e-4759-9b1c-ddd99ab65441"}'
+    body: '{"displayName": "fabcli000003", "type": "GraphQuerySet", "folderId": "db743921-121e-4759-9b1c-ddd99ab65441"}'
     headers:
       Accept:
       - '*/*'
@@ -612,7 +611,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '145'
+      - '112'
+
       Content-Type:
       - application/json
       User-Agent:

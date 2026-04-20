@@ -177,8 +177,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
-      "SQLDatabase", "folderId": null}'
+    body: '{"displayName": "fabcli000001", "type": "SQLDatabase", "folderId": null}'
     headers:
       Accept:
       - '*/*'
@@ -187,7 +186,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '109'
+      - '76'
+
       Content-Type:
       - application/json
       User-Agent:

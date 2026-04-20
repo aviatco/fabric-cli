@@ -152,8 +152,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "capacityId":
-      "00000000-0000-0000-0000-000000000004"}'
+    body: '{"displayName": "fabcli000001", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Accept:
       - '*/*'
@@ -162,7 +161,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '122'
+      - '89'
+
       Content-Type:
       - application/json
       User-Agent:
@@ -1532,9 +1532,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000002", "connectivityType":
-      "ShareableCloud", "privacyLevel": "None", "connectionDetails": "mock_request_connection_details",
-      "credentialDetails": "mocked_credential_details"}'
+    body: '{"displayName": "fabcli000002", "connectivityType": "ShareableCloud", "privacyLevel": "None", "connectionDetails": "mock_request_connection_details", "credentialDetails": "mocked_credential_details"}'
     headers:
       Accept:
       - '*/*'
@@ -1543,7 +1541,8 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '570'
+      - '537'
+
       Content-Type:
       - application/json
       User-Agent:
