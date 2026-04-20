@@ -28,6 +28,9 @@ def exec(folder: Folder, args: Namespace) -> str | None:
     payload = {
         "displayName": foldername,
     }
+    if args.params.get("description"):
+        payload["description"] = args.params["description"]
+
     if parent_folder_id:
         payload["parentFolderId"] = parent_folder_id
 

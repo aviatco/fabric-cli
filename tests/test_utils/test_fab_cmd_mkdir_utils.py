@@ -1,8 +1,9 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
+import json
 from argparse import Namespace
-from unittest.mock import Mock, patch
+from unittest.mock import Mock, MagicMock, patch
 
 import pytest
 
@@ -183,12 +184,10 @@ def test_connection_payload_does_not_contain_description_by_default_success():
 
 
 def test_connection_payload_contains_description_when_user_provides_it_success():
-    """Verify that when a user explicitly passes description via params it is
-    forwarded into the payload returned by get_connection_config_from_params."""
+    """Verify that when a user explicitly passes description via params """
     payload = {
         "displayName": "test-connection",
         "connectivityType": "ShareableCloud",
-        "description": "My custom description",   # user supplied before calling helper
     }
 
     con_type = "FabricDataPipelines"
@@ -203,7 +202,9 @@ def test_connection_payload_contains_description_when_user_provides_it_success()
         "supportedCredentialTypes": ["WorkspaceIdentity"],
     }
 
+    # description is delivered through params, simulating --params description=...
     params = {
+        "description": "My custom description",
         "connectiondetails": {
             "type": "FabricDataPipelines",
             "creationmethod": "FabricDataPipelines.Actions",
@@ -217,7 +218,7 @@ def test_connection_payload_contains_description_when_user_provides_it_success()
         payload, con_type, con_type_def, params)
 
     assert result.get("description") == "My custom description", (
-        f"Connection payload must preserve a user-supplied description, got: {result}"
+        f"Connection payload must contain the description forwarded from params, got: {result}"
     )
 
 

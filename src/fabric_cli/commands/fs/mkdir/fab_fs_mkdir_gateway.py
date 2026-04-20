@@ -91,6 +91,8 @@ def exec(gateway: VirtualWorkspaceItem, args: Namespace) -> None:
         "type": "VirtualNetwork",
         "virtualNetworkAzureResource": vnet_res,
     }
+    if params.get("description"):
+        payload["description"] = params["description"]
 
     response = gateway_api.create_gateway(args, payload=json.dumps(payload))
     if response.status_code in (200, 201):
