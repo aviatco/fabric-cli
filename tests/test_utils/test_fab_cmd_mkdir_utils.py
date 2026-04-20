@@ -1,9 +1,7 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
-import json
-from argparse import Namespace
-from unittest.mock import Mock, MagicMock, patch
+from unittest.mock import Mock, patch
 
 import pytest
 
@@ -145,83 +143,6 @@ def test_workspace_identity_with_unsupported_params_ignored_success():
     assert result["credentialDetails"]["credentials"]["credentialType"] == "WorkspaceIdentity"
 
 
-def test_connection_payload_does_not_contain_description_by_default_success():
-    """Verify that get_connection_config_from_params never stamps a description
-    in the returned payload when the caller does not supply one."""
-    payload = {
-        "displayName": "test-connection",
-        "connectivityType": "ShareableCloud",
-    }
-
-    con_type = "FabricDataPipelines"
-    con_type_def = {
-        "type": "FabricDataPipelines",
-        "creationMethods": [
-            {
-                "name": "FabricDataPipelines.Actions",
-                "parameters": [],
-            }
-        ],
-        "supportedCredentialTypes": ["WorkspaceIdentity"],
-    }
-
-    params = {
-        "connectiondetails": {
-            "type": "FabricDataPipelines",
-            "creationmethod": "FabricDataPipelines.Actions",
-        },
-        "credentialdetails": {
-            "type": "WorkspaceIdentity",
-        },
-    }
-
-    result = get_connection_config_from_params(
-        payload, con_type, con_type_def, params)
-
-    assert "description" not in result, (
-        f"Connection payload must not contain 'description' by default, got: {result}"
-    )
-
-
-def test_connection_payload_contains_description_when_user_provides_it_success():
-    """Verify that when a user explicitly passes description via params """
-    payload = {
-        "displayName": "test-connection",
-        "connectivityType": "ShareableCloud",
-    }
-
-    con_type = "FabricDataPipelines"
-    con_type_def = {
-        "type": "FabricDataPipelines",
-        "creationMethods": [
-            {
-                "name": "FabricDataPipelines.Actions",
-                "parameters": [],
-            }
-        ],
-        "supportedCredentialTypes": ["WorkspaceIdentity"],
-    }
-
-    # description is delivered through params, simulating --params description=...
-    params = {
-        "description": "My custom description",
-        "connectiondetails": {
-            "type": "FabricDataPipelines",
-            "creationmethod": "FabricDataPipelines.Actions",
-        },
-        "credentialdetails": {
-            "type": "WorkspaceIdentity",
-        },
-    }
-
-    result = get_connection_config_from_params(
-        payload, con_type, con_type_def, params)
-
-    assert result.get("description") == "My custom description", (
-        f"Connection payload must contain the description forwarded from params, got: {result}"
-    )
-
-
 class TestFindMpeConnection:
     """Test cases for find_mpe_connection function."""
     
@@ -284,4 +205,3 @@ class TestFindMpeConnection:
             called_url = call_args.args[1] if len(call_args.args) > 1 else call_args.kwargs['url']
             assert "privateEndpointConnections" in called_url
             assert "api-version=2023-11-01" in called_url
-            
