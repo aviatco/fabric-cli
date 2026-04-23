@@ -1074,7 +1074,7 @@ interactions:
   response:
     body:
       string: '{"id": "439a168c-5668-4409-843c-6c15dc86c2d4", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1176,7 +1176,7 @@ interactions:
         {"id": "2b62bccb-c7e8-47ed-b920-0e76b8e566b8", "type": "Environment", "displayName":
         "fabcli000002", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"},
         {"id": "439a168c-5668-4409-843c-6c15dc86c2d4", "type": "Notebook", "displayName":
-        "fabcli000004", "description": "Imported from fab", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
+        "fabcli000004", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -1812,7 +1812,7 @@ interactions:
         {"id": "2b62bccb-c7e8-47ed-b920-0e76b8e566b8", "type": "Environment", "displayName":
         "fabcli000002", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"},
         {"id": "439a168c-5668-4409-843c-6c15dc86c2d4", "type": "Notebook", "displayName":
-        "fabcli000004", "description": "Imported from fab", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
+        "fabcli000004", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -2375,7 +2375,7 @@ interactions:
         {"id": "2b62bccb-c7e8-47ed-b920-0e76b8e566b8", "type": "Environment", "displayName":
         "fabcli000002", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"},
         {"id": "439a168c-5668-4409-843c-6c15dc86c2d4", "type": "Notebook", "displayName":
-        "fabcli000004", "description": "Imported from fab", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
+        "fabcli000004", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

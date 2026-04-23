@@ -75,11 +75,11 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -136,11 +136,11 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -402,11 +402,11 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "9d10277b-d668-42f6-b508-f3392c261528", "type": "Notebook", "displayName":
         "fabcli000001", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
@@ -720,11 +720,11 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "9d10277b-d668-42f6-b508-f3392c261528", "type": "Notebook", "displayName":
         "fabcli000001", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
@@ -783,11 +783,11 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "9d10277b-d668-42f6-b508-f3392c261528", "type": "Notebook", "displayName":
         "fabcli000001", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
@@ -947,7 +947,7 @@ interactions:
   response:
     body:
       string: '{"id": "8198b87e-915f-46d1-86a3-86be76dbd772", "type": "Notebook",
-        "displayName": "fabcli000001_new_5", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001_new_5", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1051,15 +1051,15 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "9d10277b-d668-42f6-b508-f3392c261528", "type": "Notebook", "displayName":
         "fabcli000001", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "8198b87e-915f-46d1-86a3-86be76dbd772", "type": "Notebook", "displayName":
-        "fabcli000001_new_5", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
+        "fabcli000001_new_5", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

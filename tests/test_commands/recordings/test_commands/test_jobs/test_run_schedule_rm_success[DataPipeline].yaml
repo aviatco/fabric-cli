@@ -166,7 +166,7 @@ interactions:
   response:
     body:
       string: '{"id": "f2742b8a-e40c-4292-9488-ab1e55945d97", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "55cefca4-1b08-4576-8af9-fd80d28d06b1"}'
     headers:
       Access-Control-Expose-Headers:
@@ -268,7 +268,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f2742b8a-e40c-4292-9488-ab1e55945d97", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "55cefca4-1b08-4576-8af9-fd80d28d06b1"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -426,7 +426,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f2742b8a-e40c-4292-9488-ab1e55945d97", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "55cefca4-1b08-4576-8af9-fd80d28d06b1"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -578,7 +578,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f2742b8a-e40c-4292-9488-ab1e55945d97", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "55cefca4-1b08-4576-8af9-fd80d28d06b1"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -728,7 +728,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f2742b8a-e40c-4292-9488-ab1e55945d97", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "55cefca4-1b08-4576-8af9-fd80d28d06b1"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -876,7 +876,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f2742b8a-e40c-4292-9488-ab1e55945d97", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "55cefca4-1b08-4576-8af9-fd80d28d06b1"}]}'
     headers:
       Access-Control-Expose-Headers:

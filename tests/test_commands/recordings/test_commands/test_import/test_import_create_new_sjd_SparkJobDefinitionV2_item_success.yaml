@@ -75,20 +75,19 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "8198b87e-915f-46d1-86a3-86be76dbd772", "type": "Notebook", "displayName":
-        "fabcli000001_new_5", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_5", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "fb191b6c-0151-46a0-a358-cb2f4a5fc41b", "type": "Notebook", "displayName":
-        "fabcli000001_new_6", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_6", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001_new_7", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "4de31537-ac2b-4c2a-b6e8-65cddbc70e68",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "description":
-        "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -145,20 +144,19 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "8198b87e-915f-46d1-86a3-86be76dbd772", "type": "Notebook", "displayName":
-        "fabcli000001_new_5", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_5", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "fb191b6c-0151-46a0-a358-cb2f4a5fc41b", "type": "Notebook", "displayName":
-        "fabcli000001_new_6", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_6", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001_new_7", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "4de31537-ac2b-4c2a-b6e8-65cddbc70e68",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "description":
-        "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -320,20 +318,19 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "8198b87e-915f-46d1-86a3-86be76dbd772", "type": "Notebook", "displayName":
-        "fabcli000001_new_5", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_5", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "fb191b6c-0151-46a0-a358-cb2f4a5fc41b", "type": "Notebook", "displayName":
-        "fabcli000001_new_6", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_6", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001_new_7", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "4de31537-ac2b-4c2a-b6e8-65cddbc70e68",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "description":
-        "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "08348f56-0e43-4aec-9d32-57446525b87a", "type": "SparkJobDefinition",
         "displayName": "fabcli000001", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
@@ -548,20 +545,19 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "8198b87e-915f-46d1-86a3-86be76dbd772", "type": "Notebook", "displayName":
-        "fabcli000001_new_5", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_5", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "fb191b6c-0151-46a0-a358-cb2f4a5fc41b", "type": "Notebook", "displayName":
-        "fabcli000001_new_6", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_6", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001_new_7", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "4de31537-ac2b-4c2a-b6e8-65cddbc70e68",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "description":
-        "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "08348f56-0e43-4aec-9d32-57446525b87a", "type": "SparkJobDefinition",
         "displayName": "fabcli000001", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
@@ -621,20 +617,19 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "8198b87e-915f-46d1-86a3-86be76dbd772", "type": "Notebook", "displayName":
-        "fabcli000001_new_5", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_5", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "fb191b6c-0151-46a0-a358-cb2f4a5fc41b", "type": "Notebook", "displayName":
-        "fabcli000001_new_6", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_6", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001_new_7", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "4de31537-ac2b-4c2a-b6e8-65cddbc70e68",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "description":
-        "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "08348f56-0e43-4aec-9d32-57446525b87a", "type": "SparkJobDefinition",
         "displayName": "fabcli000001", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
@@ -689,7 +684,7 @@ interactions:
   response:
     body:
       string: '{"id": "8bc8f020-a3fd-4de0-b59a-77711aa24a83", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001_new_9", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001_new_9", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}'
     headers:
       Access-Control-Expose-Headers:
@@ -799,25 +794,23 @@ interactions:
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
-        "fabcli000001_new_2", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_2", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "b2096f34-77ab-4e2d-b64f-e4a527d869d2", "type": "SQLDatabase", "displayName":
-        "fabcli000001_new_3", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_3", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4e7da642-0369-400d-82cc-c416684ebc9e", "type": "Notebook", "displayName":
-        "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_4", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "8198b87e-915f-46d1-86a3-86be76dbd772", "type": "Notebook", "displayName":
-        "fabcli000001_new_5", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_5", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "fb191b6c-0151-46a0-a358-cb2f4a5fc41b", "type": "Notebook", "displayName":
-        "fabcli000001_new_6", "description": "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_new_6", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001_new_7", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "4de31537-ac2b-4c2a-b6e8-65cddbc70e68",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "description":
-        "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_8", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "08348f56-0e43-4aec-9d32-57446525b87a", "type": "SparkJobDefinition",
         "displayName": "fabcli000001", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "8bc8f020-a3fd-4de0-b59a-77711aa24a83",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_9", "description":
-        "Imported from fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001_new_9", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

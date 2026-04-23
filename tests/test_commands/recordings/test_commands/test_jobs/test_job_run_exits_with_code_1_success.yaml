@@ -272,7 +272,7 @@ interactions:
   response:
     body:
       string: '{"id": "b38a1be9-9560-46df-9633-0846e4e9a38d", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e7dbc608-206d-4d52-a03a-d25bc1e4c0ba"}'
     headers:
       Access-Control-Expose-Headers:
@@ -368,7 +368,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "b38a1be9-9560-46df-9633-0846e4e9a38d", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e7dbc608-206d-4d52-a03a-d25bc1e4c0ba"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -575,7 +575,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "b38a1be9-9560-46df-9633-0846e4e9a38d", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e7dbc608-206d-4d52-a03a-d25bc1e4c0ba"}]}'
     headers:
       Access-Control-Expose-Headers:

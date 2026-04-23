@@ -166,7 +166,7 @@ interactions:
   response:
     body:
       string: '{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}'
     headers:
       Access-Control-Expose-Headers:
@@ -268,7 +268,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -368,7 +368,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -418,7 +418,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -573,7 +573,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}, {"id": "d788fdbe-3330-488f-aeb2-44daf0964697",
         "type": "Lakehouse", "displayName": "fabcli000002", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
@@ -674,7 +674,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}, {"id": "d788fdbe-3330-488f-aeb2-44daf0964697",
         "type": "Lakehouse", "displayName": "fabcli000002", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
@@ -725,7 +725,7 @@ interactions:
   response:
     body:
       string: '{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7", "properties": {"oneLakeRootPath":
         "https://onelake.dfs.fabric.microsoft.com/ab04aa79-51eb-45b8-8fa6-c96d985f33e7/d90a2d5f-1b3d-4645-831a-d8c66446a389"}}'
     headers:
@@ -929,7 +929,7 @@ interactions:
   response:
     body:
       string: '{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1243,7 +1243,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}, {"id": "d788fdbe-3330-488f-aeb2-44daf0964697",
         "type": "Lakehouse", "displayName": "fabcli000002", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
@@ -1294,7 +1294,7 @@ interactions:
   response:
     body:
       string: '{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7", "properties": {"oneLakeRootPath":
         "https://onelake.dfs.fabric.microsoft.com/ab04aa79-51eb-45b8-8fa6-c96d985f33e7/d90a2d5f-1b3d-4645-831a-d8c66446a389"}}'
     headers:
@@ -1498,7 +1498,7 @@ interactions:
   response:
     body:
       string: '{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1653,7 +1653,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}, {"id": "d788fdbe-3330-488f-aeb2-44daf0964697",
         "type": "Lakehouse", "displayName": "fabcli000002", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
@@ -1967,7 +1967,7 @@ interactions:
       string: '{"value": [{"id": "7516cad0-8441-4fa9-9a10-52a2065aaa63", "type": "SQLEndpoint",
         "displayName": "fabcli000002", "description": "", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"},
         {"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}, {"id": "d788fdbe-3330-488f-aeb2-44daf0964697",
         "type": "Lakehouse", "displayName": "fabcli000002", "workspaceId": "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
@@ -2118,7 +2118,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d90a2d5f-1b3d-4645-831a-d8c66446a389", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Imported from fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "ab04aa79-51eb-45b8-8fa6-c96d985f33e7"}]}'
     headers:
       Access-Control-Expose-Headers:
