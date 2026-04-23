@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "d55ed870-9f5a-4dd0-87f0-43904d7a49c0", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5da8dc7d-f13f-4da3-9e9c-6ebf2d955194"}'
     headers:
       Access-Control-Expose-Headers:
@@ -370,7 +370,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d55ed870-9f5a-4dd0-87f0-43904d7a49c0", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5da8dc7d-f13f-4da3-9e9c-6ebf2d955194"}]}'
     headers:
       Access-Control-Expose-Headers:

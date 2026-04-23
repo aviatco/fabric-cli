@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "c179232e-36d0-4e01-bfb6-41ee08c54cee", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "431e99c3-79af-4cdf-9019-94a41d1243dc"}'
     headers:
       Access-Control-Expose-Headers:
@@ -272,7 +272,7 @@ interactions:
       string: '{"value": [{"id": "deae2030-275b-4d5d-be76-076e5de22ad5", "type": "SQLEndpoint",
         "displayName": "fabcli000001", "description": "", "workspaceId": "431e99c3-79af-4cdf-9019-94a41d1243dc"},
         {"id": "c179232e-36d0-4e01-bfb6-41ee08c54cee", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "431e99c3-79af-4cdf-9019-94a41d1243dc"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -463,7 +463,7 @@ interactions:
       string: '{"value": [{"id": "deae2030-275b-4d5d-be76-076e5de22ad5", "type": "SQLEndpoint",
         "displayName": "fabcli000001", "description": "", "workspaceId": "431e99c3-79af-4cdf-9019-94a41d1243dc"},
         {"id": "c179232e-36d0-4e01-bfb6-41ee08c54cee", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "431e99c3-79af-4cdf-9019-94a41d1243dc"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -654,7 +654,7 @@ interactions:
       string: '{"value": [{"id": "deae2030-275b-4d5d-be76-076e5de22ad5", "type": "SQLEndpoint",
         "displayName": "fabcli000001", "description": "", "workspaceId": "431e99c3-79af-4cdf-9019-94a41d1243dc"},
         {"id": "c179232e-36d0-4e01-bfb6-41ee08c54cee", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "431e99c3-79af-4cdf-9019-94a41d1243dc"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -704,7 +704,7 @@ interactions:
   response:
     body:
       string: '{"id": "c179232e-36d0-4e01-bfb6-41ee08c54cee", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "431e99c3-79af-4cdf-9019-94a41d1243dc", "properties": {"oneLakeTablesPath":
         "https://onelake.dfs.fabric.microsoft.com/431e99c3-79af-4cdf-9019-94a41d1243dc/c179232e-36d0-4e01-bfb6-41ee08c54cee/Tables",
         "sqlEndpointProperties": {"connectionString": "mock_connection_string", "id":
@@ -1000,7 +1000,7 @@ interactions:
       string: '{"value": [{"id": "deae2030-275b-4d5d-be76-076e5de22ad5", "type": "SQLEndpoint",
         "displayName": "fabcli000001", "description": "", "workspaceId": "431e99c3-79af-4cdf-9019-94a41d1243dc"},
         {"id": "c179232e-36d0-4e01-bfb6-41ee08c54cee", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "431e99c3-79af-4cdf-9019-94a41d1243dc"}]}'
     headers:
       Access-Control-Expose-Headers:

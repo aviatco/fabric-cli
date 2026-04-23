@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "e909aea6-7c72-44e4-a576-804a22c63905", "type": "Eventhouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "e909aea6-7c72-44e4-a576-804a22c63905", "type": "Eventhouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "9169ff56-3dd2-4c0b-95ca-7116f173a5b0",
         "type": "KQLDatabase", "displayName": "fabcli000001", "description": "fabcli000001",
         "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
@@ -421,7 +421,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "e909aea6-7c72-44e4-a576-804a22c63905", "type": "Eventhouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "9169ff56-3dd2-4c0b-95ca-7116f173a5b0",
         "type": "KQLDatabase", "displayName": "fabcli000001", "description": "fabcli000001",
         "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
@@ -572,7 +572,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "e909aea6-7c72-44e4-a576-804a22c63905", "type": "Eventhouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "9169ff56-3dd2-4c0b-95ca-7116f173a5b0",
         "type": "KQLDatabase", "displayName": "fabcli000001", "description": "fabcli000001",
         "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
@@ -763,7 +763,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "e909aea6-7c72-44e4-a576-804a22c63905", "type": "Eventhouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "9169ff56-3dd2-4c0b-95ca-7116f173a5b0",
         "type": "KQLDatabase", "displayName": "fabcli000001", "description": "fabcli000001",
         "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
@@ -914,7 +914,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "e909aea6-7c72-44e4-a576-804a22c63905", "type": "Eventhouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "9169ff56-3dd2-4c0b-95ca-7116f173a5b0",
         "type": "KQLDatabase", "displayName": "fabcli000001", "description": "fabcli000001",
         "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'

@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "3aeb2b34-c378-4e7b-8d6a-2af0a4cfad03", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}'
     headers:
       Access-Control-Expose-Headers:
@@ -370,7 +370,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "3aeb2b34-c378-4e7b-8d6a-2af0a4cfad03", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -420,7 +420,7 @@ interactions:
   response:
     body:
       string: '{"id": "3aeb2b34-c378-4e7b-8d6a-2af0a4cfad03", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}'
     headers:
       Access-Control-Expose-Headers:
@@ -577,7 +577,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "3aeb2b34-c378-4e7b-8d6a-2af0a4cfad03", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -737,7 +737,7 @@ interactions:
   response:
     body:
       string: '{"id": "3aeb2b34-c378-4e7b-8d6a-2af0a4cfad03", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}'
     headers:
       Access-Control-Expose-Headers:
@@ -834,7 +834,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "3aeb2b34-c378-4e7b-8d6a-2af0a4cfad03", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
     headers:
       Access-Control-Expose-Headers:

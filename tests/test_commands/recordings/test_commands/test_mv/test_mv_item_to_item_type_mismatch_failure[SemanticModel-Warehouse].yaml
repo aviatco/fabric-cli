@@ -580,7 +580,7 @@ interactions:
   response:
     body:
       string: '{"id": "60948f58-817f-40d7-8e02-1686bf63d94d", "type": "Warehouse",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"}'
     headers:
       Access-Control-Expose-Headers:
@@ -681,7 +681,7 @@ interactions:
         {"id": "7dc44959-92ef-4da6-8a88-1cfa29ac18c8", "type": "SemanticModel", "displayName":
         "fabcli000001", "description": "", "workspaceId": "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"},
         {"id": "60948f58-817f-40d7-8e02-1686bf63d94d", "type": "Warehouse", "displayName":
-        "fabcli000002", "description": "Created by fab", "workspaceId": "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"}]}'
+        "fabcli000002", "workspaceId": "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -785,7 +785,7 @@ interactions:
         {"id": "7dc44959-92ef-4da6-8a88-1cfa29ac18c8", "type": "SemanticModel", "displayName":
         "fabcli000001", "description": "", "workspaceId": "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"},
         {"id": "60948f58-817f-40d7-8e02-1686bf63d94d", "type": "Warehouse", "displayName":
-        "fabcli000002", "description": "Created by fab", "workspaceId": "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"}]}'
+        "fabcli000002", "workspaceId": "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -889,7 +889,7 @@ interactions:
         {"id": "7dc44959-92ef-4da6-8a88-1cfa29ac18c8", "type": "SemanticModel", "displayName":
         "fabcli000001", "description": "", "workspaceId": "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"},
         {"id": "60948f58-817f-40d7-8e02-1686bf63d94d", "type": "Warehouse", "displayName":
-        "fabcli000002", "description": "Created by fab", "workspaceId": "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"}]}'
+        "fabcli000002", "workspaceId": "6459615b-533e-43b6-a8a2-be7d6fdbb7e9"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

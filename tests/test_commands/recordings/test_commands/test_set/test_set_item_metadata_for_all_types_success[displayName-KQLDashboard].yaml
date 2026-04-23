@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -320,7 +320,7 @@ interactions:
   response:
     body:
       string: '{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -374,7 +374,7 @@ interactions:
   response:
     body:
       string: '{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -477,7 +477,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -527,7 +527,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -628,7 +628,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -678,7 +678,7 @@ interactions:
   response:
     body:
       string: '{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -829,7 +829,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -879,7 +879,7 @@ interactions:
   response:
     body:
       string: '{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -933,7 +933,7 @@ interactions:
   response:
     body:
       string: '{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1036,7 +1036,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f88a95c4-f03b-4443-9e5c-99cb3096a569", "type": "KQLDashboard",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:

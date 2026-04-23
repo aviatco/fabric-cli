@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "26832560-a4ac-45aa-bad1-f2b510b85908", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}'
     headers:
       Access-Control-Expose-Headers:
@@ -370,7 +370,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "26832560-a4ac-45aa-bad1-f2b510b85908", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -519,7 +519,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "26832560-a4ac-45aa-bad1-f2b510b85908", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -668,7 +668,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "26832560-a4ac-45aa-bad1-f2b510b85908", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -817,7 +817,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "26832560-a4ac-45aa-bad1-f2b510b85908", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -966,7 +966,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "26832560-a4ac-45aa-bad1-f2b510b85908", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:

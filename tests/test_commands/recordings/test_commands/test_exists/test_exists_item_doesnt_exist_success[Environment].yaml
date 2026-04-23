@@ -193,7 +193,7 @@ interactions:
   response:
     body:
       string: '{"id": "6c70f699-a33c-4354-ae15-80b6ad57d9c5", "type": "Environment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "b7945519-3184-48e4-8d42-8b7ee977816d"}'
     headers:
       Access-Control-Expose-Headers:

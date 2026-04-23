@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "d114aa3f-c879-4d42-9153-936a6e5f48fd", "type": "MLExperiment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}'
     headers:
       Access-Control-Expose-Headers:
@@ -370,7 +370,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d114aa3f-c879-4d42-9153-936a6e5f48fd", "type": "MLExperiment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -519,7 +519,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d114aa3f-c879-4d42-9153-936a6e5f48fd", "type": "MLExperiment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -668,7 +668,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d114aa3f-c879-4d42-9153-936a6e5f48fd", "type": "MLExperiment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -857,7 +857,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d114aa3f-c879-4d42-9153-936a6e5f48fd", "type": "MLExperiment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1008,7 +1008,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d114aa3f-c879-4d42-9153-936a6e5f48fd", "type": "MLExperiment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:

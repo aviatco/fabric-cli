@@ -189,7 +189,7 @@ interactions:
   response:
     body:
       string: '{"id": "69012ff9-0a7d-4ca7-9003-cd069417dc8b", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -303,8 +303,7 @@ interactions:
         {"id": "49b99e73-f31e-473d-9fe4-085031b70124", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129083942", "description": "", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}, {"id": "69012ff9-0a7d-4ca7-9003-cd069417dc8b",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -353,7 +352,7 @@ interactions:
   response:
     body:
       string: '{"id": "69012ff9-0a7d-4ca7-9003-cd069417dc8b", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e", "properties": {"oneLakeRootPath":
         "https://onelake.dfs.fabric.microsoft.com/0cfd9c66-3bf0-4e43-8257-4b76aa86581e/69012ff9-0a7d-4ca7-9003-cd069417dc8b"}}'
     headers:
@@ -617,8 +616,7 @@ interactions:
         {"id": "49b99e73-f31e-473d-9fe4-085031b70124", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129083942", "description": "", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}, {"id": "69012ff9-0a7d-4ca7-9003-cd069417dc8b",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

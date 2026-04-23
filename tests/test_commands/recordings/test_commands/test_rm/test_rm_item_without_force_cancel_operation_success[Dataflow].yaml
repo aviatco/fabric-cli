@@ -83,7 +83,7 @@ interactions:
         {"id": "17630c77-b735-44fa-8856-622c62e0a6a7", "type": "SQLEndpoint", "displayName":
         "fabcli000001", "description": "", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "dbc2a011-4abd-41c5-a6aa-49cb20c34032", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "eb7b9d42-9795-4ba1-a826-19e0428ead6f", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129093902", "description": "", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "bb27247d-5842-4280-bc11-ece193543087",
@@ -107,16 +107,15 @@ interactions:
         by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "71e75847-dec3-4d9f-8f7d-28682de67b25",
         "type": "MLModel", "displayName": "fabcli000001", "description": "Created
         by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "ee621e14-0464-4a9a-8dc4-31dc9ae4352c",
-        "type": "MirroredDatabase", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "type": "MirroredDatabase", "displayName": "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "83f68cc5-a668-4447-ac04-f1467f4a6a2e", "type": "Notebook", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "b36ffe74-f3a3-4cdd-912a-2b6c6cc129bf", "type": "Reflex", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "b32d9b47-6753-4b6c-a19f-c6bb92364243", "type": "SQLDatabase", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "b609aebf-1855-421a-8c0d-f47c326d4340", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "54611223-76df-4734-8f7d-48ad10311a13",
         "type": "CopyJob", "displayName": "fabcli000001", "description": "Created
         by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "c3043c0b-05f4-4531-a900-a6ce04f25f81",
@@ -185,7 +184,7 @@ interactions:
         {"id": "17630c77-b735-44fa-8856-622c62e0a6a7", "type": "SQLEndpoint", "displayName":
         "fabcli000001", "description": "", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "dbc2a011-4abd-41c5-a6aa-49cb20c34032", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "eb7b9d42-9795-4ba1-a826-19e0428ead6f", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129093902", "description": "", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "bb27247d-5842-4280-bc11-ece193543087",
@@ -209,16 +208,15 @@ interactions:
         by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "71e75847-dec3-4d9f-8f7d-28682de67b25",
         "type": "MLModel", "displayName": "fabcli000001", "description": "Created
         by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "ee621e14-0464-4a9a-8dc4-31dc9ae4352c",
-        "type": "MirroredDatabase", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "type": "MirroredDatabase", "displayName": "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "83f68cc5-a668-4447-ac04-f1467f4a6a2e", "type": "Notebook", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "b36ffe74-f3a3-4cdd-912a-2b6c6cc129bf", "type": "Reflex", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "b32d9b47-6753-4b6c-a19f-c6bb92364243", "type": "SQLDatabase", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "b609aebf-1855-421a-8c0d-f47c326d4340", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "54611223-76df-4734-8f7d-48ad10311a13",
         "type": "CopyJob", "displayName": "fabcli000001", "description": "Created
         by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "c3043c0b-05f4-4531-a900-a6ce04f25f81",
@@ -275,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "f9bf6cdd-d5bb-4579-9dcd-c832af73b799", "type": "Dataflow",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
     headers:
       Access-Control-Expose-Headers:
@@ -393,7 +391,7 @@ interactions:
         {"id": "17630c77-b735-44fa-8856-622c62e0a6a7", "type": "SQLEndpoint", "displayName":
         "fabcli000001", "description": "", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "dbc2a011-4abd-41c5-a6aa-49cb20c34032", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "eb7b9d42-9795-4ba1-a826-19e0428ead6f", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129093902", "description": "", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "bb27247d-5842-4280-bc11-ece193543087",
@@ -417,16 +415,15 @@ interactions:
         by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "71e75847-dec3-4d9f-8f7d-28682de67b25",
         "type": "MLModel", "displayName": "fabcli000001", "description": "Created
         by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "ee621e14-0464-4a9a-8dc4-31dc9ae4352c",
-        "type": "MirroredDatabase", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "type": "MirroredDatabase", "displayName": "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "83f68cc5-a668-4447-ac04-f1467f4a6a2e", "type": "Notebook", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "b36ffe74-f3a3-4cdd-912a-2b6c6cc129bf", "type": "Reflex", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "b32d9b47-6753-4b6c-a19f-c6bb92364243", "type": "SQLDatabase", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "b609aebf-1855-421a-8c0d-f47c326d4340", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "54611223-76df-4734-8f7d-48ad10311a13",
         "type": "CopyJob", "displayName": "fabcli000001", "description": "Created
         by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "c3043c0b-05f4-4531-a900-a6ce04f25f81",

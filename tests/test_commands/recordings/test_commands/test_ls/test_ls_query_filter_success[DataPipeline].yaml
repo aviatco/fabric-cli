@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -320,7 +320,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -373,7 +373,7 @@ interactions:
   response:
     body:
       string: '{"id": "d889663f-5a32-4731-893b-bc6701266c87", "type": "DataPipeline",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}'
     headers:
       Access-Control-Expose-Headers:
@@ -476,7 +476,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
@@ -528,7 +528,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
@@ -583,7 +583,7 @@ interactions:
   response:
     body:
       string: '{"id": "68891253-ad0f-40bd-b7f6-6f362aa0ffa1", "type": "DataPipeline",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}'
     headers:
       Access-Control-Expose-Headers:
@@ -686,7 +686,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "68891253-ad0f-40bd-b7f6-6f362aa0ffa1",
@@ -839,7 +839,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "68891253-ad0f-40bd-b7f6-6f362aa0ffa1",
@@ -992,7 +992,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "68891253-ad0f-40bd-b7f6-6f362aa0ffa1",
@@ -1145,7 +1145,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "68891253-ad0f-40bd-b7f6-6f362aa0ffa1",
@@ -1298,7 +1298,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "68891253-ad0f-40bd-b7f6-6f362aa0ffa1",
@@ -1451,7 +1451,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "68891253-ad0f-40bd-b7f6-6f362aa0ffa1",
@@ -1604,7 +1604,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "68891253-ad0f-40bd-b7f6-6f362aa0ffa1",
@@ -1759,7 +1759,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "d889663f-5a32-4731-893b-bc6701266c87",
         "type": "DataPipeline", "displayName": "fabcli000002", "description": "Created
         by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
@@ -1912,7 +1912,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c590a977-cc28-46ed-87f1-994a747ca0b0", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:

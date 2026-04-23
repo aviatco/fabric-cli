@@ -89,7 +89,7 @@ interactions:
         {"id": "1c3a8948-9ddf-4b21-8b46-b5e463596875", "type": "DataPipeline", "displayName":
         "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "db07745b-3810-4e81-969c-efed85c39a88", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
+        "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "ef619912-c062-43a9-998b-bc2ff0848ce9", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "d01a9bc2-4a22-4682-939e-10c085a90b02", "type": "KQLDatabase", "displayName":
@@ -185,7 +185,7 @@ interactions:
         {"id": "1c3a8948-9ddf-4b21-8b46-b5e463596875", "type": "DataPipeline", "displayName":
         "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "db07745b-3810-4e81-969c-efed85c39a88", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
+        "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "ef619912-c062-43a9-998b-bc2ff0848ce9", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "d01a9bc2-4a22-4682-939e-10c085a90b02", "type": "KQLDatabase", "displayName":
@@ -369,7 +369,7 @@ interactions:
   response:
     body:
       string: '{"id": "149c8d58-7ad1-43f0-9fa6-2e6af60f0047", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}'
     headers:
       Access-Control-Expose-Headers:
@@ -487,7 +487,7 @@ interactions:
         {"id": "1c3a8948-9ddf-4b21-8b46-b5e463596875", "type": "DataPipeline", "displayName":
         "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "db07745b-3810-4e81-969c-efed85c39a88", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
+        "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "ef619912-c062-43a9-998b-bc2ff0848ce9", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "d01a9bc2-4a22-4682-939e-10c085a90b02", "type": "KQLDatabase", "displayName":
@@ -564,7 +564,7 @@ interactions:
   response:
     body:
       string: '{"id": "149c8d58-7ad1-43f0-9fa6-2e6af60f0047", "type": "Notebook",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}'
     headers:
       Access-Control-Expose-Headers:
@@ -841,7 +841,7 @@ interactions:
         {"id": "1c3a8948-9ddf-4b21-8b46-b5e463596875", "type": "DataPipeline", "displayName":
         "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "db07745b-3810-4e81-969c-efed85c39a88", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
+        "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "ef619912-c062-43a9-998b-bc2ff0848ce9", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "d01a9bc2-4a22-4682-939e-10c085a90b02", "type": "KQLDatabase", "displayName":
@@ -939,7 +939,7 @@ interactions:
         {"id": "1c3a8948-9ddf-4b21-8b46-b5e463596875", "type": "DataPipeline", "displayName":
         "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "db07745b-3810-4e81-969c-efed85c39a88", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
+        "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "ef619912-c062-43a9-998b-bc2ff0848ce9", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "d01a9bc2-4a22-4682-939e-10c085a90b02", "type": "KQLDatabase", "displayName":
@@ -1101,15 +1101,11 @@ interactions:
       code: 200
       message: OK
 - request:
-<<<<<<< HEAD
-    body: '{"type": "Notebook", "folderId": null, "displayName": "fabcli000001_new_16", "definition": {"format": "ipynb", "parts": [{"path": "notebook-content.ipynb", "payload": "ewogICAgIm5iZm9ybWF0IjogNCwKICAgICJuYmZvcm1hdF9taW5vciI6IDUsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgImxhbmd1YWdlX2luZm8iOiB7CiAgICAgICAgICAgICJuYW1lIjogInB5dGhvbiIKICAgICAgICB9LAogICAgICAgICJrZXJuZWxfaW5mbyI6IHsKICAgICAgICAgICAgIm5hbWUiOiAic3luYXBzZV9weXNwYXJrIiwKICAgICAgICAgICAgImp1cHl0ZXJfa2VybmVsX25hbWUiOiBudWxsCiAgICAgICAgfSwKICAgICAgICAiYTM2NUNvbXB1dGVPcHRpb25zIjogbnVsbCwKICAgICAgICAic2Vzc2lvbktlZXBBbGl2ZVRpbWVvdXQiOiAwLAogICAgICAgICJkZXBlbmRlbmNpZXMiOiB7CiAgICAgICAgICAgICJsYWtlaG91c2UiOiBudWxsCiAgICAgICAgfQogICAgfSwKICAgICJjZWxscyI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJjZWxsX3R5cGUiOiAiY29kZSIsCiAgICAgICAgICAgICJtZXRhZGF0YSI6IHsKICAgICAgICAgICAgICAgICJtaWNyb3NvZnQiOiB7CiAgICAgICAgICAgICAgICAgICAgImxhbmd1YWdlIjogInB5dGhvbiIsCiAgICAgICAgICAgICAgICAgICAgImxhbmd1YWdlX2dyb3VwIjogInN5bmFwc2VfcHlzcGFyayIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgInNvdXJjZSI6IFsKICAgICAgICAgICAgICAgICIjIFdlbGNvbWUgdG8geW91ciBuZXcgbm90ZWJvb2tcbiIsCiAgICAgICAgICAgICAgICAiIyBUeXBlIGhlcmUgaW4gdGhlIGNlbGwgZWRpdG9yIHRvIGFkZCBjb2RlIVxuIgogICAgICAgICAgICBdLAogICAgICAgICAgICAib3V0cHV0cyI6IFtdCiAgICAgICAgfQogICAgXQp9", "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiTm90ZWJvb2siLAogICAgICAgICJkaXNwbGF5TmFtZSI6ICJmYWJjbGkwMDAwMDEiLAogICAgICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICAgIH0sCiAgICAiY29uZmlnIjogewogICAgICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAgICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgICB9Cn0=", "payloadType": "InlineBase64"}]}}'
-=======
     body: '{"type": "Notebook", "description": "Imported from fab", "folderId": null,
       "displayName": "fabcli000001_new_17", "definition": {"parts": [{"path": "notebook-content.ipynb",
       "payload": "ewogICAgIm5iZm9ybWF0IjogNCwKICAgICJuYmZvcm1hdF9taW5vciI6IDUsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgImxhbmd1YWdlX2luZm8iOiB7CiAgICAgICAgICAgICJuYW1lIjogInB5dGhvbiIKICAgICAgICB9LAogICAgICAgICJrZXJuZWxfaW5mbyI6IHsKICAgICAgICAgICAgIm5hbWUiOiAic3luYXBzZV9weXNwYXJrIiwKICAgICAgICAgICAgImp1cHl0ZXJfa2VybmVsX25hbWUiOiBudWxsCiAgICAgICAgfSwKICAgICAgICAiYTM2NUNvbXB1dGVPcHRpb25zIjogbnVsbCwKICAgICAgICAic2Vzc2lvbktlZXBBbGl2ZVRpbWVvdXQiOiAwLAogICAgICAgICJkZXBlbmRlbmNpZXMiOiB7CiAgICAgICAgICAgICJsYWtlaG91c2UiOiBudWxsCiAgICAgICAgfQogICAgfSwKICAgICJjZWxscyI6IFsKICAgICAgICB7CiAgICAgICAgICAgICJjZWxsX3R5cGUiOiAiY29kZSIsCiAgICAgICAgICAgICJtZXRhZGF0YSI6IHsKICAgICAgICAgICAgICAgICJtaWNyb3NvZnQiOiB7CiAgICAgICAgICAgICAgICAgICAgImxhbmd1YWdlIjogInB5dGhvbiIsCiAgICAgICAgICAgICAgICAgICAgImxhbmd1YWdlX2dyb3VwIjogInN5bmFwc2VfcHlzcGFyayIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgInNvdXJjZSI6IFsKICAgICAgICAgICAgICAgICIjIFdlbGNvbWUgdG8geW91ciBuZXcgbm90ZWJvb2tcbiIsCiAgICAgICAgICAgICAgICAiIyBUeXBlIGhlcmUgaW4gdGhlIGNlbGwgZWRpdG9yIHRvIGFkZCBjb2RlIVxuIgogICAgICAgICAgICBdLAogICAgICAgICAgICAib3V0cHV0cyI6IFtdCiAgICAgICAgfQogICAgXQp9",
       "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICAgIiRzY2hlbWEiOiAiaHR0cHM6Ly9kZXZlbG9wZXIubWljcm9zb2Z0LmNvbS9qc29uLXNjaGVtYXMvZmFicmljL2dpdEludGVncmF0aW9uL3BsYXRmb3JtUHJvcGVydGllcy8yLjAuMC9zY2hlbWEuanNvbiIsCiAgICAibWV0YWRhdGEiOiB7CiAgICAgICAgInR5cGUiOiAiTm90ZWJvb2siLAogICAgICAgICJkaXNwbGF5TmFtZSI6ICJmYWJjbGkwMDAwMDEiLAogICAgICAgICJkZXNjcmlwdGlvbiI6ICJDcmVhdGVkIGJ5IGZhYiIKICAgIH0sCiAgICAiY29uZmlnIjogewogICAgICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAgICAgImxvZ2ljYWxJZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiCiAgICB9Cn0=",
       "payloadType": "InlineBase64"}], "format": "ipynb"}}'
->>>>>>> deb35549732fc9d35c6ee55b2abe519a8ff6b422
     headers:
       Accept:
       - '*/*'
@@ -1353,7 +1349,7 @@ interactions:
         {"id": "1c3a8948-9ddf-4b21-8b46-b5e463596875", "type": "DataPipeline", "displayName":
         "fabcli000001_new_4", "description": "Imported from fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "db07745b-3810-4e81-969c-efed85c39a88", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
+        "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "ef619912-c062-43a9-998b-bc2ff0848ce9", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"},
         {"id": "d01a9bc2-4a22-4682-939e-10c085a90b02", "type": "KQLDatabase", "displayName":

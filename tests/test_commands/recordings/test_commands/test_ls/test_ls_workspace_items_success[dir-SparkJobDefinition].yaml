@@ -189,7 +189,7 @@ interactions:
   response:
     body:
       string: '{"id": "bca737f4-f7ca-4cdf-8bbd-d1dd93089424", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}'
     headers:
       Access-Control-Expose-Headers:
@@ -303,8 +303,7 @@ interactions:
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "bca737f4-f7ca-4cdf-8bbd-d1dd93089424",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -463,8 +462,7 @@ interactions:
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "bca737f4-f7ca-4cdf-8bbd-d1dd93089424",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -623,8 +621,7 @@ interactions:
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "bca737f4-f7ca-4cdf-8bbd-d1dd93089424",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -783,8 +780,7 @@ interactions:
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "bca737f4-f7ca-4cdf-8bbd-d1dd93089424",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -943,8 +939,7 @@ interactions:
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}, {"id": "bca737f4-f7ca-4cdf-8bbd-d1dd93089424",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

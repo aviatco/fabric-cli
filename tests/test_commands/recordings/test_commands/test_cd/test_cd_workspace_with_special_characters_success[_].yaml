@@ -171,8 +171,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces
   response:
     body:
-      string: '{"id": "e4c68767-8a88-431c-8de8-39bc1664ec20", "displayName": "fabcli000001_",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
+      string: '{"id": "e4c68767-8a88-431c-8de8-39bc1664ec20", "displayName": "fabcli000001_", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,Location
@@ -226,8 +225,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "24e77cc9-b249-414d-a402-05915759c048",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "e4c68767-8a88-431c-8de8-39bc1664ec20", "displayName": "fabcli000001_",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "e4c68767-8a88-431c-8de8-39bc1664ec20", "displayName": "fabcli000001_", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -279,8 +277,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "24e77cc9-b249-414d-a402-05915759c048",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "e4c68767-8a88-431c-8de8-39bc1664ec20", "displayName": "fabcli000001_",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "e4c68767-8a88-431c-8de8-39bc1664ec20", "displayName": "fabcli000001_", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

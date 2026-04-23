@@ -72,7 +72,7 @@ interactions:
         {"id": "a307a7fa-f82e-47e6-8ef8-79cb61044b98", "type": "SQLEndpoint", "displayName":
         "fabcli000001_new_3", "description": "", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "1525a7f2-a3c8-46a0-8b2a-f5e9d5a515ed", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
@@ -140,7 +140,7 @@ interactions:
         {"id": "a307a7fa-f82e-47e6-8ef8-79cb61044b98", "type": "SQLEndpoint", "displayName":
         "fabcli000001_new_3", "description": "", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "1525a7f2-a3c8-46a0-8b2a-f5e9d5a515ed", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
@@ -207,7 +207,7 @@ interactions:
   response:
     body:
       string: '{"id": "f1bd76fe-0eb5-4489-a834-e1aac0b61d55", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}'
     headers:
       Access-Control-Expose-Headers:
@@ -314,7 +314,7 @@ interactions:
         {"id": "a307a7fa-f82e-47e6-8ef8-79cb61044b98", "type": "SQLEndpoint", "displayName":
         "fabcli000001_new_3", "description": "", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "1525a7f2-a3c8-46a0-8b2a-f5e9d5a515ed", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
@@ -330,8 +330,7 @@ interactions:
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
         "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "f1bd76fe-0eb5-4489-a834-e1aac0b61d55",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -380,7 +379,7 @@ interactions:
   response:
     body:
       string: '{"id": "f1bd76fe-0eb5-4489-a834-e1aac0b61d55", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}'
     headers:
       Access-Control-Expose-Headers:
@@ -540,7 +539,7 @@ interactions:
         {"id": "a307a7fa-f82e-47e6-8ef8-79cb61044b98", "type": "SQLEndpoint", "displayName":
         "fabcli000001_new_3", "description": "", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "1525a7f2-a3c8-46a0-8b2a-f5e9d5a515ed", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
@@ -556,8 +555,7 @@ interactions:
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
         "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "f1bd76fe-0eb5-4489-a834-e1aac0b61d55",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -610,7 +608,7 @@ interactions:
         {"id": "a307a7fa-f82e-47e6-8ef8-79cb61044b98", "type": "SQLEndpoint", "displayName":
         "fabcli000001_new_3", "description": "", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "1525a7f2-a3c8-46a0-8b2a-f5e9d5a515ed", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
@@ -626,8 +624,7 @@ interactions:
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
         "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "f1bd76fe-0eb5-4489-a834-e1aac0b61d55",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -786,7 +783,7 @@ interactions:
         {"id": "a307a7fa-f82e-47e6-8ef8-79cb61044b98", "type": "SQLEndpoint", "displayName":
         "fabcli000001_new_3", "description": "", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "1525a7f2-a3c8-46a0-8b2a-f5e9d5a515ed", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c5b79419-35d0-4915-b77b-c173d671f711", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "c1656af4-ef66-4477-9747-c6b51b88c5ed", "type": "Notebook", "displayName":
@@ -802,8 +799,7 @@ interactions:
         {"id": "7c966d1a-e0f3-452f-b2b8-d9cc46b1b273", "type": "SparkJobDefinition",
         "displayName": "fabcli000001_new_7", "description": "Imported from fab", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}, {"id": "f1bd76fe-0eb5-4489-a834-e1aac0b61d55",
-        "type": "SparkJobDefinition", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000001", "workspaceId": "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"},
         {"id": "4de31537-ac2b-4c2a-b6e8-65cddbc70e68", "type": "SparkJobDefinition",
         "displayName": "fabcli000001_new_8", "description": "Imported from fab", "workspaceId":
         "c5e32d92-0cb4-4d87-b02f-7ed7a244c0bb"}]}'

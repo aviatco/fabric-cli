@@ -331,7 +331,7 @@ interactions:
   response:
     body:
       string: '{"id": "71e75847-dec3-4d9f-8f7d-28682de67b25", "type": "MLModel", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

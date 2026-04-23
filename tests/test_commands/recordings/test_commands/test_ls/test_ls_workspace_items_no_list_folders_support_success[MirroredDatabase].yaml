@@ -367,7 +367,7 @@ interactions:
   response:
     body:
       string: '{"id": "44f079ee-c735-463f-bb88-6daf5fe710ea", "type": "MirroredDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"}'
     headers:
       Access-Control-Expose-Headers:
@@ -519,7 +519,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "44f079ee-c735-463f-bb88-6daf5fe710ea", "type": "MirroredDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -569,7 +569,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "44f079ee-c735-463f-bb88-6daf5fe710ea", "type": "MirroredDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -622,7 +622,7 @@ interactions:
   response:
     body:
       string: '{"id": "9d7cacab-00e6-4fa2-95de-c1221cbb80ed", "type": "MirroredDatabase",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "8e2def8a-ccb1-4055-b5d5-b86ea1935d28", "folderId": "a6c4c21a-1924-4ce6-832c-2217c6dcdb23"}'
     headers:
       Access-Control-Expose-Headers:
@@ -725,10 +725,9 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "44f079ee-c735-463f-bb88-6daf5fe710ea", "type": "MirroredDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"}, {"id": "9d7cacab-00e6-4fa2-95de-c1221cbb80ed",
-        "type": "MirroredDatabase", "displayName": "fabcli000003", "description":
-        "Created by fab", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28", "folderId":
+        "type": "MirroredDatabase", "displayName": "fabcli000003", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28", "folderId":
         "a6c4c21a-1924-4ce6-832c-2217c6dcdb23"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -978,10 +977,9 @@ interactions:
       string: '{"value": [{"id": "46da011d-bfaa-49db-84f7-ac4a5192f5ab", "type": "SQLEndpoint",
         "displayName": "fabcli000003", "description": "", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28",
         "folderId": "a6c4c21a-1924-4ce6-832c-2217c6dcdb23"}, {"id": "44f079ee-c735-463f-bb88-6daf5fe710ea",
-        "type": "MirroredDatabase", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"},
+        "type": "MirroredDatabase", "displayName": "fabcli000002", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"},
         {"id": "9d7cacab-00e6-4fa2-95de-c1221cbb80ed", "type": "MirroredDatabase",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "8e2def8a-ccb1-4055-b5d5-b86ea1935d28", "folderId": "a6c4c21a-1924-4ce6-832c-2217c6dcdb23"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1233,10 +1231,9 @@ interactions:
         {"id": "46da011d-bfaa-49db-84f7-ac4a5192f5ab", "type": "SQLEndpoint", "displayName":
         "fabcli000003", "description": "", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28",
         "folderId": "a6c4c21a-1924-4ce6-832c-2217c6dcdb23"}, {"id": "44f079ee-c735-463f-bb88-6daf5fe710ea",
-        "type": "MirroredDatabase", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"},
+        "type": "MirroredDatabase", "displayName": "fabcli000002", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"},
         {"id": "9d7cacab-00e6-4fa2-95de-c1221cbb80ed", "type": "MirroredDatabase",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "8e2def8a-ccb1-4055-b5d5-b86ea1935d28", "folderId": "a6c4c21a-1924-4ce6-832c-2217c6dcdb23"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1528,10 +1525,9 @@ interactions:
         {"id": "46da011d-bfaa-49db-84f7-ac4a5192f5ab", "type": "SQLEndpoint", "displayName":
         "fabcli000003", "description": "", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28",
         "folderId": "a6c4c21a-1924-4ce6-832c-2217c6dcdb23"}, {"id": "44f079ee-c735-463f-bb88-6daf5fe710ea",
-        "type": "MirroredDatabase", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"},
+        "type": "MirroredDatabase", "displayName": "fabcli000002", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"},
         {"id": "9d7cacab-00e6-4fa2-95de-c1221cbb80ed", "type": "MirroredDatabase",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "8e2def8a-ccb1-4055-b5d5-b86ea1935d28", "folderId": "a6c4c21a-1924-4ce6-832c-2217c6dcdb23"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1782,7 +1778,7 @@ interactions:
       string: '{"value": [{"id": "54faf742-fca0-4048-9ff0-9bc3e0b1a3f4", "type": "SQLEndpoint",
         "displayName": "fabcli000002", "description": "", "workspaceId": "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"},
         {"id": "44f079ee-c735-463f-bb88-6daf5fe710ea", "type": "MirroredDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "8e2def8a-ccb1-4055-b5d5-b86ea1935d28"}]}'
     headers:
       Access-Control-Expose-Headers:

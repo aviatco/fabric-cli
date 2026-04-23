@@ -171,8 +171,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces
   response:
     body:
-      string: '{"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
+      string: '{"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,Location
@@ -226,8 +225,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -279,8 +277,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -381,8 +378,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces
   response:
     body:
-      string: '{"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
+      string: '{"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,Location
@@ -436,10 +432,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -640,10 +634,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -820,14 +812,10 @@ interactions:
       code: 200
       message: OK
 - request:
-<<<<<<< HEAD
-    body: '{"displayName": "fabcli000004", "type": "Notebook", "folderId": "a5836ffc-1041-42e0-819e-8c954dbaecd7", "definition": {"parts": [{"path": "notebook-content.py", "payload": "IyBGYWJyaWMgbm90ZWJvb2sgc291cmNlCgojIE1FVEFEQVRBICoqKioqKioqKioqKioqKioqKioqCgojIE1FVEEgewojIE1FVEEgICAia2VybmVsX2luZm8iOiB7CiMgTUVUQSAgICAgIm5hbWUiOiAic3luYXBzZV9weXNwYXJrIgojIE1FVEEgICB9LAojIE1FVEEgICAiZGVwZW5kZW5jaWVzIjoge30KIyBNRVRBIH0KCiMgQ0VMTCAqKioqKioqKioqKioqKioqKioqKgoKIyBXZWxjb21lIHRvIHlvdXIgbmV3IG5vdGVib29rCiMgVHlwZSBoZXJlIGluIHRoZSBjZWxsIGVkaXRvciB0byBhZGQgY29kZSEKCgojIE1FVEFEQVRBICoqKioqKioqKioqKioqKioqKioqCgojIE1FVEEgewojIE1FVEEgICAibGFuZ3VhZ2UiOiAicHl0aG9uIiwKIyBNRVRBICAgImxhbmd1YWdlX2dyb3VwIjogInN5bmFwc2VfcHlzcGFyayIKIyBNRVRBIH0K", "payloadType": "InlineBase64"}]}}'
-=======
-    body: '{"description": "Created by fab", "displayName": "fabcli000004", "type":
+    body: '{"displayName": "fabcli000004", "type":
       "Notebook", "folderId": "535bb037-4688-443a-b3f9-9049d6e65cdd", "definition":
       {"parts": [{"path": "notebook-content.py", "payload": "IyBGYWJyaWMgbm90ZWJvb2sgc291cmNlCgojIE1FVEFEQVRBICoqKioqKioqKioqKioqKioqKioqCgojIE1FVEEgewojIE1FVEEgICAia2VybmVsX2luZm8iOiB7CiMgTUVUQSAgICAgIm5hbWUiOiAic3luYXBzZV9weXNwYXJrIgojIE1FVEEgICB9LAojIE1FVEEgICAiZGVwZW5kZW5jaWVzIjoge30KIyBNRVRBIH0KCiMgQ0VMTCAqKioqKioqKioqKioqKioqKioqKgoKIyBXZWxjb21lIHRvIHlvdXIgbmV3IG5vdGVib29rCiMgVHlwZSBoZXJlIGluIHRoZSBjZWxsIGVkaXRvciB0byBhZGQgY29kZSEKCgojIE1FVEFEQVRBICoqKioqKioqKioqKioqKioqKioqCgojIE1FVEEgewojIE1FVEEgICAibGFuZ3VhZ2UiOiAicHl0aG9uIiwKIyBNRVRBICAgImxhbmd1YWdlX2dyb3VwIjogInN5bmFwc2VfcHlzcGFyayIKIyBNRVRBIH0K",
       "payloadType": "InlineBase64"}]}}'
->>>>>>> deb35549732fc9d35c6ee55b2abe519a8ff6b422
     headers:
       Accept:
       - '*/*'
@@ -953,7 +941,7 @@ interactions:
   response:
     body:
       string: '{"id": "fc6c5c81-08f5-4655-85e7-9b302d7ad34a", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "1cb9157d-85d1-400b-81f4-149cbc93cf35", "folderId": "535bb037-4688-443a-b3f9-9049d6e65cdd"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1002,10 +990,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -1106,10 +1092,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -1307,7 +1291,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "fc6c5c81-08f5-4655-85e7-9b302d7ad34a", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "1cb9157d-85d1-400b-81f4-149cbc93cf35", "folderId": "535bb037-4688-443a-b3f9-9049d6e65cdd"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1455,7 +1439,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "fc6c5c81-08f5-4655-85e7-9b302d7ad34a", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "1cb9157d-85d1-400b-81f4-149cbc93cf35", "folderId": "535bb037-4688-443a-b3f9-9049d6e65cdd"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1606,10 +1590,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -1851,7 +1833,7 @@ interactions:
   response:
     body:
       string: '{"id": "fc6c5c81-08f5-4655-85e7-9b302d7ad34a", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "1cb9157d-85d1-400b-81f4-149cbc93cf35", "folderId": "535bb037-4688-443a-b3f9-9049d6e65cdd"}'
     headers:
       Access-Control-Expose-Headers:
@@ -2039,14 +2021,10 @@ interactions:
       code: 200
       message: OK
 - request:
-<<<<<<< HEAD
-    body: '{"type": "Notebook", "displayName": "fabcli000004", "definition": {"parts": [{"path": "notebook-content.py", "payload": "IyBGYWJyaWMgbm90ZWJvb2sgc291cmNlCgojIE1FVEFEQVRBICoqKioqKioqKioqKioqKioqKioqCgojIE1FVEEgewojIE1FVEEgICAia2VybmVsX2luZm8iOiB7CiMgTUVUQSAgICAgIm5hbWUiOiAic3luYXBzZV9weXNwYXJrIgojIE1FVEEgICB9LAojIE1FVEEgICAiZGVwZW5kZW5jaWVzIjoge30KIyBNRVRBIH0KCiMgQ0VMTCAqKioqKioqKioqKioqKioqKioqKgoKIyBXZWxjb21lIHRvIHlvdXIgbmV3IG5vdGVib29rCiMgVHlwZSBoZXJlIGluIHRoZSBjZWxsIGVkaXRvciB0byBhZGQgY29kZSEKCgojIE1FVEFEQVRBICoqKioqKioqKioqKioqKioqKioqCgojIE1FVEEgewojIE1FVEEgICAibGFuZ3VhZ2UiOiAicHl0aG9uIiwKIyBNRVRBICAgImxhbmd1YWdlX2dyb3VwIjogInN5bmFwc2VfcHlzcGFyayIKIyBNRVRBIH0K", "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICIkc2NoZW1hIjogImh0dHBzOi8vZGV2ZWxvcGVyLm1pY3Jvc29mdC5jb20vanNvbi1zY2hlbWFzL2ZhYnJpYy9naXRJbnRlZ3JhdGlvbi9wbGF0Zm9ybVByb3BlcnRpZXMvMi4wLjAvc2NoZW1hLmpzb24iLAogICJtZXRhZGF0YSI6IHsKICAgICJ0eXBlIjogIk5vdGVib29rIiwKICAgICJkaXNwbGF5TmFtZSI6ICJmYWJjbGkwMDAwMDQiLAogICAgImRlc2NyaXB0aW9uIjogIkNyZWF0ZWQgYnkgZmFiIgogIH0sCiAgImNvbmZpZyI6IHsKICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAibG9naWNhbElkIjogIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIKICB9Cn0=", "payloadType": "InlineBase64"}]}, "folderId": "549b3cf2-d5b4-4314-96d9-165c42105baf"}'
-=======
-    body: '{"type": "Notebook", "description": "Created by fab", "displayName": "fabcli000004",
+    body: '{"type": "Notebook", "displayName": "fabcli000004",
       "definition": {"parts": [{"path": "notebook-content.py", "payload": "IyBGYWJyaWMgbm90ZWJvb2sgc291cmNlCgojIE1FVEFEQVRBICoqKioqKioqKioqKioqKioqKioqCgojIE1FVEEgewojIE1FVEEgICAia2VybmVsX2luZm8iOiB7CiMgTUVUQSAgICAgIm5hbWUiOiAic3luYXBzZV9weXNwYXJrIgojIE1FVEEgICB9LAojIE1FVEEgICAiZGVwZW5kZW5jaWVzIjoge30KIyBNRVRBIH0KCiMgQ0VMTCAqKioqKioqKioqKioqKioqKioqKgoKIyBXZWxjb21lIHRvIHlvdXIgbmV3IG5vdGVib29rCiMgVHlwZSBoZXJlIGluIHRoZSBjZWxsIGVkaXRvciB0byBhZGQgY29kZSEKCgojIE1FVEFEQVRBICoqKioqKioqKioqKioqKioqKioqCgojIE1FVEEgewojIE1FVEEgICAibGFuZ3VhZ2UiOiAicHl0aG9uIiwKIyBNRVRBICAgImxhbmd1YWdlX2dyb3VwIjogInN5bmFwc2VfcHlzcGFyayIKIyBNRVRBIH0K",
       "payloadType": "InlineBase64"}, {"path": ".platform", "payload": "ewogICIkc2NoZW1hIjogImh0dHBzOi8vZGV2ZWxvcGVyLm1pY3Jvc29mdC5jb20vanNvbi1zY2hlbWFzL2ZhYnJpYy9naXRJbnRlZ3JhdGlvbi9wbGF0Zm9ybVByb3BlcnRpZXMvMi4wLjAvc2NoZW1hLmpzb24iLAogICJtZXRhZGF0YSI6IHsKICAgICJ0eXBlIjogIk5vdGVib29rIiwKICAgICJkaXNwbGF5TmFtZSI6ICJmYWJjbGkwMDAwMDQiLAogICAgImRlc2NyaXB0aW9uIjogIkNyZWF0ZWQgYnkgZmFiIgogIH0sCiAgImNvbmZpZyI6IHsKICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAibG9naWNhbElkIjogIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIKICB9Cn0=",
       "payloadType": "InlineBase64"}]}, "folderId": "8eacc126-73a1-4b8e-9628-303da1071109"}'
->>>>>>> deb35549732fc9d35c6ee55b2abe519a8ff6b422
     headers:
       Accept:
       - '*/*'
@@ -2172,7 +2150,7 @@ interactions:
   response:
     body:
       string: '{"id": "f5ef9671-6fbd-4bbb-96b6-67d2c8390ba4", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "9d022e35-1614-42f7-97b7-594991c991ca", "folderId": "8eacc126-73a1-4b8e-9628-303da1071109"}'
     headers:
       Access-Control-Expose-Headers:
@@ -2218,7 +2196,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "fc6c5c81-08f5-4655-85e7-9b302d7ad34a", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "1cb9157d-85d1-400b-81f4-149cbc93cf35", "folderId": "535bb037-4688-443a-b3f9-9049d6e65cdd"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -2369,10 +2347,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -2421,7 +2397,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f5ef9671-6fbd-4bbb-96b6-67d2c8390ba4", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "9d022e35-1614-42f7-97b7-594991c991ca", "folderId": "8eacc126-73a1-4b8e-9628-303da1071109"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -2572,10 +2548,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -2673,7 +2647,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f5ef9671-6fbd-4bbb-96b6-67d2c8390ba4", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "9d022e35-1614-42f7-97b7-594991c991ca", "folderId": "8eacc126-73a1-4b8e-9628-303da1071109"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -2824,10 +2798,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -2925,7 +2897,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "fc6c5c81-08f5-4655-85e7-9b302d7ad34a", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "1cb9157d-85d1-400b-81f4-149cbc93cf35", "folderId": "535bb037-4688-443a-b3f9-9049d6e65cdd"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -3077,10 +3049,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -3231,10 +3201,8 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "1cb9157d-85d1-400b-81f4-149cbc93cf35", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -3384,8 +3352,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e0c56f4e-e523-4a5a-84b3-0cc7285a0897",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "9d022e35-1614-42f7-97b7-594991c991ca", "displayName": "fabcli000002", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -3434,7 +3401,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f5ef9671-6fbd-4bbb-96b6-67d2c8390ba4", "type": "Notebook",
-        "displayName": "fabcli000004", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000004", "workspaceId":
         "9d022e35-1614-42f7-97b7-594991c991ca", "folderId": "8eacc126-73a1-4b8e-9628-303da1071109"}]}'
     headers:
       Access-Control-Expose-Headers:

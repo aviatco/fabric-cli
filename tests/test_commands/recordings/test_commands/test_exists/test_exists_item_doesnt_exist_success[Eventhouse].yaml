@@ -193,7 +193,7 @@ interactions:
   response:
     body:
       string: '{"id": "b492f9db-9183-4fde-8f22-ab34a4dba185", "type": "Eventhouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "b7945519-3184-48e4-8d42-8b7ee977816d"}'
     headers:
       Access-Control-Expose-Headers:

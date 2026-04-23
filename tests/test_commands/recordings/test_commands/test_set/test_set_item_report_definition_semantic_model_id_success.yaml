@@ -423,7 +423,7 @@ interactions:
   response:
     body:
       string: '{"id": "2402afe3-6ef3-4a96-b68e-14311c00f888", "type": "Report", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}'
+        "fabcli000001", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -519,7 +519,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "2402afe3-6ef3-4a96-b68e-14311c00f888", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "3e75a415-b907-4295-b163-a746b3af88d1",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}]}'
@@ -571,7 +571,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "2402afe3-6ef3-4a96-b68e-14311c00f888", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "3e75a415-b907-4295-b163-a746b3af88d1",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}]}'
@@ -826,7 +826,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "2402afe3-6ef3-4a96-b68e-14311c00f888", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "3e75a415-b907-4295-b163-a746b3af88d1",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "b10e546f-82bb-4abc-a8db-be0e0e79d1ba",
@@ -1030,7 +1030,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "2402afe3-6ef3-4a96-b68e-14311c00f888", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "3e75a415-b907-4295-b163-a746b3af88d1",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "b10e546f-82bb-4abc-a8db-be0e0e79d1ba",
@@ -1413,7 +1413,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "2402afe3-6ef3-4a96-b68e-14311c00f888", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "3e75a415-b907-4295-b163-a746b3af88d1",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "b10e546f-82bb-4abc-a8db-be0e0e79d1ba",
@@ -1467,7 +1467,7 @@ interactions:
   response:
     body:
       string: '{"id": "2402afe3-6ef3-4a96-b68e-14311c00f888", "type": "Report", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}'
+        "fabcli000001", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag
@@ -1780,7 +1780,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "2402afe3-6ef3-4a96-b68e-14311c00f888", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "3e75a415-b907-4295-b163-a746b3af88d1",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "81065bd8-e334-4715-b170-dedb4cd514e6"}, {"id": "b10e546f-82bb-4abc-a8db-be0e0e79d1ba",

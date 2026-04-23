@@ -513,7 +513,7 @@ interactions:
   response:
     body:
       string: '{"id": "58e85233-88c9-4225-bb45-f2f560f9ecd7", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"}'
     headers:
       Access-Control-Expose-Headers:
@@ -659,7 +659,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "58e85233-88c9-4225-bb45-f2f560f9ecd7", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -709,7 +709,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "58e85233-88c9-4225-bb45-f2f560f9ecd7", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -868,7 +868,7 @@ interactions:
   response:
     body:
       string: '{"id": "fa478a69-d118-4d59-8dab-d80ff5cdde87", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "53cba250-60ab-40e8-9a4a-8bc165ee4c9b", "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}'
     headers:
       Access-Control-Expose-Headers:
@@ -969,10 +969,9 @@ interactions:
         {"id": "45e5822e-7db7-4b58-9334-979afe608a1c", "type": "SQLEndpoint", "displayName":
         "fabcli000003", "description": "", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b",
         "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}, {"id": "58e85233-88c9-4225-bb45-f2f560f9ecd7",
-        "type": "CosmosDBDatabase", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"},
+        "type": "CosmosDBDatabase", "displayName": "fabcli000002", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"},
         {"id": "fa478a69-d118-4d59-8dab-d80ff5cdde87", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "53cba250-60ab-40e8-9a4a-8bc165ee4c9b", "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1273,10 +1272,9 @@ interactions:
         {"id": "45e5822e-7db7-4b58-9334-979afe608a1c", "type": "SQLEndpoint", "displayName":
         "fabcli000003", "description": "", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b",
         "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}, {"id": "58e85233-88c9-4225-bb45-f2f560f9ecd7",
-        "type": "CosmosDBDatabase", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"},
+        "type": "CosmosDBDatabase", "displayName": "fabcli000002", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"},
         {"id": "fa478a69-d118-4d59-8dab-d80ff5cdde87", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "53cba250-60ab-40e8-9a4a-8bc165ee4c9b", "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1528,10 +1526,9 @@ interactions:
         {"id": "45e5822e-7db7-4b58-9334-979afe608a1c", "type": "SQLEndpoint", "displayName":
         "fabcli000003", "description": "", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b",
         "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}, {"id": "58e85233-88c9-4225-bb45-f2f560f9ecd7",
-        "type": "CosmosDBDatabase", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"},
+        "type": "CosmosDBDatabase", "displayName": "fabcli000002", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"},
         {"id": "fa478a69-d118-4d59-8dab-d80ff5cdde87", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "53cba250-60ab-40e8-9a4a-8bc165ee4c9b", "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1783,10 +1780,9 @@ interactions:
         {"id": "45e5822e-7db7-4b58-9334-979afe608a1c", "type": "SQLEndpoint", "displayName":
         "fabcli000003", "description": "", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b",
         "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}, {"id": "58e85233-88c9-4225-bb45-f2f560f9ecd7",
-        "type": "CosmosDBDatabase", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"},
+        "type": "CosmosDBDatabase", "displayName": "fabcli000002", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"},
         {"id": "fa478a69-d118-4d59-8dab-d80ff5cdde87", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "53cba250-60ab-40e8-9a4a-8bc165ee4c9b", "folderId": "6e22986b-1dbb-44d6-baa3-8178798cdd1d"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -2037,7 +2033,7 @@ interactions:
       string: '{"value": [{"id": "c7cab09c-57a3-4cf3-bf86-03b15c988081", "type": "SQLEndpoint",
         "displayName": "fabcli000002", "description": "", "workspaceId": "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"},
         {"id": "58e85233-88c9-4225-bb45-f2f560f9ecd7", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "53cba250-60ab-40e8-9a4a-8bc165ee4c9b"}]}'
     headers:
       Access-Control-Expose-Headers:

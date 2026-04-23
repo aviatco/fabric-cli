@@ -75,11 +75,11 @@ interactions:
         "type": "Lakehouse", "displayName": "StagingLakehouseForDataflows_20260129093902",
         "description": "", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "bb27247d-5842-4280-bc11-ece193543087", "type": "DataPipeline", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "70355090-c46a-477d-b112-0c71bc845076", "type": "Environment", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "3937bde7-a583-44d3-a080-c450e6b73eff", "type": "Eventhouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "6c0968ea-d88f-44be-aecc-879af2eb47dd", "type": "KQLDatabase", "displayName":
         "fabcli000001", "description": "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}]}'
     headers:
@@ -137,11 +137,11 @@ interactions:
         "type": "Lakehouse", "displayName": "StagingLakehouseForDataflows_20260129093902",
         "description": "", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "bb27247d-5842-4280-bc11-ece193543087", "type": "DataPipeline", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "70355090-c46a-477d-b112-0c71bc845076", "type": "Environment", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "3937bde7-a583-44d3-a080-c450e6b73eff", "type": "Eventhouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "6c0968ea-d88f-44be-aecc-879af2eb47dd", "type": "KQLDatabase", "displayName":
         "fabcli000001", "description": "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}]}'
     headers:
@@ -301,7 +301,7 @@ interactions:
   response:
     body:
       string: '{"id": "70a5f712-b36b-4075-9496-4abdbc9e99c2", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
     headers:
       Access-Control-Expose-Headers:

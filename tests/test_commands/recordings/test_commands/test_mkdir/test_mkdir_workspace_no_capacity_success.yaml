@@ -120,8 +120,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces
   response:
     body:
-      string: '{"id": "5e69ee26-ad72-4b30-bff6-c8b82dacbc65", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace"}'
+      string: '{"id": "5e69ee26-ad72-4b30-bff6-c8b82dacbc65", "displayName": "fabcli000001", "type": "Workspace"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,Location
@@ -175,8 +174,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e90776ff-42ae-4f92-b45d-25c3d375832b",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "5e69ee26-ad72-4b30-bff6-c8b82dacbc65", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace"}]}'
+        {"id": "5e69ee26-ad72-4b30-bff6-c8b82dacbc65", "displayName": "fabcli000001", "type": "Workspace"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -224,8 +222,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces/5e69ee26-ad72-4b30-bff6-c8b82dacbc65
   response:
     body:
-      string: '{"id": "5e69ee26-ad72-4b30-bff6-c8b82dacbc65", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityAssignmentProgress":
+      string: '{"id": "5e69ee26-ad72-4b30-bff6-c8b82dacbc65", "displayName": "fabcli000001", "type": "Workspace", "capacityAssignmentProgress":
         "Completed"}'
     headers:
       Access-Control-Expose-Headers:
@@ -425,8 +422,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "e90776ff-42ae-4f92-b45d-25c3d375832b",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "5e69ee26-ad72-4b30-bff6-c8b82dacbc65", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace"}]}'
+        {"id": "5e69ee26-ad72-4b30-bff6-c8b82dacbc65", "displayName": "fabcli000001", "type": "Workspace"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

@@ -275,7 +275,7 @@ interactions:
   response:
     body:
       string: '{"id": "ab2adb62-c623-4a89-823a-d49c91a99425", "type": "SQLDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "b7945519-3184-48e4-8d42-8b7ee977816d"}'
     headers:
       Access-Control-Expose-Headers:
@@ -376,7 +376,7 @@ interactions:
         {"id": "60299826-dc9d-4d9c-9f5c-486a5c1db5e7", "type": "SQLEndpoint", "displayName":
         "fabcli000001", "description": "", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"},
         {"id": "ab2adb62-c623-4a89-823a-d49c91a99425", "type": "SQLDatabase", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"}]}'
+        "fabcli000001", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -480,7 +480,7 @@ interactions:
         {"id": "60299826-dc9d-4d9c-9f5c-486a5c1db5e7", "type": "SQLEndpoint", "displayName":
         "fabcli000001", "description": "", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"},
         {"id": "ab2adb62-c623-4a89-823a-d49c91a99425", "type": "SQLDatabase", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"}]}'
+        "fabcli000001", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

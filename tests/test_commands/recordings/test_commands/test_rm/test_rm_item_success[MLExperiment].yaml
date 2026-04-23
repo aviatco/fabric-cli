@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "bb2dd7c4-69c7-4466-8fc6-f7bce1c33637", "type": "MLExperiment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
     headers:
       Access-Control-Expose-Headers:
@@ -370,7 +370,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "bb2dd7c4-69c7-4466-8fc6-f7bce1c33637", "type": "MLExperiment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}]}'
     headers:
       Access-Control-Expose-Headers:

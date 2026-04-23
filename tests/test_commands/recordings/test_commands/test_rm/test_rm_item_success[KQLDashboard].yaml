@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "bc17b717-2523-4ad8-a7a8-3bec0da9ad44", "type": "KQLDashboard",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "bc17b717-2523-4ad8-a7a8-3bec0da9ad44", "type": "KQLDashboard",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}]}'
     headers:
       Access-Control-Expose-Headers:

@@ -367,7 +367,7 @@ interactions:
   response:
     body:
       string: '{"id": "495b32ac-51ce-461a-b4b3-937fda10cfda", "type": "CopyJob", "displayName":
-        "fabcli000002", "description": "Created by fab", "workspaceId": "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4"}'
+        "fabcli000002", "workspaceId": "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag
@@ -518,7 +518,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "495b32ac-51ce-461a-b4b3-937fda10cfda", "type": "CopyJob",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -568,7 +568,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "495b32ac-51ce-461a-b4b3-937fda10cfda", "type": "CopyJob",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -621,7 +621,7 @@ interactions:
   response:
     body:
       string: '{"id": "905cdb56-5589-4602-a4df-12a84cc5da7b", "type": "CopyJob", "displayName":
-        "fabcli000003", "description": "Created by fab", "workspaceId": "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4",
+        "fabcli000003", "workspaceId": "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4",
         "folderId": "d2207175-efac-48c3-9476-4bfd5cab4a28"}'
     headers:
       Access-Control-Expose-Headers:
@@ -724,7 +724,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "495b32ac-51ce-461a-b4b3-937fda10cfda", "type": "CopyJob",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4"}, {"id": "905cdb56-5589-4602-a4df-12a84cc5da7b",
         "type": "CopyJob", "displayName": "fabcli000003", "description": "Created
         by fab", "workspaceId": "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4", "folderId":
@@ -975,7 +975,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "495b32ac-51ce-461a-b4b3-937fda10cfda", "type": "CopyJob",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4"}, {"id": "905cdb56-5589-4602-a4df-12a84cc5da7b",
         "type": "CopyJob", "displayName": "fabcli000003", "description": "Created
         by fab", "workspaceId": "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4", "folderId":
@@ -1177,7 +1177,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "495b32ac-51ce-461a-b4b3-937fda10cfda", "type": "CopyJob",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4"}, {"id": "905cdb56-5589-4602-a4df-12a84cc5da7b",
         "type": "CopyJob", "displayName": "fabcli000003", "description": "Created
         by fab", "workspaceId": "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4", "folderId":
@@ -1379,7 +1379,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "495b32ac-51ce-461a-b4b3-937fda10cfda", "type": "CopyJob",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4"}, {"id": "905cdb56-5589-4602-a4df-12a84cc5da7b",
         "type": "CopyJob", "displayName": "fabcli000003", "description": "Created
         by fab", "workspaceId": "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4", "folderId":
@@ -1582,7 +1582,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "495b32ac-51ce-461a-b4b3-937fda10cfda", "type": "CopyJob",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "441bd2e5-f3c8-4030-a8f7-169f4fa7e9b4"}]}'
     headers:
       Access-Control-Expose-Headers:

@@ -295,7 +295,7 @@ interactions:
   response:
     body:
       string: '{"id": "fa333092-4e56-4a65-b6b2-f09c42313c26", "type": "SQLDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}'
     headers:
       Access-Control-Expose-Headers:

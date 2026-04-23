@@ -423,7 +423,7 @@ interactions:
   response:
     body:
       string: '{"id": "7723407d-905c-4fb9-b173-72d41e4349d0", "type": "Report", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -519,7 +519,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "7723407d-905c-4fb9-b173-72d41e4349d0", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}, {"id": "0be7fbeb-7129-459c-802c-9768da9fee82",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}]}'

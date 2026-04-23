@@ -171,8 +171,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces
   response:
     body:
-      string: '{"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
+      string: '{"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,Location
@@ -226,8 +225,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "66eca590-0e14-4904-ac4e-e23d9b930bf1",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -481,7 +479,7 @@ interactions:
   response:
     body:
       string: '{"id": "8e2452a6-21ab-4f8f-9732-89a36099237c", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "173374af-a7f5-4a0c-b81a-2848b08fca5e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -530,8 +528,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "66eca590-0e14-4904-ac4e-e23d9b930bf1",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -580,7 +577,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "8e2452a6-21ab-4f8f-9732-89a36099237c", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "173374af-a7f5-4a0c-b81a-2848b08fca5e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -633,8 +630,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "66eca590-0e14-4904-ac4e-e23d9b930bf1",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -683,7 +679,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "8e2452a6-21ab-4f8f-9732-89a36099237c", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "173374af-a7f5-4a0c-b81a-2848b08fca5e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -733,7 +729,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "8e2452a6-21ab-4f8f-9732-89a36099237c", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "173374af-a7f5-4a0c-b81a-2848b08fca5e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -783,7 +779,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "8e2452a6-21ab-4f8f-9732-89a36099237c", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "173374af-a7f5-4a0c-b81a-2848b08fca5e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -833,7 +829,7 @@ interactions:
   response:
     body:
       string: '{"id": "8e2452a6-21ab-4f8f-9732-89a36099237c", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "173374af-a7f5-4a0c-b81a-2848b08fca5e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1146,7 +1142,7 @@ interactions:
   response:
     body:
       string: '{"id": "639a5b24-97cd-47b3-a9ba-6f0aa027c972", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002 Renamed", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002 Renamed", "workspaceId":
         "173374af-a7f5-4a0c-b81a-2848b08fca5e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1245,8 +1241,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "66eca590-0e14-4904-ac4e-e23d9b930bf1",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -1297,7 +1292,7 @@ interactions:
       string: '{"value": [{"id": "24082446-2953-4229-af0f-0e37a80f9e57", "type": "SQLEndpoint",
         "displayName": "fabcli000002 Renamed", "description": "", "workspaceId": "173374af-a7f5-4a0c-b81a-2848b08fca5e"},
         {"id": "639a5b24-97cd-47b3-a9ba-6f0aa027c972", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002 Renamed", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002 Renamed", "workspaceId":
         "173374af-a7f5-4a0c-b81a-2848b08fca5e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1398,8 +1393,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "66eca590-0e14-4904-ac4e-e23d9b930bf1",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -1450,7 +1444,7 @@ interactions:
       string: '{"value": [{"id": "24082446-2953-4229-af0f-0e37a80f9e57", "type": "SQLEndpoint",
         "displayName": "fabcli000002 Renamed", "description": "", "workspaceId": "173374af-a7f5-4a0c-b81a-2848b08fca5e"},
         {"id": "639a5b24-97cd-47b3-a9ba-6f0aa027c972", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000002 Renamed", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002 Renamed", "workspaceId":
         "173374af-a7f5-4a0c-b81a-2848b08fca5e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1553,8 +1547,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "66eca590-0e14-4904-ac4e-e23d9b930bf1",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "173374af-a7f5-4a0c-b81a-2848b08fca5e", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

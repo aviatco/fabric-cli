@@ -169,7 +169,7 @@ interactions:
   response:
     body:
       string: '{"id": "7ca090f8-a2d0-40e4-a11e-d874b727dd41", "type": "Dataflow",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -274,7 +274,7 @@ interactions:
       string: '{"value": [{"id": "8ff3aa09-ab5f-4bd0-8dfe-7e76102342f2", "type": "SemanticModel",
         "displayName": "fabcli000001_auto", "description": "", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"},
         {"id": "7ca090f8-a2d0-40e4-a11e-d874b727dd41", "type": "Dataflow", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
+        "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -376,7 +376,7 @@ interactions:
       string: '{"value": [{"id": "8ff3aa09-ab5f-4bd0-8dfe-7e76102342f2", "type": "SemanticModel",
         "displayName": "fabcli000001_auto", "description": "", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"},
         {"id": "7ca090f8-a2d0-40e4-a11e-d874b727dd41", "type": "Dataflow", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
+        "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

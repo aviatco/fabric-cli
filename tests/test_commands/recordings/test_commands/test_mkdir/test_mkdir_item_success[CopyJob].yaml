@@ -189,7 +189,7 @@ interactions:
   response:
     body:
       string: '{"id": "728f3a82-2f30-4d31-a45c-4dee9f804754", "type": "CopyJob", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
+        "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag
@@ -352,7 +352,7 @@ interactions:
   response:
     body:
       string: '{"id": "728f3a82-2f30-4d31-a45c-4dee9f804754", "type": "CopyJob", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
+        "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag

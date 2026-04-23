@@ -67,8 +67,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces/916933dd-72f5-4d84-84d3-3552275d7fbc
   response:
     body:
-      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
+      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
         "capacityRegion": "West Europe", "oneLakeEndpoints": {"blobEndpoint": "https://westeurope-onelake.blob.fabric.microsoft.com",
         "dfsEndpoint": "https://westeurope-onelake.dfs.fabric.microsoft.com"}, "capacityAssignmentProgress":
         "Completed"}'
@@ -119,8 +118,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces/916933dd-72f5-4d84-84d3-3552275d7fbc
   response:
     body:
-      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
+      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
         "capacityRegion": "West Europe", "oneLakeEndpoints": {"blobEndpoint": "https://westeurope-onelake.blob.fabric.microsoft.com",
         "dfsEndpoint": "https://westeurope-onelake.dfs.fabric.microsoft.com"}, "capacityAssignmentProgress":
         "Completed"}'
@@ -529,8 +527,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces/916933dd-72f5-4d84-84d3-3552275d7fbc
   response:
     body:
-      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
+      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
         "capacityRegion": "West Europe", "oneLakeEndpoints": {"blobEndpoint": "https://westeurope-onelake.blob.fabric.microsoft.com",
         "dfsEndpoint": "https://westeurope-onelake.dfs.fabric.microsoft.com"}, "capacityAssignmentProgress":
         "Completed", "workspaceIdentity": {"applicationId": "e27ef571-fb8f-451e-a0a4-c141b638cb6d",
@@ -888,8 +885,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces/916933dd-72f5-4d84-84d3-3552275d7fbc
   response:
     body:
-      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
+      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
         "capacityRegion": "West Europe", "oneLakeEndpoints": {"blobEndpoint": "https://westeurope-onelake.blob.fabric.microsoft.com",
         "dfsEndpoint": "https://westeurope-onelake.dfs.fabric.microsoft.com"}, "capacityAssignmentProgress":
         "Completed"}'
@@ -940,8 +936,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces/916933dd-72f5-4d84-84d3-3552275d7fbc
   response:
     body:
-      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
+      string: '{"id": "916933dd-72f5-4d84-84d3-3552275d7fbc", "displayName": "fabriccli_WorkspacePerTestclass_000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
         "capacityRegion": "West Europe", "oneLakeEndpoints": {"blobEndpoint": "https://westeurope-onelake.blob.fabric.microsoft.com",
         "dfsEndpoint": "https://westeurope-onelake.dfs.fabric.microsoft.com"}, "capacityAssignmentProgress":
         "Completed"}'

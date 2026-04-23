@@ -185,7 +185,7 @@ interactions:
   response:
     body:
       string: '{"id": "f8672ff7-a9eb-4e66-a6e5-e4004d76b6e5", "type": "Eventhouse",
-        "displayName": "fabcli000001_auto", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001_auto", "workspaceId":
         "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}'
     headers:
       Access-Control-Expose-Headers:
@@ -346,7 +346,7 @@ interactions:
   response:
     body:
       string: '{"id": "e2756091-54e7-4c53-b79e-cd4d2a5bcc53", "type": "KQLDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}'
     headers:
       Access-Control-Expose-Headers:
@@ -457,7 +457,7 @@ interactions:
         "type": "KQLDatabase", "displayName": "fabcli000001_auto", "description":
         "fabcli000001_auto", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
         {"id": "e2756091-54e7-4c53-b79e-cd4d2a5bcc53", "type": "KQLDatabase", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'
+        "fabcli000001", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -506,7 +506,7 @@ interactions:
   response:
     body:
       string: '{"id": "e2756091-54e7-4c53-b79e-cd4d2a5bcc53", "type": "KQLDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "6838e56c-3ebe-4ce3-8b69-4322bc7c5392", "properties": {"parentEventhouseItemId":
         "f8672ff7-a9eb-4e66-a6e5-e4004d76b6e5", "queryServiceUri": "https://trd-gz12fz5ehzw51vjenx.z9.kusto.fabric.microsoft.com",
         "ingestionServiceUri": "https://ingest-trd-gz12fz5ehzw51vjenx.z9.kusto.fabric.microsoft.com",
@@ -829,7 +829,7 @@ interactions:
         "type": "KQLDatabase", "displayName": "fabcli000001_auto", "description":
         "fabcli000001_auto", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
         {"id": "e2756091-54e7-4c53-b79e-cd4d2a5bcc53", "type": "KQLDatabase", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'
+        "fabcli000001", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

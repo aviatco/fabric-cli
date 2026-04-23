@@ -303,7 +303,7 @@ interactions:
   response:
     body:
       string: '{"id": "6ece6f8f-aad2-449f-8f19-a3cbd20d97ff", "type": "SQLDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "b7945519-3184-48e4-8d42-8b7ee977816d"}'
     headers:
       Access-Control-Expose-Headers:

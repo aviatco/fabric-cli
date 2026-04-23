@@ -291,7 +291,7 @@ interactions:
   response:
     body:
       string: '{"id": "185c57ad-c448-4d88-ae44-ec808635e001", "type": "Warehouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}'
     headers:
       Access-Control-Expose-Headers:
@@ -395,7 +395,7 @@ interactions:
         "type": "Warehouse", "displayName": "StagingWarehouseForDataflows_20260128135101",
         "description": "", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
         {"id": "185c57ad-c448-4d88-ae44-ec808635e001", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
+        "fabcli000001", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
         {"id": "d2274a21-9781-499c-aadc-5c2080d36cb3", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260128135038", "description": "", "workspaceId":
         "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'
@@ -449,7 +449,7 @@ interactions:
   response:
     body:
       string: '{"id": "185c57ad-c448-4d88-ae44-ec808635e001", "type": "Warehouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "6838e56c-3ebe-4ce3-8b69-4322bc7c5392", "properties": {"connectionInfo": "vwbb4lsqmqqejdvenqo7wshysy-ntstq2f6h3ruzc3jimrly7ctsi.datawarehouse.fabric.microsoft.com",
         "connectionString": "mock_connection_string", "createdDate": "2026-01-28T13:53:52.8411135",
         "lastUpdatedTime": "2026-01-28T13:53:57.7795168", "collationType": "Latin1_General_100_BIN2_UTF8",
@@ -612,7 +612,7 @@ interactions:
         "type": "Warehouse", "displayName": "StagingWarehouseForDataflows_20260128135101",
         "description": "", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
         {"id": "185c57ad-c448-4d88-ae44-ec808635e001", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
+        "fabcli000001", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
         {"id": "d2274a21-9781-499c-aadc-5c2080d36cb3", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260128135038", "description": "", "workspaceId":
         "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'

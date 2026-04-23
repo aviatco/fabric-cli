@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "d3123e96-de7b-4acc-a202-0e0f196a1ec1", "type": "Warehouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e80ae731-02fe-4edd-9f6a-e1815d35357f"}'
     headers:
       Access-Control-Expose-Headers:
@@ -370,7 +370,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d3123e96-de7b-4acc-a202-0e0f196a1ec1", "type": "Warehouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e80ae731-02fe-4edd-9f6a-e1815d35357f"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -521,7 +521,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d3123e96-de7b-4acc-a202-0e0f196a1ec1", "type": "Warehouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e80ae731-02fe-4edd-9f6a-e1815d35357f"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -672,7 +672,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d3123e96-de7b-4acc-a202-0e0f196a1ec1", "type": "Warehouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "e80ae731-02fe-4edd-9f6a-e1815d35357f"}]}'
     headers:
       Access-Control-Expose-Headers:

@@ -72,11 +72,11 @@ interactions:
         {"id": "a1266542-c1e2-4ba3-887c-550c530ad38a", "type": "SemanticModel", "displayName":
         "fabcli000001_auto", "description": "", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "82a052a8-1f8f-4242-9fb4-1b2b85c7a11e", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
+        "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "f8fc2d91-77e7-47f5-9562-4b53f61ae155", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "a61b0bae-edfa-43df-b591-f811582c3795", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
+        "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "0da8e632-1608-4352-bc3a-32781190fa42", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"}]}'
     headers:
@@ -131,11 +131,11 @@ interactions:
         {"id": "a1266542-c1e2-4ba3-887c-550c530ad38a", "type": "SemanticModel", "displayName":
         "fabcli000001_auto", "description": "", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "82a052a8-1f8f-4242-9fb4-1b2b85c7a11e", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
+        "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "f8fc2d91-77e7-47f5-9562-4b53f61ae155", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "a61b0bae-edfa-43df-b591-f811582c3795", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
+        "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "0da8e632-1608-4352-bc3a-32781190fa42", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"}]}'
     headers:
@@ -295,7 +295,7 @@ interactions:
   response:
     body:
       string: '{"id": "737d3aa8-b8f0-4052-a2bc-b270f7f4cf4d", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "cf67653a-969e-41c3-836d-a8c16eb9404d"}'
     headers:
       Access-Control-Expose-Headers:
@@ -398,15 +398,15 @@ interactions:
         {"id": "008f48bd-f7c7-4cc4-8ff9-bd2b5bdc3a9a", "type": "SQLEndpoint", "displayName":
         "fabcli000001", "description": "", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "82a052a8-1f8f-4242-9fb4-1b2b85c7a11e", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
+        "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "f8fc2d91-77e7-47f5-9562-4b53f61ae155", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "a61b0bae-edfa-43df-b591-f811582c3795", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
+        "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "0da8e632-1608-4352-bc3a-32781190fa42", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "737d3aa8-b8f0-4052-a2bc-b270f7f4cf4d", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "cf67653a-969e-41c3-836d-a8c16eb9404d"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -456,7 +456,7 @@ interactions:
   response:
     body:
       string: '{"id": "737d3aa8-b8f0-4052-a2bc-b270f7f4cf4d", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "cf67653a-969e-41c3-836d-a8c16eb9404d"}'
     headers:
       Access-Control-Expose-Headers:
@@ -717,15 +717,15 @@ interactions:
         {"id": "008f48bd-f7c7-4cc4-8ff9-bd2b5bdc3a9a", "type": "SQLEndpoint", "displayName":
         "fabcli000001", "description": "", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "82a052a8-1f8f-4242-9fb4-1b2b85c7a11e", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
+        "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "f8fc2d91-77e7-47f5-9562-4b53f61ae155", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "a61b0bae-edfa-43df-b591-f811582c3795", "type": "Eventhouse", "displayName":
-        "fabcli000001_auto", "description": "Created by fab", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
+        "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "0da8e632-1608-4352-bc3a-32781190fa42", "type": "KQLDatabase", "displayName":
         "fabcli000001_auto", "description": "fabcli000001_auto", "workspaceId": "cf67653a-969e-41c3-836d-a8c16eb9404d"},
         {"id": "737d3aa8-b8f0-4052-a2bc-b270f7f4cf4d", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "cf67653a-969e-41c3-836d-a8c16eb9404d"}]}'
     headers:
       Access-Control-Expose-Headers:

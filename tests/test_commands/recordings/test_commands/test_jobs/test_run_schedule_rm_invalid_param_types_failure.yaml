@@ -17,7 +17,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "8e6c3dfa-f0b2-4911-8440-3a950c268386", "displayName":
-        "fabriccli_WorkspacePerTestclass_000001", "description": "Created by fab",
+        "fabriccli_WorkspacePerTestclass_000001",
         "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -318,7 +318,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "8e6c3dfa-f0b2-4911-8440-3a950c268386", "displayName":
-        "fabriccli_WorkspacePerTestclass_000001", "description": "Created by fab",
+        "fabriccli_WorkspacePerTestclass_000001",
         "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -469,7 +469,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "8e6c3dfa-f0b2-4911-8440-3a950c268386", "displayName":
-        "fabriccli_WorkspacePerTestclass_000001", "description": "Created by fab",
+        "fabriccli_WorkspacePerTestclass_000001",
         "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:

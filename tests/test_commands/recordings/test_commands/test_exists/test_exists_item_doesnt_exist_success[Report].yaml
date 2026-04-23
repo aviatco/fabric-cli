@@ -449,7 +449,7 @@ interactions:
   response:
     body:
       string: '{"id": "62b2fa54-b385-4837-bf42-1ff676ac4692", "type": "Report", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"}'
+        "fabcli000001", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -545,7 +545,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "62b2fa54-b385-4837-bf42-1ff676ac4692", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "b7945519-3184-48e4-8d42-8b7ee977816d"}, {"id": "b4b48b13-c163-44f9-ba57-4c1e3c733590",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"}, {"id": "f73fdca7-56cb-4ab6-9476-af2a77803e78",
@@ -610,7 +610,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "62b2fa54-b385-4837-bf42-1ff676ac4692", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "b7945519-3184-48e4-8d42-8b7ee977816d"}, {"id": "b4b48b13-c163-44f9-ba57-4c1e3c733590",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"}, {"id": "f73fdca7-56cb-4ab6-9476-af2a77803e78",
@@ -726,7 +726,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "62b2fa54-b385-4837-bf42-1ff676ac4692", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "b7945519-3184-48e4-8d42-8b7ee977816d"}, {"id": "b4b48b13-c163-44f9-ba57-4c1e3c733590",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "b7945519-3184-48e4-8d42-8b7ee977816d"}, {"id": "f73fdca7-56cb-4ab6-9476-af2a77803e78",

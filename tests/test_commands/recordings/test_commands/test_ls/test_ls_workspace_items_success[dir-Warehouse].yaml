@@ -295,7 +295,7 @@ interactions:
   response:
     body:
       string: '{"id": "d565888b-b7a0-4322-a736-4aebb5804ea8", "type": "Warehouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}'
     headers:
       Access-Control-Expose-Headers:
@@ -401,7 +401,7 @@ interactions:
         "type": "Warehouse", "displayName": "StagingWarehouseForDataflows_20260129064311",
         "description": "", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "d565888b-b7a0-4322-a736-4aebb5804ea8", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
+        "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
@@ -561,7 +561,7 @@ interactions:
         "type": "Warehouse", "displayName": "StagingWarehouseForDataflows_20260129064311",
         "description": "", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "d565888b-b7a0-4322-a736-4aebb5804ea8", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
+        "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
@@ -721,7 +721,7 @@ interactions:
         "type": "Warehouse", "displayName": "StagingWarehouseForDataflows_20260129064311",
         "description": "", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "d565888b-b7a0-4322-a736-4aebb5804ea8", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
+        "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
@@ -921,7 +921,7 @@ interactions:
         "type": "Warehouse", "displayName": "StagingWarehouseForDataflows_20260129064311",
         "description": "", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "d565888b-b7a0-4322-a736-4aebb5804ea8", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
+        "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
@@ -1081,7 +1081,7 @@ interactions:
         "type": "Warehouse", "displayName": "StagingWarehouseForDataflows_20260129064311",
         "description": "", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "d565888b-b7a0-4322-a736-4aebb5804ea8", "type": "Warehouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
+        "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"},
         {"id": "e8521ae4-1482-4b12-b037-6d82d2c8a277", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129064248", "description": "", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'

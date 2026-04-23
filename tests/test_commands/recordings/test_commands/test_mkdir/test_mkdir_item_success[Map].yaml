@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "aa89ed3e-060c-4d14-af54-702365a6cf2f", "type": "Map", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "c882c8dd-02e8-4990-9af2-b7831c36a5ee"}'
+        "fabcli000001", "workspaceId": "c882c8dd-02e8-4990-9af2-b7831c36a5ee"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag
@@ -269,7 +269,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "aa89ed3e-060c-4d14-af54-702365a6cf2f", "type": "Map",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "c882c8dd-02e8-4990-9af2-b7831c36a5ee"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -319,7 +319,7 @@ interactions:
   response:
     body:
       string: '{"id": "aa89ed3e-060c-4d14-af54-702365a6cf2f", "type": "Map", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "c882c8dd-02e8-4990-9af2-b7831c36a5ee"}'
+        "fabcli000001", "workspaceId": "c882c8dd-02e8-4990-9af2-b7831c36a5ee"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag
@@ -621,7 +621,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "aa89ed3e-060c-4d14-af54-702365a6cf2f", "type": "Map",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "c882c8dd-02e8-4990-9af2-b7831c36a5ee"}]}'
     headers:
       Access-Control-Expose-Headers:

@@ -17,7 +17,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d2edd9d5-cbf4-4480-b663-057e78cc51e6", "displayName":
-        "fabriccli_WorkspacePerTestclass_000001", "description": "Created by fab",
+        "fabriccli_WorkspacePerTestclass_000001",
         "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -318,7 +318,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d2edd9d5-cbf4-4480-b663-057e78cc51e6", "displayName":
-        "fabriccli_WorkspacePerTestclass_000001", "description": "Created by fab",
+        "fabriccli_WorkspacePerTestclass_000001",
         "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -476,7 +476,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d2edd9d5-cbf4-4480-b663-057e78cc51e6", "displayName":
-        "fabriccli_WorkspacePerTestclass_000001", "description": "Created by fab",
+        "fabriccli_WorkspacePerTestclass_000001",
         "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -628,7 +628,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d2edd9d5-cbf4-4480-b663-057e78cc51e6", "displayName":
-        "fabriccli_WorkspacePerTestclass_000001", "description": "Created by fab",
+        "fabriccli_WorkspacePerTestclass_000001",
         "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -728,7 +728,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d2edd9d5-cbf4-4480-b663-057e78cc51e6", "displayName":
-        "fabriccli_WorkspacePerTestclass_000001", "description": "Created by fab",
+        "fabriccli_WorkspacePerTestclass_000001",
         "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -880,7 +880,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "d2edd9d5-cbf4-4480-b663-057e78cc51e6", "displayName":
-        "fabriccli_WorkspacePerTestclass_000001", "description": "Created by fab",
+        "fabriccli_WorkspacePerTestclass_000001",
         "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:

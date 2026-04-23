@@ -189,7 +189,7 @@ interactions:
   response:
     body:
       string: '{"id": "ecd679a0-341a-4887-9b9a-16df902ec6fa", "type": "GraphQLApi",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -353,7 +353,7 @@ interactions:
   response:
     body:
       string: '{"id": "ecd679a0-341a-4887-9b9a-16df902ec6fa", "type": "GraphQLApi",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:

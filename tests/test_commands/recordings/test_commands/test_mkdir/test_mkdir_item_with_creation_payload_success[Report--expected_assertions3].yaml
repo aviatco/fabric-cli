@@ -459,7 +459,7 @@ interactions:
   response:
     body:
       string: '{"id": "f3ea318f-2bd0-47df-a7ee-0e8d1eb5dabc", "type": "Report", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
+        "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -555,7 +555,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f3ea318f-2bd0-47df-a7ee-0e8d1eb5dabc", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}, {"id": "8ff3aa09-ab5f-4bd0-8dfe-7e76102342f2",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}, {"id": "e452ddb1-e702-4539-a178-c2f645e9bfd8",
@@ -626,7 +626,7 @@ interactions:
   response:
     body:
       string: '{"id": "f3ea318f-2bd0-47df-a7ee-0e8d1eb5dabc", "type": "Report", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
+        "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag
@@ -939,7 +939,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "f3ea318f-2bd0-47df-a7ee-0e8d1eb5dabc", "type": "Report",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}, {"id": "8ff3aa09-ab5f-4bd0-8dfe-7e76102342f2",
         "type": "SemanticModel", "displayName": "fabcli000001_auto", "description":
         "", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}, {"id": "e452ddb1-e702-4539-a178-c2f645e9bfd8",

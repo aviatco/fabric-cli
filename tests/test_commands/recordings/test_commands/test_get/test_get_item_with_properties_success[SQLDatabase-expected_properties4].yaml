@@ -299,7 +299,7 @@ interactions:
   response:
     body:
       string: '{"id": "53208e45-18ff-45ae-bb11-7d3b07768b8e", "type": "SQLDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}'
     headers:
       Access-Control-Expose-Headers:
@@ -412,7 +412,7 @@ interactions:
         "type": "KQLDatabase", "displayName": "fabcli000001_auto", "description":
         "fabcli000001_auto", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
         {"id": "53208e45-18ff-45ae-bb11-7d3b07768b8e", "type": "SQLDatabase", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'
+        "fabcli000001", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -461,7 +461,7 @@ interactions:
   response:
     body:
       string: '{"id": "53208e45-18ff-45ae-bb11-7d3b07768b8e", "type": "SQLDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "6838e56c-3ebe-4ce3-8b69-4322bc7c5392", "properties": {"connectionInfo": "Data
         Source=vwbb4lsqmqqejdvenqo7wshysy-ntstq2f6h3ruzc3jimrly7ctsi.database.fabric.microsoft.com,1433;Initial
         Catalog=fabcli000001-53208e45-18ff-45ae-bb11-7d3b07768b8e;Multiple Active
@@ -839,7 +839,7 @@ interactions:
         "type": "KQLDatabase", "displayName": "fabcli000001_auto", "description":
         "fabcli000001_auto", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"},
         {"id": "53208e45-18ff-45ae-bb11-7d3b07768b8e", "type": "SQLDatabase", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'
+        "fabcli000001", "workspaceId": "6838e56c-3ebe-4ce3-8b69-4322bc7c5392"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

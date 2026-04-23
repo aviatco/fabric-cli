@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "c66262a7-3611-43b4-a6ee-751f38f1fb74", "type": "Map", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "86d7595d-4dd5-4a5a-80bd-988b108bd8e0"}'
+        "fabcli000001", "workspaceId": "86d7595d-4dd5-4a5a-80bd-988b108bd8e0"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag
@@ -269,7 +269,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c66262a7-3611-43b4-a6ee-751f38f1fb74", "type": "Map",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "86d7595d-4dd5-4a5a-80bd-988b108bd8e0"}]}'
     headers:
       Access-Control-Expose-Headers:

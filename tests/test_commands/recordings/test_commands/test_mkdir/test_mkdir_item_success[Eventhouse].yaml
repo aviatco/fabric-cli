@@ -179,7 +179,7 @@ interactions:
   response:
     body:
       string: '{"id": "151cc6c2-ba83-47db-a8c8-91e97aaff2a1", "type": "Eventhouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -289,7 +289,7 @@ interactions:
         "type": "Lakehouse", "displayName": "StagingLakehouseForDataflows_20260129083942",
         "description": "", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"},
         {"id": "151cc6c2-ba83-47db-a8c8-91e97aaff2a1", "type": "Eventhouse", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"},
+        "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"},
         {"id": "e513f1d5-4c11-40f2-9280-0e7922086137", "type": "KQLDatabase", "displayName":
         "fabcli000001", "description": "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
@@ -340,7 +340,7 @@ interactions:
   response:
     body:
       string: '{"id": "151cc6c2-ba83-47db-a8c8-91e97aaff2a1", "type": "Eventhouse",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e", "properties": {"queryServiceUri":
         "https://trd-fta7cz42c0b7n9sw0d.z5.kusto.fabric.microsoft.com", "ingestionServiceUri":
         "https://ingest-trd-fta7cz42c0b7n9sw0d.z5.kusto.fabric.microsoft.com", "databasesItemIds":

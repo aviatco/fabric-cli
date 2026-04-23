@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -320,7 +320,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -373,7 +373,7 @@ interactions:
   response:
     body:
       string: '{"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d", "type": "SparkJobDefinition",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}'
     headers:
       Access-Control-Expose-Headers:
@@ -476,10 +476,9 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -528,10 +527,9 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -583,7 +581,7 @@ interactions:
   response:
     body:
       string: '{"id": "a08797c3-882f-4f30-b9c4-2d0309dcb060", "type": "SparkJobDefinition",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}'
     headers:
       Access-Control-Expose-Headers:
@@ -686,12 +684,11 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
         {"id": "a08797c3-882f-4f30-b9c4-2d0309dcb060", "type": "SparkJobDefinition",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -840,12 +837,11 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
         {"id": "a08797c3-882f-4f30-b9c4-2d0309dcb060", "type": "SparkJobDefinition",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -994,12 +990,11 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
         {"id": "a08797c3-882f-4f30-b9c4-2d0309dcb060", "type": "SparkJobDefinition",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1148,12 +1143,11 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
         {"id": "a08797c3-882f-4f30-b9c4-2d0309dcb060", "type": "SparkJobDefinition",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1302,12 +1296,11 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
         {"id": "a08797c3-882f-4f30-b9c4-2d0309dcb060", "type": "SparkJobDefinition",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1456,12 +1449,11 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
         {"id": "a08797c3-882f-4f30-b9c4-2d0309dcb060", "type": "SparkJobDefinition",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1610,12 +1602,11 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"},
         {"id": "a08797c3-882f-4f30-b9c4-2d0309dcb060", "type": "SparkJobDefinition",
-        "displayName": "fabcli000003", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000003", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1766,10 +1757,9 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}, {"id": "c8429079-3177-4707-b0b5-a2d33d5ebf3d",
-        "type": "SparkJobDefinition", "displayName": "fabcli000002", "description":
-        "Created by fab", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
+        "type": "SparkJobDefinition", "displayName": "fabcli000002", "workspaceId": "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -1919,7 +1909,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "6d01e4bd-de43-4aca-b139-f1d083258a9a", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "dfb711f8-b0fa-449c-955b-93bca9a496ce"}]}'
     headers:
       Access-Control-Expose-Headers:

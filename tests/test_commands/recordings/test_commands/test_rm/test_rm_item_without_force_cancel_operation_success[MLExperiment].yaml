@@ -323,7 +323,7 @@ interactions:
   response:
     body:
       string: '{"id": "8a6bc503-5d1c-4a70-ad5c-4b517816303f", "type": "MLExperiment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
     headers:
       Access-Control-Expose-Headers:

@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -320,7 +320,7 @@ interactions:
   response:
     body:
       string: '{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -374,7 +374,7 @@ interactions:
   response:
     body:
       string: '{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -477,7 +477,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -527,7 +527,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -628,7 +628,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -678,7 +678,7 @@ interactions:
   response:
     body:
       string: '{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -877,7 +877,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -927,7 +927,7 @@ interactions:
   response:
     body:
       string: '{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -981,7 +981,7 @@ interactions:
   response:
     body:
       string: '{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1084,7 +1084,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "609e96d5-01a7-4fe9-a53e-eca871e1fe00", "type": "DataPipeline",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:

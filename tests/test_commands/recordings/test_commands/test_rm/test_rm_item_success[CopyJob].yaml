@@ -169,7 +169,7 @@ interactions:
   response:
     body:
       string: '{"id": "1b7fb124-4ad5-4c1d-adf9-2db896ad9d58", "type": "CopyJob", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag
@@ -273,7 +273,7 @@ interactions:
       string: '{"value": [{"id": "0be7fbeb-7129-459c-802c-9768da9fee82", "type": "SemanticModel",
         "displayName": "fabcli000001_auto", "description": "", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"},
         {"id": "1b7fb124-4ad5-4c1d-adf9-2db896ad9d58", "type": "CopyJob", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}]}'
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

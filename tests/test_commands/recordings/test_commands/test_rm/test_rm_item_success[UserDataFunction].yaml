@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "c5111876-fc9f-4694-afd7-fd5bd3123696", "type": "UserDataFunction",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "c0ca0e3a-cbea-4451-b826-6a228a2839f5"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c5111876-fc9f-4694-afd7-fd5bd3123696", "type": "UserDataFunction",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "c0ca0e3a-cbea-4451-b826-6a228a2839f5"}]}'
     headers:
       Access-Control-Expose-Headers:

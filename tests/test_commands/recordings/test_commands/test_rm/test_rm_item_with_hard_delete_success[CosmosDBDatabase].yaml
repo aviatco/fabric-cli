@@ -155,12 +155,8 @@ interactions:
       code: 200
       message: OK
 - request:
-<<<<<<< HEAD:tests/test_commands/recordings/test_commands/test_get/test_get_item_warning_behavior_success[Lakehouse-False].yaml
-    body: '{"displayName": "fabcli000001", "type": "Lakehouse", "folderId": null}'
-=======
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
+    body: '{"displayName": "fabcli000001", "type":
       "CosmosDBDatabase", "folderId": null}'
->>>>>>> deb35549732fc9d35c6ee55b2abe519a8ff6b422:tests/test_commands/recordings/test_commands/test_rm/test_rm_item_with_hard_delete_success[CosmosDBDatabase].yaml
     headers:
       Accept:
       - '*/*'
@@ -169,12 +165,7 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-<<<<<<< HEAD:tests/test_commands/recordings/test_commands/test_get/test_get_item_warning_behavior_success[Lakehouse-False].yaml
-      - '74'
-
-=======
       - '114'
->>>>>>> deb35549732fc9d35c6ee55b2abe519a8ff6b422:tests/test_commands/recordings/test_commands/test_rm/test_rm_item_with_hard_delete_success[CosmosDBDatabase].yaml
       Content-Type:
       - application/json
       User-Agent:
@@ -290,7 +281,7 @@ interactions:
   response:
     body:
       string: '{"id": "83738938-137c-435f-9c62-d2da0b18dae1", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0b64fa1c-8afe-42d0-bcd6-afb110aa2cff"}'
     headers:
       Access-Control-Expose-Headers:
@@ -396,8 +387,7 @@ interactions:
         {"id": "dacc9423-f3c8-4d13-8762-e71892778f52", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260402104636", "description": "", "workspaceId":
         "0b64fa1c-8afe-42d0-bcd6-afb110aa2cff"}, {"id": "83738938-137c-435f-9c62-d2da0b18dae1",
-        "type": "CosmosDBDatabase", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "0b64fa1c-8afe-42d0-bcd6-afb110aa2cff"}]}'
+        "type": "CosmosDBDatabase", "displayName": "fabcli000001", "workspaceId": "0b64fa1c-8afe-42d0-bcd6-afb110aa2cff"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

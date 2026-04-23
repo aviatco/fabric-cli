@@ -171,8 +171,7 @@ interactions:
     uri: https://api.fabric.microsoft.com/v1/workspaces
   response:
     body:
-      string: '{"id": "f148a409-842d-4c7a-ad8b-09ba0e891812", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
+      string: '{"id": "f148a409-842d-4c7a-ad8b-09ba0e891812", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,Location
@@ -376,8 +375,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "04eab5b1-8c1c-4613-865a-94ef3e0d5727",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "f148a409-842d-4c7a-ad8b-09ba0e891812", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "f148a409-842d-4c7a-ad8b-09ba0e891812", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -528,8 +526,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "04eab5b1-8c1c-4613-865a-94ef3e0d5727",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "f148a409-842d-4c7a-ad8b-09ba0e891812", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
+        {"id": "f148a409-842d-4c7a-ad8b-09ba0e891812", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004",
         "domainId": "06471954-8882-44d5-8586-26b15d66551e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -926,8 +923,7 @@ interactions:
         "My workspace", "description": "", "type": "Personal"}, {"id": "04eab5b1-8c1c-4613-865a-94ef3e0d5727",
         "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
         by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"},
-        {"id": "f148a409-842d-4c7a-ad8b-09ba0e891812", "displayName": "fabcli000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        {"id": "f148a409-842d-4c7a-ad8b-09ba0e891812", "displayName": "fabcli000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

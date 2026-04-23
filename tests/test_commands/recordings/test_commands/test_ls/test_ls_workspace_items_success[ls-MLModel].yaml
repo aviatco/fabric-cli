@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "c6ba4489-0d05-442d-be76-d3aac6a030d0", "type": "MLModel", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}'
+        "fabcli000001", "workspaceId": "368f354f-9d92-4982-b04b-9c397928cdf0"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -369,7 +369,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c6ba4489-0d05-442d-be76-d3aac6a030d0", "type": "MLModel",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -518,7 +518,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c6ba4489-0d05-442d-be76-d3aac6a030d0", "type": "MLModel",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -667,7 +667,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c6ba4489-0d05-442d-be76-d3aac6a030d0", "type": "MLModel",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -816,7 +816,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c6ba4489-0d05-442d-be76-d3aac6a030d0", "type": "MLModel",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -965,7 +965,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "c6ba4489-0d05-442d-be76-d3aac6a030d0", "type": "MLModel",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:

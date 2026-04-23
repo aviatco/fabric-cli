@@ -173,7 +173,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
+    body: '{"displayName": "fabcli000001", "type":
       "KQLDashboard", "folderId": null}'
     headers:
       Accept:
@@ -193,7 +193,7 @@ interactions:
   response:
     body:
       string: '{"id": "06a9f3c2-ad79-4477-aa26-aeb1cdb95e52", "type": "KQLDashboard",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0b64fa1c-8afe-42d0-bcd6-afb110aa2cff"}'
     headers:
       Access-Control-Expose-Headers:

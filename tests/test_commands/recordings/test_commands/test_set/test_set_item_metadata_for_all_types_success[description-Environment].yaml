@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "117175c0-6389-4781-b456-b1cccad5d43f", "type": "Environment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "117175c0-6389-4781-b456-b1cccad5d43f", "type": "Environment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -320,7 +320,7 @@ interactions:
   response:
     body:
       string: '{"id": "117175c0-6389-4781-b456-b1cccad5d43f", "type": "Environment",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026", "properties": {"publishDetails": {"state":
         "Success", "targetVersion": "f370cdc5-ea37-4c31-9196-17889eed06d4", "startTime":
         "2026-01-29T10:05:01.1241024Z", "endTime": "2026-01-29T10:05:01.1241024Z",

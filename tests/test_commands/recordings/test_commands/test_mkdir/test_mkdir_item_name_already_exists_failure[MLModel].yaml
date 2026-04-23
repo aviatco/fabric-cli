@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "4d135cf3-f947-4449-981b-14b07bb363b1", "type": "MLModel", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
+        "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -369,7 +369,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "4d135cf3-f947-4449-981b-14b07bb363b1", "type": "MLModel",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -470,7 +470,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "4d135cf3-f947-4449-981b-14b07bb363b1", "type": "MLModel",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:

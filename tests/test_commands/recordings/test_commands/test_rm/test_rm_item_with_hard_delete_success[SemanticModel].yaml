@@ -149,7 +149,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabcli000001", "type":
+    body: '{"displayName": "fabcli000001", "type":
       "SemanticModel", "folderId": null, "definition": {"parts": [{"path": ".platform",
       "payload": "ewogICIkc2NoZW1hIjogImh0dHBzOi8vZGV2ZWxvcGVyLm1pY3Jvc29mdC5jb20vanNvbi1zY2hlbWFzL2ZhYnJpYy9naXRJbnRlZ3JhdGlvbi9wbGF0Zm9ybVByb3BlcnRpZXMvMi4wLjAvc2NoZW1hLmpzb24iLAogICJtZXRhZGF0YSI6IHsKICAgICJ0eXBlIjogIlNlbWFudGljTW9kZWwiLAogICAgImRpc3BsYXlOYW1lIjogIkJsYW5rIgogIH0sCiAgImNvbmZpZyI6IHsKICAgICJ2ZXJzaW9uIjogIjIuMCIsCiAgICAibG9naWNhbElkIjogIjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIKICB9Cn0=",
       "payloadType": "InlineBase64"}, {"path": "definition.pbism", "payload": "ewogICJ2ZXJzaW9uIjogIjQuMCIsCiAgInNldHRpbmdzIjoge30KfQ==",

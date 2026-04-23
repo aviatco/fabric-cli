@@ -295,7 +295,7 @@ interactions:
   response:
     body:
       string: '{"id": "4f96ce1a-743c-4120-9eb0-93d278a70dbe", "type": "SQLDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -455,7 +455,7 @@ interactions:
   response:
     body:
       string: '{"id": "4f96ce1a-743c-4120-9eb0-93d278a70dbe", "type": "SQLDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e", "properties": {"connectionInfo": "Data
         Source=vwbb4lsqmqqejdvenqo7wshysy-m2op2dhqhnbu5asxjn3kvbsydy.database.fabric.microsoft.com,1433;Initial
         Catalog=fabcli000001-4f96ce1a-743c-4120-9eb0-93d278a70dbe;Multiple Active

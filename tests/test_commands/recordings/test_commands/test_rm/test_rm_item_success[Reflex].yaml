@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "901b0a5f-ba99-465b-aa68-f8cd3e4375f0", "type": "Reflex", "displayName":
-        "fabcli000001", "description": "Created by fab", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
+        "fabcli000001", "workspaceId": "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,ETag
@@ -269,7 +269,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "901b0a5f-ba99-465b-aa68-f8cd3e4375f0", "type": "Reflex",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "5bf49d41-ccf2-4662-872c-a1d794eb7eba"}]}'
     headers:
       Access-Control-Expose-Headers:

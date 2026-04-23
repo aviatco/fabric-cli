@@ -207,7 +207,7 @@ interactions:
   response:
     body:
       string: '{"id": "a1b4a3fd-62d7-4745-a8ea-e576d2127aba", "type": "MountedDataFactory",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -331,7 +331,7 @@ interactions:
         "type": "Lakehouse", "displayName": "StagingLakehouseForDataflows_20260129084943",
         "description": "", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"},
         {"id": "a1b4a3fd-62d7-4745-a8ea-e576d2127aba", "type": "MountedDataFactory",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -381,7 +381,7 @@ interactions:
   response:
     body:
       string: '{"id": "a1b4a3fd-62d7-4745-a8ea-e576d2127aba", "type": "MountedDataFactory",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -606,7 +606,7 @@ interactions:
         "type": "Lakehouse", "displayName": "StagingLakehouseForDataflows_20260129084943",
         "description": "", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"},
         {"id": "a1b4a3fd-62d7-4745-a8ea-e576d2127aba", "type": "MountedDataFactory",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:

@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "df2dbdbe-50ed-4667-a4b0-6b9ef01887b1", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "2624caf6-b51d-4b9b-a0d7-9da2c6385d0e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -370,7 +370,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "df2dbdbe-50ed-4667-a4b0-6b9ef01887b1", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "2624caf6-b51d-4b9b-a0d7-9da2c6385d0e"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -420,7 +420,7 @@ interactions:
   response:
     body:
       string: '{"id": "df2dbdbe-50ed-4667-a4b0-6b9ef01887b1", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "2624caf6-b51d-4b9b-a0d7-9da2c6385d0e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -575,7 +575,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "df2dbdbe-50ed-4667-a4b0-6b9ef01887b1", "type": "CosmosDBDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "2624caf6-b51d-4b9b-a0d7-9da2c6385d0e"}]}'
     headers:
       Access-Control-Expose-Headers:

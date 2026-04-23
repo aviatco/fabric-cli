@@ -16641,7 +16641,7 @@ interactions:
     body:
       string: '{"value": [{"properties": {"privateEndpoint": {"id": "/subscriptions/866906e7-3e7f-406b-84ff-697a6e64d181/resourceGroups/vnet-866906e7-WestEurope-143-rg/providers/Microsoft.Network/privateEndpoints/916933dd-72f5-4d84-84d3-3552275d7fbc.fabcli000001"},
         "groupIds": ["sqlServer"], "privateLinkServiceConnectionState": {"status":
-        "Pending", "description": "Created by fab", "actionsRequired": "None"}, "provisioningState":
+        "Pending", "actionsRequired": "None"}, "provisioningState":
         "Ready"}, "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/mocked_fabriccli_resource_group/providers/Microsoft.Sql/servers/mocked_sql_server_server/privateEndpointConnections/916933dd-72f5-4d84-84d3-3552275d7fbc.fabcli000001-c6cd8227-089b-45e0-ae58-98ff55f6b414",
         "name": "916933dd-72f5-4d84-84d3-3552275d7fbc.fabcli000001-c6cd8227-089b-45e0-ae58-98ff55f6b414",
         "type": "Microsoft.Sql/servers/privateEndpointConnections"}]}'

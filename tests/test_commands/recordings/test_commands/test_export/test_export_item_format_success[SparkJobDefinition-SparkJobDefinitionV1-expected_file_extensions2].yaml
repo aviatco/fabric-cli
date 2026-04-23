@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "7360e5fc-708e-4c18-899a-f7d8bb02b79b", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "7d77bdce-db75-4cfb-95a4-a753476bc37c"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "7360e5fc-708e-4c18-899a-f7d8bb02b79b", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "7d77bdce-db75-4cfb-95a4-a753476bc37c"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -320,7 +320,7 @@ interactions:
   response:
     body:
       string: '{"id": "7360e5fc-708e-4c18-899a-f7d8bb02b79b", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "7d77bdce-db75-4cfb-95a4-a753476bc37c"}'
     headers:
       Access-Control-Expose-Headers:
@@ -476,7 +476,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "7360e5fc-708e-4c18-899a-f7d8bb02b79b", "type": "SparkJobDefinition",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "7d77bdce-db75-4cfb-95a4-a753476bc37c"}]}'
     headers:
       Access-Control-Expose-Headers:

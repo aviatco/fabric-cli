@@ -185,7 +185,7 @@ interactions:
   response:
     body:
       string: '{"id": "8c2bfeae-c5a8-4eab-b19e-61d0cb8e9927", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}'
     headers:
       Access-Control-Expose-Headers:
@@ -297,8 +297,7 @@ interactions:
         {"id": "49b99e73-f31e-473d-9fe4-085031b70124", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129083942", "description": "", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}, {"id": "8c2bfeae-c5a8-4eab-b19e-61d0cb8e9927",
-        "type": "MirroredDatabase", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
+        "type": "MirroredDatabase", "displayName": "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -347,7 +346,7 @@ interactions:
   response:
     body:
       string: '{"id": "8c2bfeae-c5a8-4eab-b19e-61d0cb8e9927", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e", "properties": {"oneLakeTablesPath":
         null, "sqlEndpointProperties": {"connectionString": null, "id": null, "provisioningStatus":
         "InProgress"}}}'
@@ -651,8 +650,7 @@ interactions:
         {"id": "49b99e73-f31e-473d-9fe4-085031b70124", "type": "Lakehouse", "displayName":
         "StagingLakehouseForDataflows_20260129083942", "description": "", "workspaceId":
         "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}, {"id": "8c2bfeae-c5a8-4eab-b19e-61d0cb8e9927",
-        "type": "MirroredDatabase", "displayName": "fabcli000001", "description":
-        "Created by fab", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
+        "type": "MirroredDatabase", "displayName": "fabcli000001", "workspaceId": "0cfd9c66-3bf0-4e43-8257-4b76aa86581e"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId

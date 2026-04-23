@@ -167,7 +167,7 @@ interactions:
   response:
     body:
       string: '{"id": "9ff29812-b811-4288-bab9-fd1ee989813e", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}'
     headers:
       Access-Control-Expose-Headers:
@@ -270,7 +270,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "9ff29812-b811-4288-bab9-fd1ee989813e", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -419,7 +419,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "9ff29812-b811-4288-bab9-fd1ee989813e", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -568,7 +568,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "9ff29812-b811-4288-bab9-fd1ee989813e", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -717,7 +717,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "9ff29812-b811-4288-bab9-fd1ee989813e", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -866,7 +866,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "9ff29812-b811-4288-bab9-fd1ee989813e", "type": "MirroredDatabase",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "368f354f-9d92-4982-b04b-9c397928cdf0"}]}'
     headers:
       Access-Control-Expose-Headers:

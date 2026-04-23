@@ -273,7 +273,7 @@ interactions:
   response:
     body:
       string: '{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -370,7 +370,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -420,7 +420,7 @@ interactions:
   response:
     body:
       string: '{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -474,7 +474,7 @@ interactions:
   response:
     body:
       string: '{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -577,7 +577,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -627,7 +627,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -728,7 +728,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -778,7 +778,7 @@ interactions:
   response:
     body:
       string: '{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -929,7 +929,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -979,7 +979,7 @@ interactions:
   response:
     body:
       string: '{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1033,7 +1033,7 @@ interactions:
   response:
     body:
       string: '{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}'
     headers:
       Access-Control-Expose-Headers:
@@ -1136,7 +1136,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "01eb4df9-509b-42d0-8675-0c3db51e0e5d", "type": "Eventstream",
-        "displayName": "fabcli000001", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000001", "workspaceId":
         "fa27f57f-70d6-4009-872b-f7e7149c5026"}]}'
     headers:
       Access-Control-Expose-Headers:

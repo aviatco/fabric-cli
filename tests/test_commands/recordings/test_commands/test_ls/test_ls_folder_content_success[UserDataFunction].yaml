@@ -416,7 +416,7 @@ interactions:
   response:
     body:
       string: '{"id": "b0f7ed60-7b53-4839-8e64-ec7238e2e6f0", "type": "UserDataFunction",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "d4491e7b-5a69-4ba5-bedf-3d0b9560a448", "folderId": "148fec79-384e-4b3d-b71f-bfc53aed0bcd"}'
     headers:
       Access-Control-Expose-Headers:
@@ -568,7 +568,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "b0f7ed60-7b53-4839-8e64-ec7238e2e6f0", "type": "UserDataFunction",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "d4491e7b-5a69-4ba5-bedf-3d0b9560a448", "folderId": "148fec79-384e-4b3d-b71f-bfc53aed0bcd"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -816,7 +816,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "b0f7ed60-7b53-4839-8e64-ec7238e2e6f0", "type": "UserDataFunction",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "d4491e7b-5a69-4ba5-bedf-3d0b9560a448", "folderId": "148fec79-384e-4b3d-b71f-bfc53aed0bcd"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1104,7 +1104,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "b0f7ed60-7b53-4839-8e64-ec7238e2e6f0", "type": "UserDataFunction",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "d4491e7b-5a69-4ba5-bedf-3d0b9560a448", "folderId": "148fec79-384e-4b3d-b71f-bfc53aed0bcd"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1352,7 +1352,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "b0f7ed60-7b53-4839-8e64-ec7238e2e6f0", "type": "UserDataFunction",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "d4491e7b-5a69-4ba5-bedf-3d0b9560a448", "folderId": "148fec79-384e-4b3d-b71f-bfc53aed0bcd"}]}'
     headers:
       Access-Control-Expose-Headers:
@@ -1600,7 +1600,7 @@ interactions:
   response:
     body:
       string: '{"value": [{"id": "b0f7ed60-7b53-4839-8e64-ec7238e2e6f0", "type": "UserDataFunction",
-        "displayName": "fabcli000002", "description": "Created by fab", "workspaceId":
+        "displayName": "fabcli000002", "workspaceId":
         "d4491e7b-5a69-4ba5-bedf-3d0b9560a448", "folderId": "148fec79-384e-4b3d-b71f-bfc53aed0bcd"}]}'
     headers:
       Access-Control-Expose-Headers:
