@@ -147,7 +147,7 @@ interactions:
       message: OK
 - request:
     body: '{"name": "fabcli000001", "targetPrivateLinkResourceId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/mocked_fabriccli_resource_group/providers/Microsoft.Sql/servers/mocked_sql_server_server",
-      "targetSubresourceType": "sqlServer", }'
+      "targetSubresourceType": "sqlServer"}'
     headers:
       Accept:
       - '*/*'
