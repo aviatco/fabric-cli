@@ -18,8 +18,7 @@ interactions:
     body:
       string: '{"value": [{"id": "3634a139-2c9e-4205-910b-3b089a31be47", "displayName":
         "My workspace", "description": "", "type": "Personal"}, {"id": "e612c1cf-5450-4af1-8113-798350c641ba",
-        "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
-        by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        "displayName": "fabriccli_WorkspacePerTestclass_000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -384,8 +383,7 @@ interactions:
     body:
       string: '{"value": [{"id": "3634a139-2c9e-4205-910b-3b089a31be47", "displayName":
         "My workspace", "description": "", "type": "Personal"}, {"id": "e612c1cf-5450-4af1-8113-798350c641ba",
-        "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
-        by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        "displayName": "fabriccli_WorkspacePerTestclass_000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -468,8 +466,7 @@ interactions:
         "5404eb45-6174-46ca-aad3-8d6993aca218", "type": "KQLDashboard", "displayName":
         "fabcli000001_new_12", "description": "Imported from fab", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}, {"id": "8c16a61d-7b4f-492c-b5cc-f91bca8e03e4",
-        "type": "SQLDatabase", "displayName": "fabcli000001", "description": "Created
-        by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
+        "type": "SQLDatabase", "displayName": "fabcli000001", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -776,8 +773,7 @@ interactions:
     body:
       string: '{"value": [{"id": "3634a139-2c9e-4205-910b-3b089a31be47", "displayName":
         "My workspace", "description": "", "type": "Personal"}, {"id": "e612c1cf-5450-4af1-8113-798350c641ba",
-        "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
-        by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        "displayName": "fabriccli_WorkspacePerTestclass_000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -860,8 +856,7 @@ interactions:
         "5404eb45-6174-46ca-aad3-8d6993aca218", "type": "KQLDashboard", "displayName":
         "fabcli000001_new_12", "description": "Imported from fab", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}, {"id": "8c16a61d-7b4f-492c-b5cc-f91bca8e03e4",
-        "type": "SQLDatabase", "displayName": "fabcli000001", "description": "Created
-        by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
+        "type": "SQLDatabase", "displayName": "fabcli000001", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -944,8 +939,7 @@ interactions:
         "5404eb45-6174-46ca-aad3-8d6993aca218", "type": "KQLDashboard", "displayName":
         "fabcli000001_new_12", "description": "Imported from fab", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}, {"id": "8c16a61d-7b4f-492c-b5cc-f91bca8e03e4",
-        "type": "SQLDatabase", "displayName": "fabcli000001", "description": "Created
-        by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
+        "type": "SQLDatabase", "displayName": "fabcli000001", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -1206,8 +1200,7 @@ interactions:
     body:
       string: '{"value": [{"id": "3634a139-2c9e-4205-910b-3b089a31be47", "displayName":
         "My workspace", "description": "", "type": "Personal"}, {"id": "e612c1cf-5450-4af1-8113-798350c641ba",
-        "displayName": "fabriccli_WorkspacePerTestclass_000001", "description": "Created
-        by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        "displayName": "fabriccli_WorkspacePerTestclass_000001", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
@@ -1292,8 +1285,7 @@ interactions:
         "5404eb45-6174-46ca-aad3-8d6993aca218", "type": "KQLDashboard", "displayName":
         "fabcli000001_new_12", "description": "Imported from fab", "workspaceId":
         "e612c1cf-5450-4af1-8113-798350c641ba"}, {"id": "8c16a61d-7b4f-492c-b5cc-f91bca8e03e4",
-        "type": "SQLDatabase", "displayName": "fabcli000001", "description": "Created
-        by fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"}, {"id": "f370db79-ae0d-47d0-9fbe-7cf0855fe45c",
+        "type": "SQLDatabase", "displayName": "fabcli000001", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"}, {"id": "f370db79-ae0d-47d0-9fbe-7cf0855fe45c",
         "type": "SQLDatabase", "displayName": "fabcli000001_new_13", "description":
         "Imported from fab", "workspaceId": "e612c1cf-5450-4af1-8113-798350c641ba"}]}'
     headers:
