@@ -136,7 +136,7 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"description": "Created by fab", "displayName": "fabriccli_WorkspacePerTestclass_000001",
+    body: '{"displayName": "fabriccli_WorkspacePerTestclass_000001",
       "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Accept:
@@ -156,7 +156,7 @@ interactions:
   response:
     body:
       string: '{"id": "75e11421-85ce-411e-8673-1edc859aeb8f", "displayName": "fabriccli_WorkspacePerTestclass_000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
+        "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId,Location
@@ -205,7 +205,7 @@ interactions:
       string: '{"value": [{"id": "29490b32-2d1c-4f65-aa77-711b366ca219", "displayName":
         "My workspace", "description": "", "type": "Personal", "capacityId": "00000000-0000-0000-0000-000000000004"},
         {"id": "75e11421-85ce-411e-8673-1edc859aeb8f", "displayName": "fabriccli_WorkspacePerTestclass_000001",
-        "description": "Created by fab", "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
+        "type": "Workspace", "capacityId": "00000000-0000-0000-0000-000000000004"}]}'
     headers:
       Access-Control-Expose-Headers:
       - RequestId
