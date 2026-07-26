@@ -69,6 +69,7 @@ ALL_ITEM_TYPES = [
     ItemType.DIGITAL_TWIN_BUILDER_FLOW,
     ItemType.GRAPH_QUERY_SET,
     ItemType.MAP,
+    ItemType.PAGINATED_REPORT,
 ]
 
 item_type_paramerter = pytest.mark.parametrize("item_type", ALL_ITEM_TYPES)
@@ -93,6 +94,7 @@ basic_item_parametrize = pytest.mark.parametrize(
         ItemType.DIGITAL_TWIN_BUILDER_FLOW,
         ItemType.GRAPH_QUERY_SET,
         ItemType.MAP,
+        ItemType.PAGINATED_REPORT,
     ],
 )
 
@@ -113,6 +115,7 @@ import_update_existing_item_success_params = pytest.mark.parametrize(
         ItemType.DIGITAL_TWIN_BUILDER,
         ItemType.DIGITAL_TWIN_BUILDER_FLOW,
         ItemType.LAKEHOUSE,
+        ItemType.PAGINATED_REPORT,
     ],
 )
 
@@ -123,6 +126,7 @@ import_create_new_item_success_params = pytest.mark.parametrize(
         ItemType.SPARK_JOB_DEFINITION,
         ItemType.DATA_PIPELINE,
         ItemType.REPORT,
+        ItemType.PAGINATED_REPORT,
         ItemType.SEMANTIC_MODEL,
         ItemType.KQL_DATABASE,
         ItemType.KQL_QUERYSET,
@@ -148,7 +152,6 @@ import_create_new_item_fail_params = pytest.mark.parametrize(
         ItemType.MIRRORED_WAREHOUSE,
         ItemType.ML_EXPERIMENT,
         ItemType.ML_MODEL,
-        ItemType.PAGINATED_REPORT,
         ItemType.SQL_ENDPOINT,
         ItemType.WAREHOUSE,
     ],
@@ -181,7 +184,6 @@ unsupported_item_failure_params = pytest.mark.parametrize(
         ItemType.DASHBOARD,
         ItemType.DATAMART,
         ItemType.MIRRORED_WAREHOUSE,
-        ItemType.PAGINATED_REPORT,
         ItemType.SQL_ENDPOINT,
     ],
 )
@@ -214,6 +216,7 @@ mv_item_to_item_success_params = pytest.mark.parametrize(
         ItemType.USER_DATA_FUNCTION,
         ItemType.MAP,
         ItemType.ENVIRONMENT,
+        ItemType.PAGINATED_REPORT,
     ],
 )
 
@@ -249,6 +252,7 @@ mv_item_within_workspace_rename_success_params = pytest.mark.parametrize(
         ItemType.USER_DATA_FUNCTION,
         ItemType.MAP,
         ItemType.ENVIRONMENT,
+        ItemType.PAGINATED_REPORT,
     ],
 )
 
@@ -290,6 +294,7 @@ get_item_warning_behavior_success_params = pytest.mark.parametrize(
         (ItemType.COSMOS_DB_DATABASE, True),
         (ItemType.USER_DATA_FUNCTION, True),
         (ItemType.GRAPH_QUERY_SET, True),
+        (ItemType.PAGINATED_REPORT, True),
     ],
 )
 
@@ -330,6 +335,7 @@ set_item_metadata_for_all_types_success_item_params = pytest.mark.parametrize(
         ItemType.MAP,
         ItemType.DIGITAL_TWIN_BUILDER,
         ItemType.DIGITAL_TWIN_BUILDER_FLOW,
+        ItemType.PAGINATED_REPORT,
     ],
 )
 
@@ -397,6 +403,7 @@ export_item_with_extension_parameters = pytest.mark.parametrize(
         (ItemType.DIGITAL_TWIN_BUILDER_FLOW, ".json"),
         (ItemType.MAP, ".json"),
         (ItemType.LAKEHOUSE, ".json"),
+        (ItemType.PAGINATED_REPORT, ".rdl"),
     ],
 )
 
@@ -418,6 +425,7 @@ export_item_types_parameters = pytest.mark.parametrize(
         ItemType.MAP,
         ItemType.LAKEHOUSE,
         ItemType.ENVIRONMENT,
+        ItemType.PAGINATED_REPORT,
     ],
 )
 
@@ -450,6 +458,7 @@ export_item_default_format_parameters = pytest.mark.parametrize(
         (ItemType.DIGITAL_TWIN_BUILDER_FLOW, 2),
         (ItemType.LAKEHOUSE, 4),
         (ItemType.ENVIRONMENT, 2),
+        (ItemType.PAGINATED_REPORT, 2),
     ],
 )
 
@@ -492,6 +501,7 @@ cp_item_types_success_params = pytest.mark.parametrize(
         ItemType.COSMOS_DB_DATABASE,
         ItemType.USER_DATA_FUNCTION,
         ItemType.ENVIRONMENT,
+        ItemType.PAGINATED_REPORT,
         # ItemType.DIGITAL_TWIN_BUILDER,
         # ItemType.DIGITAL_TWIN_BUILDER_FLOW,
     ],
@@ -510,6 +520,7 @@ cp_folder_item_types_success_params = pytest.mark.parametrize(
         ItemType.COSMOS_DB_DATABASE,
         ItemType.USER_DATA_FUNCTION,
         ItemType.ENVIRONMENT,
+        ItemType.PAGINATED_REPORT,
     ],
 )
 

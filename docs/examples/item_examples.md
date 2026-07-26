@@ -33,7 +33,7 @@ fab cd ../ws1.Workspace/lh1.Lakehouse
 
 ### Create Item
 
-**Unsupported Items:** `.Dashboard`, `.Datamart`, `.MirroredWarehouse`, `.PaginatedReport`, `.SQLEndpoint`
+**Unsupported Items:** `.Dashboard`, `.Datamart`, `.MirroredWarehouse`, `.SQLEndpoint`
 
 **Items with Required Parameters:**
 
@@ -83,7 +83,7 @@ fab exists ws1.Workspace/nb1.Notebook
 
 !!! info "When you get an item definition, the sensitivity label is not a part of the definition"
 
-**Unsupported Items:** `.Dashboard`, `.Datamart`, `.MirroredWarehouse`, `.PaginatedReport`, `.SQLEndpoint`
+**Unsupported Items:** `.Dashboard`, `.Datamart`, `.MirroredWarehouse`, `.SQLEndpoint`
 
 #### Get Item Details
 
@@ -246,7 +246,7 @@ fab set ws1.Workspace/rep1.Report -q definition.parts[0].payload.datasetReferenc
 **Supported Item Types for Copy:**
 
 - `.Notebook`, `.SparkJobDefinition`, `.DataPipeline`
-- `.Report`, `.SemanticModel`
+- `.Report`, `.PaginatedReport`, `.SemanticModel`
 - `.KQLDatabase`, `.KQLDashboard`, `.KQLQueryset`
 - `.Eventhouse`, `.Eventstream`
 - `.MirroredDatabase`, `.Reflex`
@@ -322,7 +322,7 @@ fab export ws1.Workspace/nb1.Notebook -o /tmp
 **Exportable Item Types:**
 
 - `.Notebook`, `.SparkJobDefinition`, `.DataPipeline`
-- `.Report`, `.SemanticModel`
+- `.Report`, `.PaginatedReport`, `.SemanticModel`
 - `.KQLDatabase`, `.KQLDashboard`, `.KQLQueryset`
 - `.Eventhouse`, `.Eventstream`, `.MirroredDatabase`
 - `.Reflex`, `.DigitalTwinBuilder`, `.DigitalTwinBuilderFlow`, `.Map`, `.MountedDataFactory`, `.CopyJob`, `.VariableLibrary`

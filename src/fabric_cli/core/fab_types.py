@@ -606,4 +606,8 @@ definition_format_mapping = {
     ItemType.VARIABLE_LIBRARY: {"default": ""},
     ItemType.MAP: {"default": ""},
     ItemType.ENVIRONMENT: {"default": ""},
+    ItemType.PAGINATED_REPORT: {
+        "default": "PaginatedReportDefinition",
+        "PaginatedReportDefinition": "PaginatedReportDefinition",
+    },
 }

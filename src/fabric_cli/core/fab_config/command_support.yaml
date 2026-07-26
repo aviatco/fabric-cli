@@ -132,7 +132,6 @@ commands:
           - external_data_share
         unsupported_items:
           - dashboard
-          - paginated_report
           - sql_endpoint
           - mirrored_warehouse
           - datamart  
@@ -175,6 +174,7 @@ commands:
           - user_data_function
           - map
           - environment
+          - paginated_report
       cp:
         supported_elements:
           - workspace
@@ -207,6 +207,7 @@ commands:
           - user_data_function
           - map
           - environment
+          - paginated_report
       ln:
         supported_elements:
           - onelake
@@ -241,6 +242,7 @@ commands:
           - workspace
         supported_items:
           - report
+          - paginated_report
           - spark_job_definition
           - semantic_model
           - notebook
@@ -269,6 +271,7 @@ commands:
       import:
         supported_items:
           - report
+          - paginated_report
           - spark_job_definition
           - semantic_model
           - notebook
@@ -315,7 +318,6 @@ commands:
           - graph_query_set
         unsupported_items:
           - dashboard
-          - paginated_report
           - sql_endpoint
           - mirrored_warehouse
           - datamart
@@ -341,7 +343,6 @@ commands:
           - gateway
         unsupported_items:
           - dashboard
-          - paginated_report
           - sql_endpoint
           - mirrored_warehouse
           - datamart
@@ -375,7 +376,6 @@ commands:
           - external_data_share
         unsupported_items:
           - dashboard
-          - paginated_report
           - sql_endpoint
           - datamart
           - mirrored_warehouse

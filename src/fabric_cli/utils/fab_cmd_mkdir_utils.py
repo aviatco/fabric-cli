@@ -175,6 +175,16 @@ def add_type_specific_payload(item: Item, args, payload):
                 payload_path, params, semantic_model_id=_semantic_model_id
             )
 
+        case ItemType.PAGINATED_REPORT:
+            payload_folder = "Blank.PaginatedReport"
+            payload_path = os.path.join(
+                project_root, "commands", "fs", "payloads", payload_folder
+            )
+            payload_dict["definition"] = {
+                "format": "PaginatedReportDefinition",
+                **_create_payload(payload_path, params),
+            }
+
         case ItemType.SEMANTIC_MODEL:
             payload_folder = "Blank.SemanticModel"
             payload_path = os.path.join(
