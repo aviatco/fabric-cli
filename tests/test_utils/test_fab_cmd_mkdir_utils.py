@@ -2,15 +2,18 @@
 # Licensed under the MIT License.
 
 
+from argparse import Namespace
 from unittest.mock import Mock, patch
 
 import pytest
 
 from fabric_cli.core import fab_constant
 from fabric_cli.core.fab_exceptions import FabricCLIError
+from fabric_cli.core.hiearchy.fab_hiearchy import Item, Tenant, Workspace
 from fabric_cli.errors import ErrorMessages
 from fabric_cli.utils.fab_cmd_mkdir_utils import (
     _build_sql_database_creation_payload_if_exists,
+    add_type_specific_payload,
     find_mpe_connection,
     get_connection_config_from_params,
 )
@@ -141,6 +144,34 @@ def test_workspace_identity_with_unsupported_params_ignored_success():
         result["credentialDetails"]["credentials"]["credentialType"]
         == "WorkspaceIdentity"
     )
+
+
+def test_add_type_specific_payload_paginated_report_success():
+    tenant = Tenant(name="tenant_name", id="0000")
+    workspace = Workspace(
+        name="workspace_name", id="workspace_id", parent=tenant, type="Workspace"
+    )
+    item = Item(
+        name="item_name",
+        id=None,
+        parent=workspace,
+        item_type="PaginatedReport",
+    )
+
+    payload = add_type_specific_payload(
+        item,
+        Namespace(params={}),
+        {
+            "displayName": item.short_name,
+            "type": str(item.item_type),
+            "folderId": item.folder_id,
+        },
+    )
+
+    assert payload["definition"]["format"] == "PaginatedReportDefinition"
+    assert sorted(
+        part["path"] for part in payload["definition"]["parts"]
+    ) == [".platform", "report.rdl"]
 
 
 class TestFindMpeConnection:
