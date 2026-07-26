@@ -169,9 +169,10 @@ def test_add_type_specific_payload_paginated_report_success():
     )
 
     assert payload["definition"]["format"] == "PaginatedReportDefinition"
-    assert sorted(
-        part["path"] for part in payload["definition"]["parts"]
-    ) == [".platform", "report.rdl"]
+    assert sorted(part["path"] for part in payload["definition"]["parts"]) == [
+        ".platform",
+        "report.rdl",
+    ]
 
 
 class TestFindMpeConnection:
@@ -279,7 +280,8 @@ class TestBuildSqlDatabaseCreationPayload:
     def test_build_sql_database_creation_payload_mode_success(self, provided):
         """Test that the New mode is normalized to its canonical value."""
         result = _build_sql_database_creation_payload_if_exists(
-            {"creationmode": provided})
+            {"creationmode": provided}
+        )
 
         assert result is not None
         assert result["creationMode"] == fab_constant.SQL_DATABASE_CREATION_MODE_NEW
@@ -475,10 +477,13 @@ class TestBuildSqlDatabaseCreationPayload:
             "restore-deleted",
         ],
     )
-    def test_build_sql_database_creation_payload_unsupported_mode_failure(self, creationmode):
+    def test_build_sql_database_creation_payload_unsupported_mode_failure(
+        self, creationmode
+    ):
         """Test that an unsupported mode raises instead of defaulting to New."""
         with pytest.raises(FabricCLIError) as exc_info:
-            _build_sql_database_creation_payload_if_exists({"creationmode": creationmode})
+            _build_sql_database_creation_payload_if_exists(
+                {"creationmode": creationmode}
+            )
 
         assert exc_info.value.status_code == fab_constant.ERROR_INVALID_INPUT
- 
