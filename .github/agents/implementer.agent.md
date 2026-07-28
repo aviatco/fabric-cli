@@ -1,8 +1,7 @@
 ---
+slug: implementer
 name: Implementer
 description: Generic implementation agent for the Fabric CLI. Takes an approved plan, loads any matching skill, and makes the source, configuration, changelog, and documentation changes it describes. Does not update or record tests — that is the Tester's job.
-argument-hint: Paste the plan from the Planner agent (or describe the change if you already have the details)
-tools: ['runInTerminal', 'terminalLastCommand', 'search', 'fetch', 'read_file', 'editFiles']
 ---
 
 # Implementer
