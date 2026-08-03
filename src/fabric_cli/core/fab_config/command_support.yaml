@@ -132,7 +132,6 @@ commands:
           - external_data_share
         unsupported_items:
           - dashboard
-          - paginated_report
           - sql_endpoint
           - mirrored_warehouse
           - datamart  
@@ -151,6 +150,7 @@ commands:
           - onelake
         supported_items: # same as export
           - report
+          - paginated_report
           - spark_job_definition
           - semantic_model
           - notebook
@@ -183,6 +183,7 @@ commands:
           - local_path
         supported_items: # same as export
           - report
+          - paginated_report
           - spark_job_definition
           - semantic_model
           - notebook
@@ -241,6 +242,7 @@ commands:
           - workspace
         supported_items:
           - report
+          - paginated_report
           - spark_job_definition
           - semantic_model
           - notebook
@@ -269,6 +271,7 @@ commands:
       import:
         supported_items:
           - report
+          - paginated_report
           - spark_job_definition
           - semantic_model
           - notebook
@@ -315,7 +318,6 @@ commands:
           - graph_query_set
         unsupported_items:
           - dashboard
-          - paginated_report
           - sql_endpoint
           - mirrored_warehouse
           - datamart
@@ -341,7 +343,6 @@ commands:
           - gateway
         unsupported_items:
           - dashboard
-          - paginated_report
           - sql_endpoint
           - mirrored_warehouse
           - datamart
@@ -364,6 +365,7 @@ commands:
           - folder
         supported_items:
           - report
+          - paginated_report
           - ml_model
           - ml_experiment
           - environment
@@ -408,7 +410,6 @@ commands:
           - external_data_share
         unsupported_items:
           - dashboard
-          - paginated_report
           - sql_endpoint
           - datamart
           - mirrored_warehouse

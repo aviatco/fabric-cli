@@ -356,6 +356,25 @@ def test_command_support_success():
         report_item.check_command_support(Command.FS_START)
     assert e.value.status_code == fab_constant.ERROR_UNSUPPORTED_COMMAND
 
+    paginated_report_item = Item(
+        name="paginated_report_name",
+        id="paginated_report_id",
+        parent=workspace,
+        item_type="PaginatedReport",
+    )
+    for command in [
+        Command.FS_EXPORT,
+        Command.FS_IMPORT,
+        Command.FS_GET,
+        Command.FS_SET,
+        Command.FS_RM,
+        Command.FS_MKDIR,
+        Command.FS_CP,
+        Command.FS_MV,
+        Command.FS_BULKEXPORT,
+    ]:
+        assert paginated_report_item.check_command_support(command)
+
 
 def test_create_virtual_item_container_success():
     tenant = Tenant(name="tenant_name", id="0000")
