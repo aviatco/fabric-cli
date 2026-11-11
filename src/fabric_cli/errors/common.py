@@ -25,16 +25,6 @@ class CommonErrors:
         return "Conflicting help output formats were supplied"
 
     @staticmethod
-    def help_config_unavailable() -> str:
-        """Describe read-only help configuration recovery."""
-        return "Saved output format is unavailable or invalid; using text for help"
-
-    @staticmethod
-    def help_generation_failed() -> str:
-        """Describe a help-generation failure without exposing internal values."""
-        return "Unable to generate command help"
-
-    @staticmethod
     def invalid_entries_format() -> str:
         return "Invalid entries format"
 

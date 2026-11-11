@@ -263,7 +263,7 @@ def _help_output_format(selectors: list[str]) -> str:
     except FileNotFoundError:
         return "text"
     except (OSError, ValueError):
-        print_warning(ErrorMessages.Common.help_config_unavailable())
+        print_warning(ErrorMessages.Common.invalid_help_format())
         return "text"
 
 
@@ -299,7 +299,9 @@ def print_help_request(request: "HelpRequest") -> int:
         # This entrypoint is an error boundary: never expose payloads or partial help.
         print_output_error(
             FabricCLIError(
-                ErrorMessages.Common.help_generation_failed(),
+                ErrorMessages.Common.invalid_help_request(
+                    "Unable to generate command help"
+                ),
                 fab_constant.ERROR_UNEXPECTED_ERROR,
             ),
             command=command,

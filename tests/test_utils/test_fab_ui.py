@@ -70,7 +70,7 @@ def test_help_corrupt_config_warning_success(
     parser, _ = create_parser_and_subparsers()
     assert ui.print_help_request(HelpRequest(parser)) == 0
     captured = capsys.readouterr()
-    assert "using text for help" in captured.err
+    assert ErrorMessages.Common.invalid_help_format() in captured.err
     assert "Usage: fab" in captured.out
     assert config.read_text(encoding="utf-8") == content
 
@@ -82,7 +82,7 @@ def test_help_unreadable_config_warning_success(
     with patch("builtins.open", side_effect=PermissionError):
         assert ui.print_help_request(HelpRequest(parser)) == 0
     captured = capsys.readouterr()
-    assert "using text for help" in captured.err
+    assert ErrorMessages.Common.invalid_help_format() in captured.err
     assert "Usage: fab" in captured.out
 
 
@@ -166,6 +166,10 @@ def test_help_generation_failure(
     assert "secret-value" not in captured.out + captured.err
     output = json.loads(captured.out)
     assert output["status"] == "Failure"
+    assert output["result"]["message"] == ErrorMessages.Common.invalid_help_request(
+        "Unable to generate command help"
+    )
+    assert output["result"]["error_code"] == fab_constant.ERROR_UNEXPECTED_ERROR
     assert "data" not in output["result"]
 
 

@@ -14,6 +14,7 @@ from fabric_cli.core.fab_decorators import handle_exceptions
 from fabric_cli.core.fab_exceptions import FabricCLIError
 from fabric_cli.core.fab_interactive import InteractiveCLI
 from fabric_cli.core.fab_parser_setup import create_parser_and_subparsers
+from fabric_cli.errors import ErrorMessages
 from fabric_cli.utils import fab_commands, fab_ui
 
 
@@ -132,7 +133,7 @@ class TestInteractiveCLI:
             assert (
                 "Manage and schedule jobs." if target == "job" else "Usage:"
             ) in captured.out
-            assert "using text for help" in captured.err
+            assert ErrorMessages.Common.invalid_help_format() in captured.err
 
         assert interactive_cli.handle_command("help --output_format=json") is False
         assert json.loads(capsys.readouterr().out)["status"] == "Success"
