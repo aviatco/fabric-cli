@@ -10,10 +10,57 @@ from fabric_cli.core.fab_commands import Command
 from fabric_cli.core.fab_exceptions import FabricCLIError
 from fabric_cli.core.fab_types import *
 from fabric_cli.core.hiearchy.fab_hiearchy import *
+from fabric_cli.core.hiearchy.fab_item import Item
+from fabric_cli.core.hiearchy.fab_tenant import Tenant
+from fabric_cli.core.hiearchy.fab_workspace import Workspace
 from fabric_cli.utils.fab_cmd_import_utils import (
     _build_definition,
     get_payload_for_item_type,
 )
+
+
+@pytest.mark.parametrize(
+    "command,allowed",
+    [
+        (Command.FS_MKDIR, True),
+        (Command.FS_GET, True),
+        (Command.FS_SET, True),
+        (Command.FS_RM, True),
+        (Command.FS_CD, True),
+        (Command.FS_EXISTS, True),
+        (Command.FS_IMPORT, False),
+        (Command.FS_EXPORT, False),
+        (Command.FS_CP, False),
+        (Command.FS_MV, False),
+        (Command.FS_OPEN, True),
+        (Command.ACL_LS, False),
+        (Command.ACL_GET, False),
+        (Command.ACL_SET, False),
+        (Command.ACL_RM, False),
+        (Command.LABEL_SET, False),
+        (Command.LABEL_RM, False),
+        (Command.JOB_START, False),
+        (Command.JOB_RUN, False),
+        (Command.JOB_RUN_CANCEL, False),
+        (Command.JOB_RUN_LIST, False),
+        (Command.JOB_RUN_UPDATE, False),
+        (Command.JOB_RUN_RM, False),
+        (Command.JOB_RUN_SCH, False),
+        (Command.JOB_RUN_STATUS, False),
+    ],
+)
+def test_deployment_plan_command_gates(command: Command, allowed: bool) -> None:
+    workspace = Workspace(
+        "workspace", "workspace_id", Tenant("tenant", "tenant_id"), "Workspace"
+    )
+    item = Item("plan", "item_id", workspace, "DeploymentPlan")
+
+    if allowed:
+        assert item.check_command_support(command)
+    else:
+        with pytest.raises(FabricCLIError) as error:
+            item.check_command_support(command)
+        assert error.value.status_code == fab_constant.ERROR_UNSUPPORTED_COMMAND
 
 
 def test_create_tenant_success():

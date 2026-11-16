@@ -71,6 +71,26 @@ View supported parameters for any item type.
 fab create lh1.Lakehouse -P
 ```
 
+#### DeploymentPlan (Preview): Metadata CRUD and Open
+
+Deployment plans support metadata-only creation, retrieval, updates, and deletion.
+They also support opening in the browser with `open`. No special creation
+parameters are required.
+
+```bash
+fab mkdir ws1.Workspace/plan1.DeploymentPlan
+fab get ws1.Workspace/plan1.DeploymentPlan
+fab open ws1.Workspace/plan1.DeploymentPlan
+fab set ws1.Workspace/plan1.DeploymentPlan -q description -i "Sample deployment plan"
+fab set ws1.Workspace/plan1.DeploymentPlan -q displayName -i "plan2"
+fab rm ws1.Workspace/plan2.DeploymentPlan
+```
+
+Rename using `set` with `displayName`, not `mv`. Ordinary workspace discovery,
+navigation, and existence checks remain available. Listing item contents,
+definition reads or updates, export, import, copy (`cp`), move (`mv`), jobs,
+ACL commands, and sensitivity label commands are not supported for DeploymentPlan.
+
 ### Check Item Existence
 
 Check if a specific item exists and is accessible.

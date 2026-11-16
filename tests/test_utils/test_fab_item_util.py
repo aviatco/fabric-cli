@@ -85,7 +85,8 @@ def test_obtain_id_names_for_onelake():
     )
 
 
-def test_get_item_with_definition(monkeypatch):
+@pytest.mark.parametrize("metadata_item_type", ["Dashboard", "DeploymentPlan"])
+def test_get_item_with_definition(monkeypatch, metadata_item_type):
     tenant = Tenant(name="tenant_name", id="0000")
     workspace = Workspace(
         name="workspace_name", id="workspace_id", parent=tenant, type="Workspace"
@@ -94,7 +95,7 @@ def test_get_item_with_definition(monkeypatch):
         name="dashboard_name",
         id="dashboard_id",
         parent=workspace,
-        item_type="Dashboard",
+        item_type=metadata_item_type,
     )
 
     export_item = Item(
@@ -105,6 +106,7 @@ def test_get_item_with_definition(monkeypatch):
     )
 
     def mock_export_item(*args, **kwargs):
+        assert args[0] is export_item
         return {"item_exported": "item"}
 
     monkeypatch.setattr(_export_item, "export_single_item", mock_export_item)

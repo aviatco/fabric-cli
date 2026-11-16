@@ -3,6 +3,8 @@ commands:
   acl:
     supported_elements:
       - workspace
+    unsupported_items:
+      - deployment_plan
     subcommands:
       ls:
         supported_elements:
@@ -58,6 +60,8 @@ commands:
   label:
     supported_elements:
       - item
+    unsupported_items:
+      - deployment_plan
     subcommands:
       set:
         unsupported_items:
@@ -295,6 +299,7 @@ commands:
           - lakehouse
           - environment
         unsupported_items:
+          - deployment_plan
           - graph_query_set
       get:
         supported_elements:

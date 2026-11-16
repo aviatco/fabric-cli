@@ -3,14 +3,16 @@
 
 import argparse
 import json
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 import pytest
 
 import fabric_cli.commands.fs.fab_fs_get as fab_get
+import fabric_cli.commands.fs.fab_fs_open as fab_open
 from fabric_cli.core import fab_constant as constant
 from fabric_cli.core import fab_handle_context as handle_context
 from fabric_cli.core.fab_types import ItemType, uri_mapping
+from fabric_cli.core.hiearchy.fab_hiearchy import Item, Tenant, Workspace
 
 
 class TestOpen:
@@ -70,6 +72,33 @@ class TestOpen:
     # endregion
 
     # region Item
+    def test_open_deployment_plan_success(self, mock_webbrowser_open_new: Mock) -> None:
+        workspace = Workspace(
+            "workspace", "workspace_id", Tenant("tenant", "tenant_id"), "Workspace"
+        )
+        item = Item("plan", "item_id", workspace, "DeploymentPlan")
+
+        with (
+            patch.object(fab_open, "FabAuth") as auth,
+            patch.object(
+                fab_open.fab_state_config, "get_config", return_value="fabric"
+            ),
+            patch.object(fab_open.fab_ui, "print_output_format"),
+            patch.object(fab_open.fab_ui, "print_grey"),
+        ):
+            auth.return_value._get_auth_property.return_value = "user"
+            auth.return_value.get_token_claims.return_value = {
+                "upn": self.mocked_upn,
+                "tid": self.mocked_ctid,
+            }
+            fab_open.exec_command(argparse.Namespace(output_format="text"), item)
+
+        mock_webbrowser_open_new.assert_called_once_with(
+            f"{constant.WEB_URI}/workspace_id/deployment-plans/item_id/"
+            f"?experience={constant.FAB_DEFAULT_OPEN_EXPERIENCE_FABRIC}"
+            f"&upn={self.mocked_upn}&ctid={self.mocked_ctid}"
+        )
+
     @pytest.mark.token_claims({"upn": mocked_upn, "tid": mocked_ctid})
     def test_open_notebook_success(
         self,

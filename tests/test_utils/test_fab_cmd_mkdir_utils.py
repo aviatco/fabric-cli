@@ -2,18 +2,48 @@
 # Licensed under the MIT License.
 
 
+import json
+from argparse import Namespace
 from unittest.mock import Mock, patch
 
 import pytest
 
 from fabric_cli.core import fab_constant
+from fabric_cli.commands.fs.mkdir import fab_fs_mkdir_item as mkdir_item
 from fabric_cli.core.fab_exceptions import FabricCLIError
+from fabric_cli.core.hiearchy.fab_hiearchy import Item, Tenant, Workspace
 from fabric_cli.errors import ErrorMessages
 from fabric_cli.utils.fab_cmd_mkdir_utils import (
     _build_sql_database_creation_payload_if_exists,
     find_mpe_connection,
     get_connection_config_from_params,
 )
+
+
+@pytest.mark.parametrize("description", [None, "Disposable deployment plan"])
+def test_deployment_plan_creation_is_metadata_only(description: str | None) -> None:
+    workspace = Workspace(
+        "workspace", "workspace_id", Tenant("tenant", "tenant_id"), "Workspace"
+    )
+    item = Item("plan", None, workspace, "DeploymentPlan")
+    payload = {"displayName": "plan", "type": "DeploymentPlan", "folderId": None}
+    params: dict = {"run": True}
+    if description is not None:
+        params["description"] = description
+        payload["description"] = description
+    args = Namespace(params=params)
+    response = Mock(status_code=201, text=json.dumps({"id": "item_id"}))
+    with (
+        patch.object(
+            mkdir_item.item_api, "create_item", return_value=response
+        ) as create,
+        patch.object(mkdir_item.utils_ui, "print_output_format"),
+        patch.object(mkdir_item.utils_mem_store, "upsert_item_to_cache"),
+    ):
+        assert mkdir_item.exec(item, args) == "item_id"
+
+    create.assert_called_once_with(args, json.dumps(payload), item_uri=True)
+    assert args.item_uri == "deploymentPlans"
 
 
 def test_fabric_data_pipelines_workspace_identity_no_params_success():
@@ -450,4 +480,3 @@ class TestBuildSqlDatabaseCreationPayload:
             _build_sql_database_creation_payload_if_exists({"creationmode": creationmode})
 
         assert exc_info.value.status_code == fab_constant.ERROR_INVALID_INPUT
- 

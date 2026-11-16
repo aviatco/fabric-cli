@@ -69,6 +69,7 @@ ALL_ITEM_TYPES = [
     ItemType.DIGITAL_TWIN_BUILDER_FLOW,
     ItemType.GRAPH_QUERY_SET,
     ItemType.MAP,
+    ItemType.DEPLOYMENT_PLAN,
 ]
 
 item_type_paramerter = pytest.mark.parametrize("item_type", ALL_ITEM_TYPES)
@@ -93,6 +94,7 @@ basic_item_parametrize = pytest.mark.parametrize(
         ItemType.DIGITAL_TWIN_BUILDER_FLOW,
         ItemType.GRAPH_QUERY_SET,
         ItemType.MAP,
+        ItemType.DEPLOYMENT_PLAN,
     ],
 )
 
@@ -151,6 +153,7 @@ import_create_new_item_fail_params = pytest.mark.parametrize(
         ItemType.PAGINATED_REPORT,
         ItemType.SQL_ENDPOINT,
         ItemType.WAREHOUSE,
+        ItemType.DEPLOYMENT_PLAN,
     ],
 )
 
@@ -223,6 +226,7 @@ mv_item_to_item_unsupported_failure_params = pytest.mark.parametrize(
         ItemType.EVENTHOUSE,
         ItemType.KQL_DATABASE,
         ItemType.EVENTSTREAM,
+        ItemType.DEPLOYMENT_PLAN,
     ],
 )
 
@@ -330,6 +334,7 @@ set_item_metadata_for_all_types_success_item_params = pytest.mark.parametrize(
         ItemType.MAP,
         ItemType.DIGITAL_TWIN_BUILDER,
         ItemType.DIGITAL_TWIN_BUILDER_FLOW,
+        ItemType.DEPLOYMENT_PLAN,
     ],
 )
 
@@ -560,6 +565,7 @@ ls_folder_content_success_params = pytest.mark.parametrize(
         ItemType.COSMOS_DB_DATABASE,
         ItemType.USER_DATA_FUNCTION,
         ItemType.GRAPH_QUERY_SET,
+        ItemType.DEPLOYMENT_PLAN,
     ],
 )
 
