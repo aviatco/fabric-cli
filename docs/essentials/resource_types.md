@@ -28,6 +28,7 @@ Item types are the primary content resources within Fabric workspaces. Each type
 | `.Eventstream`         | Real-time data streams             |
 | `.Dashboard`           | Interactive dashboards             |
 | `.Datamart`            | Self-service data marts            |
+| `.DeploymentPlan`      | Deployment plans (Preview); metadata create/get/update/delete and browser open |
 | `.CopyJob`             | Data copy operations               |
 | `.Environment`         | Spark environments                 |
 | `.MLExperiment`        | Machine learning experiments       |
